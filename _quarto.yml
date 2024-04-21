@@ -4,6 +4,7 @@ project:
 
 website:
   title: "keisuke-hanada"
+  body-footer: Copyright by Keisuke Hanada
   navbar:
     left:
       - href: index.qmd
@@ -11,6 +12,7 @@ website:
       - href: background.qmd
       - href: research.qmd
       - href: teaching.qmd
+
 
 format:
   html:

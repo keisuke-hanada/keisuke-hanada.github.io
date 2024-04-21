@@ -19,9 +19,17 @@ For more information, see [my researchmap](https://researchmap.jp/k_hanada).
 * 本サイトを作成しました (2024/4/21)．
 :::
 
-# Research Interests
-準備中
+# Recent Interests
+My interest is meta-analysis, survival analysis and related model estimation.
 
+メタアナリシス，生存時間解析の研究をしています．
+メタアナリシスでは，試験数が少ないときでも正確に推測する方法に興味があります．
+生存時間解析では，比例ハザード性が成り立たないもとでの推測の中で，制限付き平均生存時間(RMST)の解析に興味があります．
 
 # Resources
-準備中
+
+[気軽にWebサイト](https://shohei-doi.github.io/academic-website/multiple-contents.html): 本サイト作成のため，参考にさせていただきました．
+
+
+
+

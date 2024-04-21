@@ -3,8 +3,21 @@ title: Background
 ---
 
 ### Education
-準備中
+* Apr, 2020 - Mar, 2024 Graduate School of Data Science, Shiga University 
+* Apr, 2017 - Mar, 2019 Mathematics and Computer Science Course, Graduate School of Science and Engineering, Kagoshima University 
+* Apr, 2013 - Mar, 2017 Department of Mathematical Science, Faculty of Science and Technology, Hirosaki University 
+
+### 学歴
+* 博士（データサイエンス）(2024年3月 滋賀大学)
+* 修士（理学）(2019年3月 鹿児島大学)
+* 学士（理学）(2017年3月 弘前大学)
+
 
 ### Work Experiance
-準備中
+* 2024年4月 - 現在　大阪大学, 大学院基礎工学研究科 システム創成専攻 数理科学領域, 特任助教（常任） 
+* 2019年4月 - 2024年2月　協和キリン株式会社, バイオメトリックス部 
 
+
+### 職歴
+* Apr, 2024 - Present Specially Appointed Assistant Professor (Full Time), Graduate School of Engineering Science Department of Systems Innovation Division of Mathematical Science, Osaka University 
+* Apr, 2019 - Feb, 2024 Biometrics, Kyowa Kirin Co., Ltd. 

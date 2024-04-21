@@ -3,10 +3,14 @@ title: Research
 ---
 
 ### Accepted Paper
-準備中
+[2] <u>Hanada, K</u>., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[[link](https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144)]
+
+[1] <u>Hanada, K</u>., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [[link](https://link.springer.com/article/10.1007/s10463-022-00844-4)]
 
 ### Pre-print
-準備中
+[2] <u>Hanada, K</u>., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[[link](https://arxiv.org/abs/2401.02048)]
 
-### Working Paper
-準備中
+[1] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K</u>., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[[link](https://arxiv.org/abs/2312.15619)]
+
+Other information is in [researchmap](https://researchmap.jp/k_hanada).
+

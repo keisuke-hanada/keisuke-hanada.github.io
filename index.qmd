@@ -2,7 +2,7 @@
 title: "Keisuke Hanada | 花田圭佑"
 ---
 
-Ph.D in Data Science (2023, Shiga University)
+Ph.D in Data Science (2024, Shiga University)
 
 For more information, see [my researchmap](https://researchmap.jp/k_hanada).
 

@@ -10,12 +10,12 @@ website:
         text: Home
       - href: background.qmd
       - href: research.qmd
+      - href: teaching.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
 
-lang: ja
 
 

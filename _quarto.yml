@@ -4,6 +4,7 @@ project:
 
 website:
   title: "keisuke-hanada"
+  google-analytics: "G-80RE24GCEC"
   body-footer: Copyright by Keisuke Hanada
   navbar:
     left:

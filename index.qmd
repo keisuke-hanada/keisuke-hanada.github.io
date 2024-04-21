@@ -1,10 +1,27 @@
 ---
-title: "keisuke-hanada"
+title: "Keisuke Hanada | 花田圭佑"
 ---
 
-This is a Quarto website.
+Ph.D in Data Science (2023, Shiga University)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+For more information, see [my researchmap](https://researchmap.jp/k_hanada).
+
+2024年より，大阪大学基礎工学研究科システム創成専攻 特任助教
+
+2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．
+
+詳細は[researchmap](https://researchmap.jp/k_hanada)をご覧ください．
 
 
-updating now.
+:::{.callout-}
+## News
+
+* 本サイトを作成しました (2024/4/21)．
+:::
+
+# Research Interests
+準備中
+
+
+# Resources
+準備中

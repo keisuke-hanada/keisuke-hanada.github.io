@@ -8,11 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: background.qmd
+      - href: research.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
 
+lang: ja
 
 

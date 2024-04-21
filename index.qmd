@@ -27,8 +27,8 @@ My interest is meta-analysis, survival analysis and related model estimation.
 生存時間解析では，比例ハザード性が成り立たないもとでの推測の中で，制限付き平均生存時間(RMST)の解析に興味があります．
 
 # Resources
-
-[気軽にWebサイト](https://shohei-doi.github.io/academic-website/multiple-contents.html): 本サイト作成のため，参考にさせていただきました．
+* [杉本研究室 Sugimoto labo](https://sugimoto-lab.ywstat.jp/): 所属研究室
+* [気軽にWebサイト](https://shohei-doi.github.io/academic-website/multiple-contents.html): 本サイト作成のため，参考にさせていただきました．
 
 
 

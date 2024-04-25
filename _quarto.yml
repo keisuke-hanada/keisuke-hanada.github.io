@@ -12,6 +12,7 @@ website:
         text: Home
       - href: background.qmd
       - href: research.qmd
+      - href: tools.qmd
       - href: teaching.qmd
 
 

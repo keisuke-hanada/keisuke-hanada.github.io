@@ -33,5 +33,12 @@
     "title": "Teaching",
     "section": "",
     "text": "None.\n\n\n\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "便利ツール\n[1] Quarto: 数式を含む文章を書きながらRやPythonのプログラムを実行できる．研究ノートが半自動で作れて便利．\n\n\n\n\nCopyright by Keisuke Hanada"
   }
 ]

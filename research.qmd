@@ -3,11 +3,18 @@ title: Research
 ---
 
 ### Accepted Paper
+<details>
+<summary>
 [2] <u>Hanada, K</u>., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[[link](https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144)]
+</summary>
 
 * RMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．
+</details>
 
+<details>
+<summary>
 [1] <u>Hanada, K</u>., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [[link](https://link.springer.com/article/10.1007/s10463-022-00844-4)]
+</summary>
 
 * 治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．
 

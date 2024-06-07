@@ -1,5 +1,21 @@
 ---
 title: "Keisuke Hanada | 花田圭佑"
+date: 2024-06-07
+author:
+    - name: Keisuke Hanada
+      orcid: 0000-0002-1444-0280
+      email: hanada.keisuke.es@osaka-u.ac.jp
+      affiliation:
+      - name: Osaka University
+abstract: |
+    I am a statistician. My interests are survival time analysis and meta-analysis.
+    In particular, I am studying restricted mean survival time in survival time analyses and better meta-analysis inferences when the number of studies is small.
+keywords: 
+    - Meta-Analysis
+    - Survival Analysis
+copyright:
+    holder: Keisuke Hanada
+    year: 2024
 ---
 
 Ph.D in Data Science (2024, Shiga University)
@@ -15,7 +31,7 @@ For more information, see [my researchmap](https://researchmap.jp/k_hanada).
 
 :::{.callout-}
 ## News
-
+* Researchのレイアウトを若干変更しました (2024/6/7).
 * 本サイトを作成しました (2024/4/21)．
 :::
 

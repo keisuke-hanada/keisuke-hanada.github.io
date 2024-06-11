@@ -31,8 +31,8 @@ For more information, see [my researchmap](https://researchmap.jp/k_hanada).
 
 :::{.callout-}
 ## News
-* Researchのレイアウトを若干変更しました (2024/6/7).
-* 本サイトを作成しました (2024/4/21)．
+* <u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2406.06071)]
+* <u>2024-04-21</u>: Created this website.
 :::
 
 # Recent Interests

@@ -14,12 +14,12 @@ website:
       - href: research.qmd
       - href: tools.qmd
       - href: teaching.qmd
+  site-url: https://keisuke-hanada.github.io
+  site-path: '/'
 
 
 format:
   html:
     theme: cosmo
     toc: true
-
-
 

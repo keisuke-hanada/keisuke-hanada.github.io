@@ -44,5 +44,12 @@ title: Research
 * 並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．
 </details>
 
+
+
+### Software
+[R] [rmstBayespara](https://cran.rstudio.com/web/packages/rmstBayespara/) :Bayesian Restricted Mean Survival Time for Cluster Effect.
+
+
+<br><br>
 Other information is in [researchmap](https://researchmap.jp/k_hanada).
 

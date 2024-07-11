@@ -54,6 +54,23 @@ title: Research
 </details>
 
 
+### 和文
+<details>
+<summary>
+[2] 花田圭佑. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能 (印刷中)．計量生物学．
+</summary>
+
+* 生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．
+</details>
+
+<details>
+<summary>
+[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [[link](https://shiga-u.repo.nii.ac.jp/records/2000320)]
+</summary>
+
+* 博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．
+</details>
+
 
 ### Software
 [R] [rmstBayespara](https://cran.rstudio.com/web/packages/rmstBayespara/) :Bayesian Restricted Mean Survival Time for Cluster Effect.

@@ -1,13 +1,13 @@
 ---
 title: "Curriculum Vitae"
 author: "Keisuke Hanada"
-date: "`r Sys.Date()`"  # If using RMarkdown for dynamic date
+date: "`r Sys.Date()`"  
 output: 
   pdf_document:
-    latex_engine: xelatex
-    extra_dependencies: ["xeCJK", "enumitem"]
+    latex_engine: lualatex
+    extra_dependencies: ["enumitem"]
 mainfont: "Times New Roman"
-CJKmainfont: "MS Gothic"  # 日本語フォントの指定
+CJKmainfont: "MS Gothic"  # または "Noto Sans CJK JP"など
 geometry: "margin=1in"
 fontsize: 12pt
 ---

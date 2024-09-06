@@ -1,0 +1,148 @@
+---
+title: "Curriculum Vitae"
+author: "Keisuke Hanada"
+date: "`r Sys.Date()`"  # If using RMarkdown for dynamic date
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    extra_dependencies: ["xeCJK", "enumitem"]
+mainfont: "Times New Roman"
+CJKmainfont: "MS Gothic"  # 日本語フォントの指定
+geometry: "margin=1in"
+fontsize: 12pt
+---
+
+
+## **Contact Information**  
+- Name: Keisuke Hanada
+- Address: Graduate School of Engineering Science, Osaka University
+- Email: hanada.keisuke.es [at] osaka-u.ac.jp
+- ORCID: 0000-0002-1444-0280
+- GitHub: [https://github.com/keisuke-hanada](https://github.com/keisuke-hanada)
+- Website: [https://keisuke-hanada.github.io/](https://keisuke-hanada.github.io/)
+
+---
+
+## Working Experience
+
+\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
+  \item[2024/4 - ~~~~~~~~~~~] Specially Appointed Assistant Professor,  \\
+  Graduate School of Engineering Science, Osaka University
+  \item[2019/4 - 2024/2] Biostatistician, \\
+  Biometrics Department, Kyowa Kirin Co., Ltd
+\end{itemize}
+
+
+---
+
+## Education
+\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
+  \item[2020/4 - 2024/3] Ph.D. in Data Science, Shiga University \\
+  Supervisor: Dr. Tomoyuki Sugimoto
+  \item[2017/4 - 2019/3] M.S. in 数理情報工学科, Kagoshima University \\
+  Supervisor: Dr. Tomoyuki Sugimoto
+  \item[2013/4 - 2017/3] B.S. in 数理科学科, Hirosaki University  \\
+  Supervisor: Dr. Kimitoshi Tsutaya
+\end{itemize}
+
+
+---
+
+
+## Research Publications
+
+### Peer-Reviewed Articles
+1. \underline{Hanada, K}., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. *Contemporary Clinical Trials*, 138, 107440.
+1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
+
+### Preprints
+1. \underline{Hanada, K}., & Sugimoto, T. (2024). Random-Effect Meta-Analysis with Robust Between-Study Variance. *arXiv preprint* arXiv:2407.04446.
+1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
+1. \underline{Hanada, K}., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. *arXiv preprint* arXiv:2401.02048.
+1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *arXiv preprint* arXiv:2312.15619.
+
+### Software and R Packages
+1. rmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: [https://cran.r-project.org/web/packages/rmstBayespara/](https://cran.r-project.org/web/packages/rmstBayespara/)
+2. metaMest: meta-analysis by M-estimator based approach. R package. Available at: [https://github.com/keisuke-hanada/metaMest](https://github.com/keisuke-hanada/metaMest)
+
+### Conference Presentations
+1. \underline{Hanada, K}., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small", *The VI-th International Symposium on Biopharmaceutical Statistics*, Kyoto.
+
+
+---
+
+
+## Grants and Funding
+
+\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
+  \item[2024/7 - 2026/3] Japan Society for the Promotion of Science (JSPS), 	
+Grant-in-Aid for Research Activity Start-up [Principal Investigator]
+  \item[2024/4 - 2027/3] Japan Society for the Promotion of Science (JSPS), 	
+Grant-in-Aid for Scientific Research (C) [Co-Investigator]
+\end{itemize}
+
+---
+
+<!-- ## Teaching Experience
+
+- **[Course Name]**, [Institution Name]  
+  [Dates]  
+  Number of Students: [Number of Students]  
+  *[Brief description of the course and your role]*
+
+--- -->
+
+## Academic Service
+
+- **Peer Review**  
+  Japanese Kournal of Statistics and Data Science, 2024  
+  Journal of the Royal Statistical Society: Series C (Applied Statistics), 2024  
+
+
+<!-- - **Conference Organization**  
+  [Conference Name], [Role], [Year] -->
+
+---
+
+<!-- ## Professional Memberships
+
+- [Association Name], [Position (if applicable)], [Years]
+- [Association Name], [Position (if applicable)], [Years]
+
+---
+
+## Skills
+
+- **Statistical Software**: R, Python, SAS, STATA, [Other relevant software]  
+- **Programming Languages**: C++, SQL, [Other relevant languages]  
+- **Other Skills**: Git, LaTeX, [Other relevant tools or skills]
+
+---
+
+## References
+
+1. [Reference Name], [Position], [Institution]  
+   Email: [Email Address], Phone: [Phone Number]
+
+2. [Reference Name], [Position], [Institution]  
+   Email: [Email Address], Phone: [Phone Number] -->
+
+
+
+## Research Publications (in Japanese)
+
+### 原著論文
+1. \underline{花田圭佑}, & 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能. *計量生物学*, 45(1), 115-131.
+
+
+### 学会発表
+1. \underline{花田圭佑}, & 小島将裕. (2024). Random Effect Restricted Mean Survival Time Model, 2024年度統計関連学会連合大会.
+1. \underline{花田圭佑}, & 杉本知之. (2024). 少数試験メタアナリシスでの分散推定, 日本計算機統計学会第38回大会.
+1. \underline{花田圭佑}. (2023). イベント時間アウトカムの個人データ復元とメタアナリシス, 第5回かごしまデータ科学シンポジウム.
+1. \underline{花田圭佑}, 小島将裕, & 守屋順之. (2023). 制限付き平均生存時間 (RMST) の共変量調整法の比較, 2023年度統計関連学会連合大会.
+1. \underline{花田圭佑}. (2022). イベント数が少ないもとでの二値メタアナリシスの推測, 第3回かごしまデータ科学シンポジウム.
+1. \underline{花田圭佑}, & 杉本知之. (2019). 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質, 日本計算機統計学会第33回シンポジウム.
+1. \underline{花田圭佑}, & 杉本知之. (2018). ランダム効果DL層別解析における標本分布, 日本計算機統計学会第32回シンポジウム.
+1. \underline{花田圭佑}, & 杉本知之. (2018). 正規母集団におけるランダム効果層別解析における標本分布, 大分統計談話会第57回大会.
+
+---

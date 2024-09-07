@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2024-07-14T09:24:37.675Z</lastmod>
+    <lastmod>2024-09-07T00:02:49.572Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2024-07-14T09:23:07.984Z</lastmod>
+    <lastmod>2024-08-01T11:42:00.880Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/background.html</loc>
@@ -14,10 +14,14 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/teaching.html</loc>
-    <lastmod>2024-06-19T23:21:20.891Z</lastmod>
+    <lastmod>2024-08-01T11:42:00.880Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/tools.html</loc>
-    <lastmod>2024-06-19T23:21:24.677Z</lastmod>
+    <lastmod>2024-08-01T11:42:00.881Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/docs/CV/cv_202409.html</loc>
+    <lastmod>2024-09-06T23:49:48.069Z</lastmod>
   </url>
 </urlset>

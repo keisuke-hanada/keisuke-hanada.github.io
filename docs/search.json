@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Keisuke Hanada | 花田圭佑",
     "section": "",
-    "text": "Ph.D in Data Science (2024, Shiga University)\nFor more information, see my researchmap.\n2024年より，大阪大学基礎工学研究科システム創成専攻 特任助教\n2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．\n詳細はresearchmapをご覧ください．\nCopyright by Keisuke Hanada"
+    "text": "Ph.D in Data Science (2024, Shiga University)\nFor more information, see below:\n2024年より，大阪大学基礎工学研究科システム創成専攻 特任助教\n2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．\nCopyright by Keisuke Hanada"
   },
   {
     "objectID": "index.html#news",
@@ -40,5 +40,61 @@
     "title": "Tools",
     "section": "",
     "text": "便利ツール\n[1] Quarto: 数式を含む文章を書きながらRやPythonのプログラムを実行できる．研究ノートが半自動で作れて便利．\n\n\n\n\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html",
+    "href": "docs/CV/cv_202409.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Name: Keisuke Hanada\nAddress: Graduate School of Engineering Science, Osaka University\nEmail: hanada.keisuke.es [at] osaka-u.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#contact-information",
+    "href": "docs/CV/cv_202409.html#contact-information",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Name: Keisuke Hanada\nAddress: Graduate School of Engineering Science, Osaka University\nEmail: hanada.keisuke.es [at] osaka-u.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#working-experience",
+    "href": "docs/CV/cv_202409.html#working-experience",
+    "title": "Curriculum Vitae",
+    "section": "Working Experience",
+    "text": "Working Experience"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#education",
+    "href": "docs/CV/cv_202409.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#research-publications",
+    "href": "docs/CV/cv_202409.html#research-publications",
+    "title": "Curriculum Vitae",
+    "section": "Research Publications",
+    "text": "Research Publications\n\nPeer-Reviewed Articles\n\n., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.\n., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302.\n\n\n\nPreprints\n\n., & Sugimoto, T. (2024). Random-Effect Meta-Analysis with Robust Between-Study Variance. arXiv preprint arXiv:2407.04446.\n., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.\n., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.\nKojima, M., Mano, H., Yamada, K., ., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.\n\n\n\nSoftware and R Packages\n\nrmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: https://cran.r-project.org/web/packages/rmstBayespara/\nmetaMest: meta-analysis by M-estimator based approach. R package. Available at: https://github.com/keisuke-hanada/metaMest\n\n\n\nConference Presentations\n\n., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small”, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto."
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#grants-and-funding",
+    "href": "docs/CV/cv_202409.html#grants-and-funding",
+    "title": "Curriculum Vitae",
+    "section": "Grants and Funding",
+    "text": "Grants and Funding"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#academic-service",
+    "href": "docs/CV/cv_202409.html#academic-service",
+    "title": "Curriculum Vitae",
+    "section": "Academic Service",
+    "text": "Academic Service\n\nPeer Review\nJapanese Kournal of Statistics and Data Science, 2024\nJournal of the Royal Statistical Society: Series C (Applied Statistics), 2024"
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#research-publications-in-japanese",
+    "href": "docs/CV/cv_202409.html#research-publications-in-japanese",
+    "title": "Curriculum Vitae",
+    "section": "Research Publications (in Japanese)",
+    "text": "Research Publications (in Japanese)\n\n原著論文\n\n, & 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能. 計量生物学, 45(1), 115-131.\n\n\n\n学会発表\n\n, & 小島将裕. (2024). Random Effect Restricted Mean Survival Time Model, 2024年度統計関連学会連合大会.\n, & 杉本知之. (2024). 少数試験メタアナリシスでの分散推定, 日本計算機統計学会第38回大会.\n. (2023). イベント時間アウトカムの個人データ復元とメタアナリシス, 第5回かごしまデータ科学シンポジウム.\n, 小島将裕, & 守屋順之. (2023). 制限付き平均生存時間 (RMST) の共変量調整法の比較, 2023年度統計関連学会連合大会.\n. (2022). イベント数が少ないもとでの二値メタアナリシスの推測, 第3回かごしまデータ科学シンポジウム.\n, & 杉本知之. (2019). 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質, 日本計算機統計学会第33回シンポジウム.\n, & 杉本知之. (2018). ランダム効果DL層別解析における標本分布, 日本計算機統計学会第32回シンポジウム.\n, & 杉本知之. (2018). 正規母集団におけるランダム効果層別解析における標本分布, 大分統計談話会第57回大会."
   }
 ]

@@ -95,9 +95,9 @@ Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 ## Academic Service
 
 - **Peer Review**  
-  Japanese Kournal of Statistics and Data Science, 2024  
+  Japanese Journal of Statistics and Data Science, 2024  
   Journal of the Royal Statistical Society: Series C (Applied Statistics), 2024  
-
+  Journal of the Japan Statistical Society, Japanese Issue, 2024
 
 <!-- - **Conference Organization**  
   [Conference Name], [Role], [Year] -->

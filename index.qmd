@@ -20,13 +20,16 @@ copyright:
 
 Ph.D in Data Science (2024, Shiga University)
 
-For more information, see [my researchmap](https://researchmap.jp/k_hanada).
+For more information, see below:
+
+- [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ)
+- [my researchmap](https://researchmap.jp/k_hanada)
+- [Curriculum Vitae](https://keisuke-hanada.github.io/CV/cv_202409.pdf)
+
 
 2024年より，大阪大学基礎工学研究科システム創成専攻 特任助教
 
 2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．
-
-詳細は[researchmap](https://researchmap.jp/k_hanada)をご覧ください．
 
 
 :::{.callout-}

@@ -1,13 +1,13 @@
 ---
 title: "Curriculum Vitae"
 author: "Keisuke Hanada"
-date: "`r Sys.Date()`"  # If using RMarkdown for dynamic date
+date: "`r Sys.Date()`"  
 output: 
   pdf_document:
-    latex_engine: xelatex
-    extra_dependencies: ["xeCJK", "enumitem"]
+    latex_engine: lualatex
+    extra_dependencies: ["enumitem"]
 mainfont: "Times New Roman"
-CJKmainfont: "MS Gothic"  # 日本語フォントの指定
+CJKmainfont: "MS Gothic"  # または "Noto Sans CJK JP"など
 geometry: "margin=1in"
 fontsize: 12pt
 ---
@@ -39,9 +39,9 @@ fontsize: 12pt
 \begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
   \item[2020/4 - 2024/3] Ph.D. in Data Science, Shiga University \\
   Supervisor: Dr. Tomoyuki Sugimoto
-  \item[2017/4 - 2019/3] M.S. in 数理情報工学科, Kagoshima University \\
+  \item[2017/4 - 2019/3] M.S. in the Graduate School of Science and Engineering, Kagoshima University \\
   Supervisor: Dr. Tomoyuki Sugimoto
-  \item[2013/4 - 2017/3] B.S. in 数理科学科, Hirosaki University  \\
+  \item[2013/4 - 2017/3] B.Sc. Tech. in Faculty of Science and Technology, Hirosaki University  \\
   Supervisor: Dr. Kimitoshi Tsutaya
 \end{itemize}
 

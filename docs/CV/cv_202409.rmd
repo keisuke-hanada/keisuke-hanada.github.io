@@ -5,13 +5,10 @@ date: "`r Sys.Date()`"
 output: 
   pdf_document:
     latex_engine: lualatex
-    extra_dependencies: ["enumitem"]
 mainfont: "Times New Roman"
-CJKmainfont: "MS Gothic"  # または "Noto Sans CJK JP"など
 geometry: "margin=1in"
 fontsize: 12pt
 ---
-
 
 ## **Contact Information**  
 - Name: Keisuke Hanada
@@ -24,26 +21,23 @@ fontsize: 12pt
 ---
 
 ## Working Experience
+## Working Experience
 
-\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
-  \item[2024/4 - ~~~~~~~~~~~] Specially Appointed Assistant Professor,  \\
+- **2024/4 - Present**: Specially Appointed Assistant Professor,  
   Graduate School of Engineering Science, Osaka University
-  \item[2019/4 - 2024/2] Biostatistician, \\
+- **2019/4 - 2024/2**: Biostatistician,  
   Biometrics Department, Kyowa Kirin Co., Ltd
-\end{itemize}
-
 
 ---
 
 ## Education
-\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
-  \item[2020/4 - 2024/3] Ph.D. in Data Science, Shiga University \\
+
+- **2020/4 - 2024/3**: Ph.D. in Data Science, Shiga University  
   Supervisor: Dr. Tomoyuki Sugimoto
-  \item[2017/4 - 2019/3] M.S. in the Graduate School of Science and Engineering, Kagoshima University \\
+- **2017/4 - 2019/3**: M.S. in the Graduate School of Science and Engineering, Kagoshima University  
   Supervisor: Dr. Tomoyuki Sugimoto
-  \item[2013/4 - 2017/3] B.Sc. Tech. in Faculty of Science and Technology, Hirosaki University  \\
+- **2013/4 - 2017/3**: B.Sc. Tech. in Faculty of Science and Technology, Hirosaki University  
   Supervisor: Dr. Kimitoshi Tsutaya
-\end{itemize}
 
 
 ---
@@ -53,10 +47,11 @@ fontsize: 12pt
 
 ### Peer-Reviewed Articles
 1. \underline{Hanada, K}., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. *Contemporary Clinical Trials*, 138, 107440.
+1. \underline{Hanada, K}., & Sugimoto, T. (2024). Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics. *Japanese Journal of Biometrics*, 45(1), 115-131. (in Japanese)
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
 
 ### Preprints
-1. \underline{Hanada, K}., & Sugimoto, T. (2024). Random-Effect Meta-Analysis with Robust Between-Study Variance. *arXiv preprint* arXiv:2407.04446.
+1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. *arXiv preprint* arXiv:2401.02048.
 1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *arXiv preprint* arXiv:2312.15619.
@@ -74,12 +69,8 @@ fontsize: 12pt
 
 ## Grants and Funding
 
-\begin{itemize}[left=80pt, labelsep=1em, itemindent=0pt, label={}]
-  \item[2024/7 - 2026/3] Japan Society for the Promotion of Science (JSPS), 	
-Grant-in-Aid for Research Activity Start-up [Principal Investigator]
-  \item[2024/4 - 2027/3] Japan Society for the Promotion of Science (JSPS), 	
-Grant-in-Aid for Scientific Research (C) [Co-Investigator]
-\end{itemize}
+- **2024/7 - 2026/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up [Principal Investigator]
+- **2024/4 - 2027/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 
 ---
 
@@ -98,6 +89,7 @@ Grant-in-Aid for Scientific Research (C) [Co-Investigator]
   Japanese Journal of Statistics and Data Science, 2024  
   Journal of the Royal Statistical Society: Series C (Applied Statistics), 2024  
   Journal of the Japan Statistical Society, Japanese Issue, 2024
+
 
 <!-- - **Conference Organization**  
   [Conference Name], [Role], [Year] -->
@@ -129,7 +121,7 @@ Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 
 
 
-## Research Publications (in Japanese)
+<!-- ## Research Publications (in Japanese)
 
 ### 原著論文
 1. \underline{花田圭佑}, & 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能. *計量生物学*, 45(1), 115-131.
@@ -146,3 +138,4 @@ Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 1. \underline{花田圭佑}, & 杉本知之. (2018). 正規母集団におけるランダム効果層別解析における標本分布, 大分統計談話会第57回大会.
 
 ---
+-->

@@ -1,6 +1,6 @@
 ---
 title: "Keisuke Hanada | 花田圭佑"
-date: 2024-07-14
+date: 2024-12-11
 author:
     - name: Keisuke Hanada
       orcid: 0000-0002-1444-0280
@@ -34,11 +34,17 @@ For more information, see below:
 
 :::{.callout-}
 ## News
+* <u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]
 * <u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]
 * <u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]
-* <u>2024-07-04</u>: Published an R package 'rmstBayespara' on CRAN [[link](https://cran.rstudio.com/web/packages/rmstBayespara/)]
-* <u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2406.06071)]
-* <u>2024-04-21</u>: Created this website.
+<details>
+    <summary>More News</summary>
+    <ul>
+        <li><u>2024-07-04</u>: Published an R package 'rmstBayespara' on CRAN [[link](https://cran.rstudio.com/web/packages/rmstBayespara/)]</li>
+        <li><u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2406.06071)]</li>
+        <li><u>2024-04-21</u>: Created this website.</li>
+    </ul>
+</details>
 :::
 
 # Recent Interests

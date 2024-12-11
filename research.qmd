@@ -22,10 +22,10 @@ title: Research
 ### Pre-print
 <details>
 <summary>
-[4] <u>Hanada, K</u>., & Sugimoto, T. (2024). Random-Effect Meta-Analysis with Robust Between-Study Variance. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
+[4] <u>Hanada, K</u>., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
 </summary>
 
-* 試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．
+* 試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．
 
 </details>
 

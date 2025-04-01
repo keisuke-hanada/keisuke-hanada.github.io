@@ -22,6 +22,16 @@ title: Research
 ### Pre-print
 <details>
 <summary>
+[5] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
+</summary>
+
+* 興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．
+
+</details>
+
+
+<details>
+<summary>
 [4] <u>Hanada, K</u>., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
 </summary>
 

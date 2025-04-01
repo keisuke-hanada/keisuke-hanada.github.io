@@ -1,12 +1,12 @@
 ---
 title: "Keisuke Hanada | 花田圭佑"
-date: 2024-12-11
+date: 2025-04-01
 author:
     - name: Keisuke Hanada
       orcid: 0000-0002-1444-0280
       email: hanada.keisuke.es@osaka-u.ac.jp
       affiliation:
-      - name: Osaka University
+      - name: Wakayama Medical University
 abstract: |
     I am a statistician. My interests are survival time analysis and meta-analysis.
     In particular, I am studying restricted mean survival time in survival time analyses and better meta-analysis inferences when the number of studies is small.
@@ -27,13 +27,14 @@ For more information, see below:
 - [Curriculum Vitae](https://keisuke-hanada.github.io/CV/cv_202409.pdf)
 
 
-2024年より，大阪大学基礎工学研究科システム創成専攻 特任助教
+2025年より，和歌山県立医科大学 医学部 医療統計学講座 助教
 
 2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．
 
 
 :::{.callout-}
 ## News
+* <u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2503.21091)]
 * <u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]
 * <u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]
 * <u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]

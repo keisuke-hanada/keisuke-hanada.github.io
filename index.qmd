@@ -1,10 +1,10 @@
 ---
 title: "Keisuke Hanada | 花田圭佑"
-date: 2025-04-01
+# date: 2025-06-03
 author:
     - name: Keisuke Hanada
       orcid: 0000-0002-1444-0280
-      email: hanada.keisuke.es@osaka-u.ac.jp
+      email: khanada@wakayama-med.ac.jp
       affiliation:
       - name: Wakayama Medical University
 abstract: |
@@ -34,13 +34,14 @@ For more information, see below:
 
 :::{.callout-}
 ## News
+* <u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [[link](https://www.nature.com/articles/s41598-025-05053-6)]
 * <u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2503.21091)]
 * <u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]
-* <u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]
-* <u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]
 <details>
     <summary>More News</summary>
     <ul>
+        <li><u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]</li>
+        <li><u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]</li>
         <li><u>2024-07-04</u>: Published an R package 'rmstBayespara' on CRAN [[link](https://cran.rstudio.com/web/packages/rmstBayespara/)]</li>
         <li><u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2406.06071)]</li>
         <li><u>2024-04-21</u>: Created this website.</li>

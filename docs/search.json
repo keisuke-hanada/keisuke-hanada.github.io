@@ -11,21 +11,21 @@
     "href": "index.html#news",
     "title": "Keisuke Hanada | 花田圭佑",
     "section": "News",
-    "text": "News\n\n2025-03-27: Published a co-authored paper with Kojima on arXiv [link]\n2024-12-05: Updated a co-authored paper with Sugimoto on arXiv [link]\n2024-07-14: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [link]\n2024-07-08: Published a co-authored paper with Sugimoto on arXiv [link]\n\n\nMore News\n\n\n\n2024-07-04: Published an R package ‘rmstBayespara’ on CRAN [link]\n\n\n2024-06-11: Published a co-authored paper with Kojima on arXiv [link]\n\n\n2024-04-21: Created this website."
+    "text": "News\n\n2025-06-03: Published a co-authored paper with Hirano and Maeda on Scientific reports [link]\n2025-03-27: Published a co-authored paper with Kojima on arXiv [link]\n2024-12-05: Updated a co-authored paper with Sugimoto on arXiv [link]\n\n\nMore News\n\n\n\n2024-07-14: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [link]\n\n\n2024-07-08: Published a co-authored paper with Sugimoto on arXiv [link]\n\n\n2024-07-04: Published an R package ‘rmstBayespara’ on CRAN [link]\n\n\n2024-06-11: Published a co-authored paper with Kojima on arXiv [link]\n\n\n2024-04-21: Created this website."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Accepted Paper\n\n\n[2] Hanada, K., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[link]\n\n\nRMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．\n\n\n\n\n[1] Hanada, K., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [link]\n\n\n治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．\n\n\n\n\nPre-print\n\n\n[5] Hanada, K., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[link]\n\n\n興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．\n\n\n\n\n[4] Hanada, K., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber’s M-Estimation. arXiv preprint arXiv:2407.04446.[link]\n\n\n試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．\n\n\n\n\n[3] Hanada, K., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.[link]\n\n\nRMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．\n\n\n\n\n[2] Hanada, K., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[link]\n\n\nRMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．\n\n\n\n\n[1] Kojima, M., Mano, H., Yamada, K., Hanada, K., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[link]\n\n\n並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．\n\n\n\n\n和文\n\n\n[2] 花田圭佑, 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能．計量生物学．[link]\n\n\n生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．\n\n\n\n\n[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [link]\n\n\n博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．\n\n\n\n\nSoftware\n[R] rmstBayespara :Bayesian Restricted Mean Survival Time for Cluster Effect.\n Other information is in researchmap.\n\n\n\n\nCopyright by Keisuke Hanada"
+    "text": "Please see my Google Scholar page for a full list of publications. Here, I highlight some of my research.\n\nAccepted Paper\n\n\n[2] Hanada, K., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[link]\n\n\nRMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．\n\n\n\n\n[1] Hanada, K., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [link]\n\n\n治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．\n\n\n\n\nPre-print\n\n\n[5] Hanada, K., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[link]\n\n\n興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．\n\n\n\n\n[4] Hanada, K., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber’s M-Estimation. arXiv preprint arXiv:2407.04446.[link]\n\n\n試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．\n\n\n\n\n[3] Hanada, K., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.[link]\n\n\nRMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．\n\n\n\n\n[2] Hanada, K., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[link]\n\n\nRMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．\n\n\n\n\n[1] Kojima, M., Mano, H., Yamada, K., Hanada, K., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[link]\n\n\n並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．\n\n\n\n\n和文\n\n\n[2] 花田圭佑, 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能．計量生物学．[link]\n\n\n生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．\n\n\n\n\n[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [link]\n\n\n博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．\n\n\n\n\nSoftware\n[R] rmstBayespara :Bayesian Restricted Mean Survival Time for Cluster Effect.\n Other information is in researchmap.\n\n\n\n\nCopyright by Keisuke Hanada"
   },
   {
     "objectID": "background.html",
     "href": "background.html",
     "title": "Background",
     "section": "",
-    "text": "Education\n\nApr, 2020 - Mar, 2024 Graduate School of Data Science, Shiga University\nApr, 2017 - Mar, 2019 Mathematics and Computer Science Course, Graduate School of Science and Engineering, Kagoshima University\nApr, 2013 - Mar, 2017 Department of Mathematical Science, Faculty of Science and Technology, Hirosaki University\n\n\n\n学歴\n\n博士（データサイエンス）(2024年3月 滋賀大学)\n修士（理学）(2019年3月 鹿児島大学)\n学士（理学）(2017年3月 弘前大学)\n\n\n\nWork Experiance\n\n2024年4月 - 現在　大阪大学, 大学院基礎工学研究科 システム創成専攻 数理科学領域, 特任助教（常任）\n2019年4月 - 2024年2月　協和キリン株式会社, バイオメトリックス部\n\n\n\n職歴\n\nApr, 2024 - Present Specially Appointed Assistant Professor (Full Time), Graduate School of Engineering Science Department of Systems Innovation Division of Mathematical Science, Osaka University\nApr, 2019 - Feb, 2024 Biometrics, Kyowa Kirin Co., Ltd. \n\n\n\n\n\nCopyright by Keisuke Hanada"
+    "text": "Education\n\nApr, 2020 - Mar, 2024 Graduate School of Data Science, Shiga University\nApr, 2017 - Mar, 2019 Mathematics and Computer Science Course, Graduate School of Science and Engineering, Kagoshima University\nApr, 2013 - Mar, 2017 Department of Mathematical Science, Faculty of Science and Technology, Hirosaki University\n\n\n\n学歴\n\n博士（データサイエンス）(2024年3月 滋賀大学)\n修士（理学）(2019年3月 鹿児島大学)\n学士（理学）(2017年3月 弘前大学)\n\n\n\nWork Experiance\n\nApr, 2025 - Present Assistant Professor, Faculty of Medicine, Wakayama Medical University\nApr, 2024 - Mar, 2025 Specially Appointed Assistant Professor (Full Time), Graduate School of Engineering Science Department of Systems Innovation Division of Mathematical Science, Osaka University\nApr, 2019 - Feb, 2024 Biometrics, Kyowa Kirin Co., Ltd. \n\n\n\n職歴\n\n2025年4月 - 現在　和歌山県立医科大学, 医学部医療統計学講座, 助教\n2024年4月 - 2025年3月　大阪大学, 大学院基礎工学研究科 システム創成専攻 数理科学領域, 特任助教（常任）\n2019年4月 - 2024年2月　協和キリン株式会社, バイオメトリックス部\n\n\n\n\n\nCopyright by Keisuke Hanada"
   },
   {
     "objectID": "teaching.html",
@@ -46,49 +46,49 @@
     "href": "docs/CV/cv_202409.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Name: Keisuke Hanada\nAddress: Graduate School of Engineering Science, Osaka University\nEmail: hanada.keisuke.es [at] osaka-u.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/\nCopyright by Keisuke Hanada"
+    "text": "Name: Keisuke Hanada\nAddress: Faculty of Medicine, Wakayama Medical University\nEmail: khanada [at] wakayama-med.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/\nCopyright by Keisuke Hanada"
   },
   {
     "objectID": "docs/CV/cv_202409.html#contact-information",
     "href": "docs/CV/cv_202409.html#contact-information",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Name: Keisuke Hanada\nAddress: Graduate School of Engineering Science, Osaka University\nEmail: hanada.keisuke.es [at] osaka-u.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/"
+    "text": "Name: Keisuke Hanada\nAddress: Faculty of Medicine, Wakayama Medical University\nEmail: khanada [at] wakayama-med.ac.jp\nORCID: 0000-0002-1444-0280\nGitHub: https://github.com/keisuke-hanada\nWebsite: https://keisuke-hanada.github.io/"
   },
   {
     "objectID": "docs/CV/cv_202409.html#working-experience",
     "href": "docs/CV/cv_202409.html#working-experience",
     "title": "Curriculum Vitae",
     "section": "Working Experience",
-    "text": "Working Experience"
+    "text": "Working Experience\n\n2025/4 - Present: Assistant Professor,\nFaculty of Medicine, Wakayama Medical University\n2024/4 - 2025/3: Specially Appointed Assistant Professor,\nGraduate School of Engineering Science, Osaka University\n2019/4 - 2024/2: Biostatistician,\nBiometrics Department, Kyowa Kirin Co., Ltd"
   },
   {
     "objectID": "docs/CV/cv_202409.html#education",
     "href": "docs/CV/cv_202409.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education"
+    "text": "Education\n\n2020/4 - 2024/3: Ph.D. in Data Science, Shiga University\nSupervisor: Dr. Tomoyuki Sugimoto\n2017/4 - 2019/3: M.S. in the Graduate School of Science and Engineering, Kagoshima University\nSupervisor: Dr. Tomoyuki Sugimoto\n2013/4 - 2017/3: B.Sc. Tech. in Faculty of Science and Technology, Hirosaki University\nSupervisor: Dr. Kimitoshi Tsutaya"
   },
   {
     "objectID": "docs/CV/cv_202409.html#research-publications",
     "href": "docs/CV/cv_202409.html#research-publications",
     "title": "Curriculum Vitae",
     "section": "Research Publications",
-    "text": "Research Publications\n\nPeer-Reviewed Articles\n\n., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.\n., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302.\n\n\n\nPreprints\n\n., & Sugimoto, T. (2024). Random-Effect Meta-Analysis with Robust Between-Study Variance. arXiv preprint arXiv:2407.04446.\n., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.\n., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.\nKojima, M., Mano, H., Yamada, K., ., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.\n\n\n\nSoftware and R Packages\n\nrmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: https://cran.r-project.org/web/packages/rmstBayespara/\nmetaMest: meta-analysis by M-estimator based approach. R package. Available at: https://github.com/keisuke-hanada/metaMest\n\n\n\nConference Presentations\n\n., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small”, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto."
+    "text": "Research Publications\n\nPeer-Reviewed Articles\n\n., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.\n., & Sugimoto, T. (2024). Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics. Japanese Journal of Biometrics, 45(1), 115-131. (in Japanese)\n., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302.\n\n\n\nClinical researches\n\nHirano, S., ., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. Scientific reports, 19300.\n\n\n\nPreprints\n\n., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber’s M-Estimation. arXiv preprint arXiv:2407.04446.\n., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.\n., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.\nKojima, M., Mano, H., Yamada, K., ., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.\n\n\n\nSoftware and R Packages\n\nrmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: https://cran.r-project.org/web/packages/rmstBayespara/\nmetaMest: meta-analysis by M-estimator based approach. R package. Available at: https://github.com/keisuke-hanada/metaMest\n\n\n\nConference Presentations\n\n., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small”, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto."
   },
   {
     "objectID": "docs/CV/cv_202409.html#grants-and-funding",
     "href": "docs/CV/cv_202409.html#grants-and-funding",
     "title": "Curriculum Vitae",
     "section": "Grants and Funding",
-    "text": "Grants and Funding"
+    "text": "Grants and Funding\n\n2024/7 - 2026/3: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up [Principal Investigator]\n2024/4 - 2027/3: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (C) [Co-Investigator]"
   },
   {
     "objectID": "docs/CV/cv_202409.html#academic-service",
     "href": "docs/CV/cv_202409.html#academic-service",
     "title": "Curriculum Vitae",
     "section": "Academic Service",
-    "text": "Academic Service\n\nPeer Review\nJapanese Kournal of Statistics and Data Science, 2024\nJournal of the Royal Statistical Society: Series C (Applied Statistics), 2024"
+    "text": "Academic Service\n\nPeer Review\nJapanese Journal of Statistics and Data Science, 2024\nJournal of the Royal Statistical Society: Series C (Applied Statistics), 2024\nJournal of the Japan Statistical Society, Japanese Issue, 2024"
   },
   {
     "objectID": "docs/CV/cv_202409.html#research-publications-in-japanese",
@@ -96,5 +96,12 @@
     "title": "Curriculum Vitae",
     "section": "Research Publications (in Japanese)",
     "text": "Research Publications (in Japanese)\n\n原著論文\n\n, & 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能. 計量生物学, 45(1), 115-131.\n\n\n\n学会発表\n\n, & 小島将裕. (2024). Random Effect Restricted Mean Survival Time Model, 2024年度統計関連学会連合大会.\n, & 杉本知之. (2024). 少数試験メタアナリシスでの分散推定, 日本計算機統計学会第38回大会.\n. (2023). イベント時間アウトカムの個人データ復元とメタアナリシス, 第5回かごしまデータ科学シンポジウム.\n, 小島将裕, & 守屋順之. (2023). 制限付き平均生存時間 (RMST) の共変量調整法の比較, 2023年度統計関連学会連合大会.\n. (2022). イベント数が少ないもとでの二値メタアナリシスの推測, 第3回かごしまデータ科学シンポジウム.\n, & 杉本知之. (2019). 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質, 日本計算機統計学会第33回シンポジウム.\n, & 杉本知之. (2018). ランダム効果DL層別解析における標本分布, 日本計算機統計学会第32回シンポジウム.\n, & 杉本知之. (2018). 正規母集団におけるランダム効果層別解析における標本分布, 大分統計談話会第57回大会."
+  },
+  {
+    "objectID": "docs/CV/cv_202409.html#awards",
+    "href": "docs/CV/cv_202409.html#awards",
+    "title": "Curriculum Vitae",
+    "section": "Awards",
+    "text": "Awards\n\nBest Presentation Award for Young Researcher (regular membership category), Annual meeting of The Biometric Society of Japan, 2025."
   }
 ]

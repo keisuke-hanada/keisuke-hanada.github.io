@@ -12,8 +12,8 @@ fontsize: 12pt
 
 ## **Contact Information**  
 - Name: Keisuke Hanada
-- Address: Graduate School of Engineering Science, Osaka University
-- Email: hanada.keisuke.es [at] osaka-u.ac.jp
+- Address: Faculty of Medicine, Wakayama Medical University
+- Email: khanada [at] wakayama-med.ac.jp
 - ORCID: 0000-0002-1444-0280
 - GitHub: [https://github.com/keisuke-hanada](https://github.com/keisuke-hanada)
 - Website: [https://keisuke-hanada.github.io/](https://keisuke-hanada.github.io/)
@@ -21,9 +21,10 @@ fontsize: 12pt
 ---
 
 ## Working Experience
-## Working Experience
 
-- **2024/4 - Present**: Specially Appointed Assistant Professor,  
+- **2025/4 - Present**: Assistant Professor,  
+  Faculty of Medicine, Wakayama Medical University
+- **2024/4 - 2025/3**: Specially Appointed Assistant Professor,  
   Graduate School of Engineering Science, Osaka University
 - **2019/4 - 2024/2**: Biostatistician,  
   Biometrics Department, Kyowa Kirin Co., Ltd
@@ -50,6 +51,9 @@ fontsize: 12pt
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics. *Japanese Journal of Biometrics*, 45(1), 115-131. (in Japanese)
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
 
+### Clinical researches
+1. Hirano, S., \underline{Hanada, K}., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. *Scientific reports*, 19300.
+
 ### Preprints
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
@@ -71,6 +75,13 @@ fontsize: 12pt
 
 - **2024/7 - 2026/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up [Principal Investigator]
 - **2024/4 - 2027/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (C) [Co-Investigator]
+
+---
+
+
+## Awards
+1. Best Presentation Award for Young Researcher (regular membership category), Annual meeting of The Biometric Society of Japan, 2025.
+
 
 ---
 

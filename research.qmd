@@ -24,6 +24,15 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Pre-print
 <details>
 <summary>
+[6] Kojima, M., Orihara, S., <u>Hanada, K</u>., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.[[link](https://arxiv.org/abs/2503.21091)]
+</summary>
+
+
+</details>
+
+
+<details>
+<summary>
 [5] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
 </summary>
 

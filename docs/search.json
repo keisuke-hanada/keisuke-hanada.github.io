@@ -11,14 +11,14 @@
     "href": "index.html#news",
     "title": "Keisuke Hanada | 花田圭佑",
     "section": "News",
-    "text": "News\n\n2025-06-18: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [link]\n2025-06-03: Published a co-authored paper with Hirano and Maeda on Scientific reports [link]\n2025-03-27: Published a co-authored paper with Kojima on arXiv [link]\n\n\nMore News\n\n\n\n2024-12-05: Updated a co-authored paper with Sugimoto on arXiv [link]\n\n\n2024-07-14: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [link]\n\n\n2024-07-08: Published a co-authored paper with Sugimoto on arXiv [link]\n\n\n2024-07-04: Published an R package ‘rmstBayespara’ on CRAN [link]\n\n\n2024-06-11: Published a co-authored paper with Kojima on arXiv [link]\n\n\n2024-04-21: Created this website."
+    "text": "News\n\n2025-08-10: Presented a co-authored paper with Kojima at JSM2025 poster session [Poster]\n2025-06-18: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [link]\n2025-06-03: Published a co-authored paper with Hirano and Maeda on Scientific reports [link]\n2025-03-27: Published a co-authored paper with Kojima on arXiv [link]\n\n\nMore News\n\n\n\n2024-12-05: Updated a co-authored paper with Sugimoto on arXiv [link]\n\n\n2024-07-14: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [link]\n\n\n2024-07-08: Published a co-authored paper with Sugimoto on arXiv [link]\n\n\n2024-07-04: Published an R package ‘rmstBayespara’ on CRAN [link]\n\n\n2024-06-11: Published a co-authored paper with Kojima on arXiv [link]\n\n\n2024-04-21: Created this website."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Please see my Google Scholar page for a full list of publications. Here, I highlight some of my research.\n\nAccepted Paper\n\n\n[2] Hanada, K., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[link]\n\n\nRMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．\n\n\n\n\n[1] Hanada, K., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [link]\n\n\n治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．\n\n\n\n\nPre-print\n\n\n[6] Kojima, M., Orihara, S., Hanada, K., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.[link]\n\n\n\n\n[5] Hanada, K., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[link]\n\n\n興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．\n\n\n\n\n[4] Hanada, K., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber’s M-Estimation. arXiv preprint arXiv:2407.04446.[link]\n\n\n試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．\n\n\n\n\n[3] Hanada, K., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.[link]\n\n\nRMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．\n\n\n\n\n[2] Hanada, K., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[link]\n\n\nRMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．\n\n\n\n\n[1] Kojima, M., Mano, H., Yamada, K., Hanada, K., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[link]\n\n\n並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．\n\n\n\n\n和文\n\n\n[2] 花田圭佑, 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能．計量生物学．[link]\n\n\n生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．\n\n\n\n\n[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [link]\n\n\n博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．\n\n\n\n\nSoftware\n[R] rmstBayespara :Bayesian Restricted Mean Survival Time for Cluster Effect.\n Other information is in researchmap.\n\n\n\n\nCopyright by Keisuke Hanada"
+    "text": "Please see my Google Scholar page for a full list of publications. Here, I highlight some of my research.\n\nAccepted Paper\n\n\n[2] Hanada, K., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[link]\n\n\nRMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．\n\n\n\n\n[1] Hanada, K., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [link]\n\n\n治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．\n\n\n\n\nPre-print\n\n\n[6] Kojima, M., Orihara, S., Hanada, K., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.[link]\n\n\n\n\n[5] Hanada, K., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[link]\n\n\n興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．\n\n\n\n\n[4] Hanada, K., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber’s M-Estimation. arXiv preprint arXiv:2407.04446.[link]\n\n\n試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．\n\n\n\n\n[3] Hanada, K., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. arXiv preprint arXiv:2406.06071.[link]\n\n\nRMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．\n\n\n\n\n[2] Hanada, K., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[link]\n\n\nRMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．\n\n\n\n\n[1] Kojima, M., Mano, H., Yamada, K., Hanada, K., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[link]\n\n\n並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．\n\n\n\n\nConference\n[2] Hanada, K., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, Joint Statistical Meeting 2025, Nashville. [Poster]\n[1] Hanada, K., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto.\n\n\n和文\n\n\n[2] 花田圭佑, 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能．計量生物学．[link]\n\n\n生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．\n\n\n\n\n[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [link]\n\n\n博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．\n\n\n\n\nSoftware\n[R] rmstBayespara :Bayesian Restricted Mean Survival Time for Cluster Effect.\n Other information is in researchmap.\n\n\n\n\nCopyright by Keisuke Hanada"
   },
   {
     "objectID": "background.html",
@@ -103,5 +103,82 @@
     "title": "Curriculum Vitae",
     "section": "Awards",
     "text": "Awards\n\nBest Presentation Award for Young Researcher (regular membership category), Annual meeting of The Biometric Society of Japan, 2025."
+  },
+  {
+    "objectID": "colmn.html",
+    "href": "colmn.html",
+    "title": "Column",
+    "section": "",
+    "text": "aaa\naaaa\n\n\n\n\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "column.html",
+    "href": "column.html",
+    "title": "Column (JP)",
+    "section": "",
+    "text": "Copyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html",
+    "href": "column/20250810-JSM2025.html",
+    "title": "JSM2025参加記",
+    "section": "",
+    "text": "アメリカのナッシュビルで開催されたJoint Statistical Meeting 2025 (JSM2025) に参加した。初めての海外での国際学会で苦労も多かったが、得られたものは大きかった。\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "column/index.html",
+    "href": "column/index.html",
+    "title": "Column (JP)",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\nJSM2025参加記\n\n\n\n\n\n\n学会参加記\n\n\naa\n\n\n\n\n\n\n\n\n\nAug 10, 2025\n\n\n\n\n\n\nNo matching items\n\nCopyright by Keisuke Hanada"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#bb",
+    "href": "column/20250810-JSM2025.html#bb",
+    "title": "JSM2025参加記",
+    "section": "bb",
+    "text": "bb\ntest3"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#aa",
+    "href": "column/20250810-JSM2025.html#aa",
+    "title": "JSM2025参加記",
+    "section": "aa",
+    "text": "aa\ntest2"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#発表",
+    "href": "column/20250810-JSM2025.html#発表",
+    "title": "JSM2025参加記",
+    "section": "発表",
+    "text": "発表\nIntegrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effectというタイトルでポスター発表した。セッションはBiostatisticsにするかEpidemiologyにするかで悩んだが、Epidemiologyにしてみた。いずれのセッションも日中に開催され、そこそこの人数が参加していた。誰も来ないことも危惧していたが、結果的には暇な時間は少なく、近い領域の研究者とディスカッションできてとても楽しい時間だった。\n\n発表形式についての感想\n口頭、ポスター、e-ポスターから発表形式が選べたが、今回はポスターで良かったと思う。口頭は15分~25分の発表で、参加者は多いがあまり質疑の時間がなかった。オーガナイザーが質疑の時間を取らないセッションもまあまああった。話したい場合は、終了後に話しかける必要があり、知り合いと雑談していたりもするので、若干ハードルが高い。\nポスターは割と博士学生やポスドクくらいの方の発表が多かった気がする。ポスター前でちゃんと準備している発表者はディスカッションする気満々で、アドバイスを求めてくる人も結構いた。ポスターを貼っていなくなる人もいたので、割と人次第っぽい。\ne-ポスターはポスター発表に加えて、5分間の口頭発表 (ライトニングトーク) がある発表形式。ライトニングトークは聞きに行けなかったが、過去にe-ポスターで発表した方は満足度が高かったと言っていた。"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#セッションについて",
+    "href": "column/20250810-JSM2025.html#セッションについて",
+    "title": "JSM2025参加記",
+    "section": "セッションについて",
+    "text": "セッションについて\n日本の統計関連学会連合大会に近いが、より幅広い雰囲気を感じた。修士や博士でこの学会に参加できる人は羨ましい。上述のような発表を聞けるセッションの他に、有名な研究者が1,2時間話すセッションや、他の研究者との交流を目的としたMixerなども企画されており、発表はハードルはあるけど試しに行ってみたいという人も楽しめるようになっていた。実際、アメリカ在住なら毎年行くだろうなという気がしている。\n特に、ASAやRSSが主催しているセッションではJASAやJRSSBの論文の中からinviteされた発表をしており、最近の話題を紹介してくれるのでかなり面白かった。\nあまりにも規模が大きいので見たいセッションの時間が被りまくるのは残念だったが、ちゃんと見たい発表を事前に整理して計画的に発表を聞けると良いだろう。"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#行くべきか",
+    "href": "column/20250810-JSM2025.html#行くべきか",
+    "title": "JSM2025参加記",
+    "section": "行くべきか？",
+    "text": "行くべきか？\n研究を続けていくつもりの身としては、早いうちにトップレベルの研究者の発表を聞くべきだろうという気持ちで今回JSM2025に参加した。 日本国内にも素晴らしい研究をしている研究者がたくさんいるが、やはりキャリアの初期に1度は国際会議に行くべきだという気持ちは強くなった。\n特にJSMは若手の研究者も多く、海外の知り合いができるというのも大きな利点になり得る。自身の発表に対して多様な意見をもらい得るという点も良い。 個人的にも、今後も行きたい学会の1つになった。本当に多くの研究者が発表するので、刺激が大きい。"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#初アメリカの感想",
+    "href": "column/20250810-JSM2025.html#初アメリカの感想",
+    "title": "JSM2025参加記",
+    "section": "初アメリカの感想",
+    "text": "初アメリカの感想\n\n移動について\n正直、ホテルや飛行機の予約や道中の移動をすべて1人でやろうとしたのは失敗だった。誰か頼れる人がいるなら必ずどうするのが良いか聞いたほうがいい。 ホテルはJSMが斡旋しているところだと安全だが、すぐ埋まるので早めにチェックする。飛行機も早く予約するほど安いので、参加が決まったらさっさと予約する。航空会社は英語に自信がないならANAやJALにすると日本⇔アメリカは日本人のクルーが乗っていたので割と安心だった。\n出国審査や入国審査は、パスポートとESTAの準備をちゃんとしておけば割と安心できたが、これも複数人で同じ飛行機に乗れるとより安心。飛行機の待ち時間に暇を潰せる相手がいると助かるし、絡まれても多少は安心できる。\n国際線の飛行機は、エコノミーは夜行バス、プレミアムエコノミーはちょっといい夜行バス、ビジネスはちっちゃいネカフェ、ファーストはネカフェっぽい印象を受けた。\n今回、飛行機内での過ごし方は失敗してしまった。飛行機では、到着地の時間に合わせて過ごすべきだったが、出発地の時間で多くの時間を過ごしてしまったためか、時差ボケの影響が学会最終日まで残ってしまった。 体調万全で学会に参加したいなら、飛行機内で調整するか、少し早めに到着して睡眠調整できると良さそう。 どうせそんなに寝れないので、ずっと起きて仕事をするとかでもいいかもしれない。\n\n\n食事について\n米と生モノがほとんどないことを除くと、食べれるものがないという問題はなかった。ハンバーガーやピザ等を毎日食べてもいいという人は問題ないかもしれない。 ただ、物価が日本と比べて明らかに高く、1食安くても3000円くらいだった。予定はないが、本格的に住む場合は確実に自炊生活になりそう。スーパーに行ったら、果物は明らかに安く、バナナは1房で2ドルくらいなのに対し、クロワッサンは4個で7ドルだった。\n\n\n英語について\n観光地近辺は割と容赦して話してくれてたのでなんとかなったが、やはり話せるに越したことはない。アメリカに行き来するだけなら割と適当でも大丈夫だが、料理が1人分だけ来ないときとか、ちょっと聞きたいことがあるときに対処するにはある程度話せる必要はあるだろう。\n英語については、学会参加者と研究関連の雑談できるくらいに話せると良いと感じた。自分は雑談できるほどには話せなかったために、もっと話せると他の参加者との交流も深まったと感じる場面が何度かあった。研究以外の部分で機会を逃すのはもったいないのを身をもって実感したので、英語を勉強するモチベーションが上がった。"
+  },
+  {
+    "objectID": "column/20250810-JSM2025.html#総評",
+    "href": "column/20250810-JSM2025.html#総評",
+    "title": "JSM2025参加記",
+    "section": "総評",
+    "text": "総評\n本当に行ってよかった。日本では数人しかやっていない分野の研究者が、JSMのような大きな学会ではそこそこの人数来ており、自分が今やっている研究にクリティカルな影響を与える研究にも出会える可能性も高い。新たな研究のアイデアを得る機会にもなるので、今後も積極的にこのような学会に参加したいという気持ちが高まった。"
   }
 ]

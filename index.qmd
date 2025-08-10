@@ -34,6 +34,7 @@ For more information, see below:
 
 :::{.callout-}
 ## News
+* <u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [[Poster]](files/JSM2025-poster.pdf)
 * <u>2025-06-18</u>: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [[link](https://arxiv.org/abs/2506.15913)]
 * <u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [[link](https://www.nature.com/articles/s41598-025-05053-6)]
 * <u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2503.21091)]

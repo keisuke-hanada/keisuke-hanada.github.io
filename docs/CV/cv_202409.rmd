@@ -55,6 +55,7 @@ fontsize: 12pt
 1. Hirano, S., \underline{Hanada, K}., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. *Scientific reports*, 19300.
 
 ### Preprints
+1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. *arXiv preprint* arXiv:2503.21091.
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. *arXiv preprint* arXiv:2401.02048.
@@ -65,6 +66,7 @@ fontsize: 12pt
 2. metaMest: meta-analysis by M-estimator based approach. R package. Available at: [https://github.com/keisuke-hanada/metaMest](https://github.com/keisuke-hanada/metaMest)
 
 ### Conference Presentations
+1. \underline{Hanada, K}., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, *Joint Statistical Meeting 2025*, Nashville.
 1. \underline{Hanada, K}., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small", *The VI-th International Symposium on Biopharmaceutical Statistics*, Kyoto.
 
 

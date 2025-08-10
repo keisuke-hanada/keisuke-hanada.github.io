@@ -75,6 +75,12 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 </details>
 
 
+### Conference
+[2] <u>Hanada, K.</u>, & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, Joint Statistical Meeting 2025, Nashville. [[Poster]](files/JSM2025-poster.pdf)
+
+[1] <u>Hanada, K.</u>, & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto.
+
+
 ### 和文
 <details>
 <summary>

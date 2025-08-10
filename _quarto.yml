@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/**
 
 website:
   title: "keisuke-hanada"
@@ -14,6 +16,7 @@ website:
       - href: research.qmd
       - href: tools.qmd
       - href: teaching.qmd
+      - href: column/index.qmd
   site-url: https://keisuke-hanada.github.io
   site-path: '/'
 

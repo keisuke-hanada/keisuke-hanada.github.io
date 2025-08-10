@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>keisuke-hanada - Teaching</title>
+<title>keisuke-hanada - Column (JP)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-80RE24GCEC"></script>
 
 <script type="text/javascript">
@@ -76,6 +107,35 @@ gtag('js', new Date());
 gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -113,11 +173,11 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 <span class="menu-text">Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./column/index.html"> 
+    <a class="nav-link active" href="./column.html" aria-current="page"> 
 <span class="menu-text">Column (JP)</span></a>
   </li>  
 </ul>
@@ -132,14 +192,20 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#学会参加記" id="toc-学会参加記" class="nav-link active" data-scroll-target="#学会参加記">学会参加記</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">Column (JP)</h1>
 </div>
 
 
@@ -156,11 +222,182 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </header>
 
 
-<p>None.</p>
+<section id="学会参加記" class="level2">
+<h2 class="anchored" data-anchor-id="学会参加記">学会参加記</h2>
 
 
 
-<p>Copyright by Keisuke Hanada</p></main> <!-- /main -->
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1754789947451" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="thumbnail">
+<p><a href="./background.html" class="no-external"></a></p><a href="./background.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./background.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./background.html" class="no-external">Background</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./background.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./background.html" class="no-external">Copyright by Keisuke Hanada</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./background.html" class="no-external"></a></p><a href="./background.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1754790385911" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="thumbnail">
+<p><a href="./index.html" class="no-external"></a></p><a href="./index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./index.html" class="no-external">Keisuke Hanada | 花田圭佑</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./index.html" class="no-external">I am a statistician. My interests are survival time analysis and meta-analysis. In particular, I am studying restricted mean survival time in survival time analyses and better meta-analysis inferences when the number of studies is small. </a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./index.html" class="no-external"></a></p><a href="./index.html" class="no-external">
+<div class="listing-author">
+Keisuke Hanada
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1754789947484" data-listing-reading-time-sort="2" data-listing-word-count-sort="227">
+<div class="thumbnail">
+<p><a href="./research.html" class="no-external"></a></p><a href="./research.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./research.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./research.html" class="no-external">Research</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./research.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./research.html" class="no-external">Please see my Google Scholar page for a full list of publications. Here, I highlight some of my research.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./research.html" class="no-external"></a></p><a href="./research.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1722512520880" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="./teaching.html" class="no-external"></a></p><a href="./teaching.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./teaching.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./teaching.html" class="no-external">Teaching</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./teaching.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./teaching.html" class="no-external">None.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./teaching.html" class="no-external"></a></p><a href="./teaching.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1722512520881" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="thumbnail">
+<p><a href="./tools.html" class="no-external"></a></p><a href="./tools.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./tools.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./tools.html" class="no-external">Tools</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./tools.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./tools.html" class="no-external">[1] Quarto: 数式を含む文章を書きながらRやPythonのプログラムを実行できる．研究ノートが半自動で作れて便利．</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./tools.html" class="no-external"></a></p><a href="./tools.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="NaN" data-listing-file-modified-sort="1754789947456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="655">
+<div class="thumbnail">
+<p><a href="./docs/CV/cv_202409.html" class="no-external"></a></p><a href="./docs/CV/cv_202409.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./docs/CV/cv_202409.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./docs/CV/cv_202409.html" class="no-external">Curriculum Vitae</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./docs/CV/cv_202409.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./docs/CV/cv_202409.html" class="no-external">Copyright by Keisuke Hanada</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./docs/CV/cv_202409.html" class="no-external">
+<div class="listing-date">
+Invalid Date
+</div>
+<div class="listing-author">
+Keisuke Hanada
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><p>Copyright by Keisuke Hanada</p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

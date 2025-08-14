@@ -14,7 +14,7 @@ fontsize: 12pt
 - Name: Keisuke Hanada
 - Address: Faculty of Medicine, Wakayama Medical University
 - Email: khanada [at] wakayama-med.ac.jp
-- ORCID: 0000-0002-1444-0280
+- ORCID: [0000-0002-1444-0280](https://orcid.org/0000-0002-1444-0280)
 - GitHub: [https://github.com/keisuke-hanada](https://github.com/keisuke-hanada)
 - Website: [https://keisuke-hanada.github.io/](https://keisuke-hanada.github.io/)
 
@@ -55,6 +55,7 @@ fontsize: 12pt
 1. Hirano, S., \underline{Hanada, K}., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. *Scientific reports*, 19300.
 
 ### Preprints
+1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *arXiv preprint* arXiv:2508.08758.
 1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. *arXiv preprint* arXiv:2503.21091.
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.

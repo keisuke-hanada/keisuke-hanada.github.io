@@ -47,6 +47,7 @@ fontsize: 12pt
 ## Research Publications
 
 ### Peer-Reviewed Articles
+1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *Contemporary Clinical Trials*, 158, 108099.
 1. \underline{Hanada, K}., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. *Contemporary Clinical Trials*, 138, 107440.
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics. *Japanese Journal of Biometrics*, 45(1), 115-131. (in Japanese)
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
@@ -60,7 +61,7 @@ fontsize: 12pt
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. *arXiv preprint* arXiv:2401.02048.
-1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *arXiv preprint* arXiv:2312.15619.
+
 
 ### Software and R Packages
 1. rmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: [https://cran.r-project.org/web/packages/rmstBayespara/](https://cran.r-project.org/web/packages/rmstBayespara/)

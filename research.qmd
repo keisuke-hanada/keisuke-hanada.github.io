@@ -7,6 +7,14 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Accepted Paper
 <details>
 <summary>
+[3] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K</u>., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. Contemporary Clinical Trials, 158, 108099.[[link](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]
+</summary>
+
+* 並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．
+</details>
+
+<details>
+<summary>
 [2] <u>Hanada, K</u>., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[[link](https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144)]
 </summary>
 
@@ -21,10 +29,11 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 * 治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．
 </details>
 
+
 ### Pre-print
 <details>
 <summary>
-[7] <u>Hanada, K</u>., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. arXiv preprint arXiv:2508.08758.[[link](https://arxiv.org/abs/2508.08758)]
+[6] <u>Hanada, K</u>., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. arXiv preprint arXiv:2508.08758.[[link](https://arxiv.org/abs/2508.08758)]
 </summary>
 
 * 一般化線形混合モデルの下でのメタアナリシスの方法を整備し，特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました．
@@ -34,7 +43,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[6] Kojima, M., Orihara, S., <u>Hanada, K</u>., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.[[link](https://arxiv.org/abs/2503.21091)]
+[5] Kojima, M., Orihara, S., <u>Hanada, K</u>., & Ohigashi, T. (2025). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.[[link](https://arxiv.org/abs/2503.21091)]
 </summary>
 
 
@@ -43,7 +52,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[5] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
+[4] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
 </summary>
 
 * 興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．
@@ -53,7 +62,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[4] <u>Hanada, K</u>., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
+[3] <u>Hanada, K</u>., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
 </summary>
 
 * 試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．
@@ -62,7 +71,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[3] <u>Hanada, K</u>., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time.  arXiv preprint arXiv:2406.06071.[[link](https://arxiv.org/abs/2406.06071)]
+[2] <u>Hanada, K</u>., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time.  arXiv preprint arXiv:2406.06071.[[link](https://arxiv.org/abs/2406.06071)]
 </summary>
 
 * RMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．
@@ -70,18 +79,10 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[2] <u>Hanada, K</u>., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[[link](https://arxiv.org/abs/2401.02048)]
+[1] <u>Hanada, K</u>., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[[link](https://arxiv.org/abs/2401.02048)]
 </summary>
 
 * RMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．
-</details>
-
-<details>
-<summary>
-[1] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K</u>., Tanaka, Y., & Moriya, J. (2023). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. arXiv preprint arXiv:2312.15619.[[link](https://arxiv.org/abs/2312.15619)]
-</summary>
-
-* 並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．
 </details>
 
 

@@ -34,13 +34,14 @@ For more information, see below:
 
 :::{.callout-}
 ## News
+* <u>2025-10-03</u>: Published a co-authored paper with Kojima, Mano, Yamada, Tanaka and Moriya on Contemporary Clinical Trials [[link](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]
 * <u>2025-08-14</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2508.08758)]
 * <u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [[Poster]](files/JSM2025-poster.pdf)
 * <u>2025-06-18</u>: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [[link](https://arxiv.org/abs/2506.15913)]
-* <u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [[link](https://www.nature.com/articles/s41598-025-05053-6)]
 <details>
     <summary>More News</summary>
     <ul>
+        <li><u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [[link](https://www.nature.com/articles/s41598-025-05053-6)]</li>
         <li><u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2503.21091)]</li>
         <li><u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]</li>
         <li><u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]</li>

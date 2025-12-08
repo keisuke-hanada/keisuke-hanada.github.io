@@ -34,9 +34,10 @@ For more information, see below:
 
 :::{.callout-}
 ## News
+* <u>2025-12-08</u>: Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session [[oral](files/IASC-ARS2025-oral.pdf)]
 * <u>2025-10-03</u>: Published a co-authored paper with Kojima, Mano, Yamada, Tanaka and Moriya on Contemporary Clinical Trials [[link](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]
 * <u>2025-08-14</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2508.08758)]
-* <u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [[Poster]](files/JSM2025-poster.pdf)
+* <u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [[Poster](files/JSM2025-poster.pdf)]
 * <u>2025-06-18</u>: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [[link](https://arxiv.org/abs/2506.15913)]
 <details>
     <summary>More News</summary>

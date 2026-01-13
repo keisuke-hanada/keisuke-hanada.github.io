@@ -6,6 +6,12 @@ listing:
   sort: "date desc"
   categories: true
   sort-ui: true
+  fields: [date, title, categories, description]
+  feed: 
+    items: 20
+    type: partial
+    description: "Keisuke Hanada's Columns (JP)"
+    language: ja
 ---
 
 

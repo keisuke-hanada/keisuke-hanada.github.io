@@ -1,0 +1,11 @@
+---
+title: "Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session"
+date: 2026-01-13
+categories: ["news"]
+---
+
+
+ベトナム ナッシュビルで開催されたIASC-ARS2025に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました．
+
+発表資料は[[ここ](files/IASC-ARS2025-oral.pdf)]に公開しています．
+

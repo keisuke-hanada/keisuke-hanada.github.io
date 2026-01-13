@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Keisuke Hanada">
-<meta name="keywords" content="Meta-Analysis, Survival Analysis">
+<meta name="keywords" content="Meta-Analysis, Survival Analysis, data borrowing">
 
 <title>Keisuke Hanada | 花田圭佑 – keisuke-hanada</title>
 <style>
@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-columns .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-columns'] = new List('listing-recent-columns', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-80RE24GCEC"></script>
 
 <script type="text/javascript">
@@ -79,7 +110,37 @@ gtag('js', new Date());
 gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -124,6 +185,13 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 <span class="menu-text">Column (JP)</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="./column/index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -139,7 +207,7 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#news" id="toc-news" class="nav-link active" data-scroll-target="#news">News</a></li>
+  <li><a href="#recent-news" id="toc-recent-news" class="nav-link active" data-scroll-target="#recent-news">Recent news</a></li>
   <li><a href="#recent-interests" id="toc-recent-interests" class="nav-link" data-scroll-target="#recent-interests">Recent Interests</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
@@ -185,7 +253,7 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>Meta-Analysis, Survival Analysis</p>
+    <p>Meta-Analysis, Survival Analysis, data borrowing</p>
   </div>
 </div>
 
@@ -201,46 +269,41 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </ul>
 <p>2025年より，和歌山県立医科大学 医学部 医療統計学講座 助教</p>
 <p>2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．</p>
-<section id="news" class="level2 callout-">
-<h2 class="anchored" data-anchor-id="news">News</h2>
-<ul>
-<li><u>2025-12-08</u>: Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session [<a href="files/IASC-ARS2025-oral.pdf">oral</a>]</li>
-<li><u>2025-10-03</u>: Published a co-authored paper with Kojima, Mano, Yamada, Tanaka and Moriya on Contemporary Clinical Trials [<a href="https://www.sciencedirect.com/science/article/pii/S1551714425002939">link</a>, <a href="https://arxiv.org/abs/2312.15619">arXiv</a>]</li>
-<li><u>2025-08-14</u>: Published a co-authored paper with Sugimoto on arXiv [<a href="https://arxiv.org/abs/2508.08758">link</a>]</li>
-<li><u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [<a href="files/JSM2025-poster.pdf">Poster</a>]</li>
-<li><u>2025-06-18</u>: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [<a href="https://arxiv.org/abs/2506.15913">link</a>]
-<details>
-<summary>
-More News
-</summary>
-<ul>
-<li>
-<u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [<a href="https://www.nature.com/articles/s41598-025-05053-6">link</a>]
-</li>
-<li>
-<u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [<a href="https://arxiv.org/abs/2503.21091">link</a>]
-</li>
-<li>
-<u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [<a href="https://arxiv.org/abs/2407.04446">link</a>]
-</li>
-<li>
-<u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [<a href="https://arxiv.org/abs/2407.04446">link</a>]
-</li>
-<li>
-<u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [<a href="https://arxiv.org/abs/2407.04446">link</a>]
-</li>
-<li>
-<u>2024-07-04</u>: Published an R package ‘rmstBayespara’ on CRAN [<a href="https://cran.rstudio.com/web/packages/rmstBayespara/">link</a>]
-</li>
-<li>
-<u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [<a href="https://arxiv.org/abs/2406.06071">link</a>]
-</li>
-<li>
-<u>2024-04-21</u>: Created this website.
-</li>
-</ul>
-</details></li>
-</ul>
+<section id="recent-news" class="level2">
+<h2 class="anchored" data-anchor-id="recent-news">Recent news</h2>
+<div id="listing-recent-columns" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1768230000000" data-listing-file-modified-sort="1768294879709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./column/20260113-news-IASC-ARS2025.html" class="no-external">Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./column/20260113-news-IASC-ARS2025.html" class="no-external">
+<div class="listing-date">
+2026-01-13
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1765119600000" data-listing-file-modified-sort="1768294643372" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="146">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./column/20260113-news-before-2026.html" class="no-external">News before 2026</a>
+</h3>
+</div>
+<div class="metadata">
+<a href="./column/20260113-news-before-2026.html" class="no-external">
+<div class="listing-date">
+2025-12-08
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
 <section id="recent-interests" class="level1">
 <h1>Recent Interests</h1>
@@ -254,6 +317,7 @@ More News
 <li><a href="https://sugimoto-lab.ywstat.jp/">杉本研究室 Sugimoto labo</a>: 出身研究室</li>
 <li><a href="https://shohei-doi.github.io/academic-website/multiple-contents.html">気軽にWebサイト</a>: 本サイト作成のため，参考にさせていただきました．</li>
 </ul>
+
 
 
 </section>

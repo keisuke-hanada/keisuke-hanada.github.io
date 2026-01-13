@@ -13,9 +13,19 @@ abstract: |
 keywords: 
     - Meta-Analysis
     - Survival Analysis
+    - data borrowing
 copyright:
     holder: Keisuke Hanada
     year: 2024
+listing:
+  id: recent-columns
+  contents: column
+  sort: "date desc"
+  max-items: 5
+  fields: [date, title]
+  date-format: "YYYY-MM-DD"
+  include:
+    categories: news
 ---
 
 Ph.D in Data Science (2024, Shiga University)
@@ -31,28 +41,11 @@ For more information, see below:
 
 2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．
 
-
-:::{.callout-}
-## News
-* <u>2025-12-08</u>: Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session [[oral](files/IASC-ARS2025-oral.pdf)]
-* <u>2025-10-03</u>: Published a co-authored paper with Kojima, Mano, Yamada, Tanaka and Moriya on Contemporary Clinical Trials [[link](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]
-* <u>2025-08-14</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2508.08758)]
-* <u>2025-08-10</u>: Presented a co-authored paper with Kojima at JSM2025 poster session [[Poster](files/JSM2025-poster.pdf)]
-* <u>2025-06-18</u>: Published a co-authored paper with Kojima, Orihara, and Ohigashi on arXiv [[link](https://arxiv.org/abs/2506.15913)]
-<details>
-    <summary>More News</summary>
-    <ul>
-        <li><u>2025-06-03</u>: Published a co-authored paper with Hirano and Maeda on Scientific reports [[link](https://www.nature.com/articles/s41598-025-05053-6)]</li>
-        <li><u>2025-03-27</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2503.21091)]</li>
-        <li><u>2024-12-05</u>: Updated a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]</li>
-        <li><u>2024-07-14</u>: Published a co-authored paper with Sugimoto on Japanese Journal of Biometrics [[link](https://arxiv.org/abs/2407.04446)]</li>
-        <li><u>2024-07-08</u>: Published a co-authored paper with Sugimoto on arXiv [[link](https://arxiv.org/abs/2407.04446)]</li>
-        <li><u>2024-07-04</u>: Published an R package 'rmstBayespara' on CRAN [[link](https://cran.rstudio.com/web/packages/rmstBayespara/)]</li>
-        <li><u>2024-06-11</u>: Published a co-authored paper with Kojima on arXiv [[link](https://arxiv.org/abs/2406.06071)]</li>
-        <li><u>2024-04-21</u>: Created this website.</li>
-    </ul>
-</details>
+## Recent news
+::: {#recent-columns}
 :::
+
+
 
 # Recent Interests
 My interest is meta-analysis, data borrowing, transfer learning, survival analysis and related model estimation.

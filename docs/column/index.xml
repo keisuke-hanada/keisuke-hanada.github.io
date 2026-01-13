@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>keisuke-hanada</title>
+<link>https://keisuke-hanada.github.io/column/</link>
+<atom:link href="https://keisuke-hanada.github.io/column/index.xml" rel="self" type="application/rss+xml"/>
+<description>Keisuke Hanada&#39;s Columns (JP)</description>
+<language>ja</language>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Mon, 12 Jan 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session</title>
+  <link>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</link>
+  <description><![CDATA[ ベトナム ナッシュビルで開催されたIASC-ARS2025に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</guid>
+  <pubDate>Mon, 12 Jan 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>News before 2026</title>
+  <link>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</link>
+  <description><![CDATA[ Copyright by Keisuke Hanada ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</guid>
+  <pubDate>Sun, 07 Dec 2025 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>JSM2025参加記</title>
+  <link>https://keisuke-hanada.github.io/column/20250810-JSM2025.html</link>
+  <description><![CDATA[ アメリカのナッシュビルで開催された<a href="https://ww2.amstat.org/meetings/jsm/2025/conferenceinfo.cfm">Joint Statistical Meeting 2025</a> (JSM2025) に参加した。初めての海外での国際学会で苦労も多かったが、得られたものは大きかった。 ]]></description>
+  <category>学会参加記</category>
+  <guid>https://keisuke-hanada.github.io/column/20250810-JSM2025.html</guid>
+  <pubDate>Sat, 09 Aug 2025 15:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -13,7 +13,16 @@
   {
     "listing": "/column/index.html",
     "items": [
+      "/column/20260113-news-IASC-ARS2025.html",
+      "/column/20260113-news-before-2026.html",
       "/column/20250810-JSM2025.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/column/20260113-news-IASC-ARS2025.html",
+      "/column/20260113-news-before-2026.html"
     ]
   }
 ]

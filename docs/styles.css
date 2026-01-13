@@ -1,0 +1,12 @@
+.quarto-listing .listing-date {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.quarto-listing .listing-title {
+  font-size: 1.0em;
+}
+
+.quarto-listing .listing-description {
+  font-size: 0.8em;
+}

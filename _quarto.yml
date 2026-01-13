@@ -17,6 +17,9 @@ website:
       - href: tools.qmd
       - href: teaching.qmd
       - href: column/index.qmd
+    right:
+      - icon: rss
+        href: column/index.xml
   site-url: https://keisuke-hanada.github.io
   site-path: '/'
 
@@ -24,5 +27,6 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
 

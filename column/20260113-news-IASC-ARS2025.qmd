@@ -5,7 +5,7 @@ categories: ["news"]
 ---
 
 
-ベトナム ナッシュビルで開催されたIASC-ARS2025に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました．
+ベトナム ナッシュビルで開催された[IASC-ARS2025](https://viasm.edu.vn/en/hdkh/iasc-ars-2025)に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました．
 
-発表資料は[[ここ](files/IASC-ARS2025-oral.pdf)]に公開しています．
+発表資料は[[ここ](../files/IASC-ARS2025-oral.pdf)]に公開しています．
 

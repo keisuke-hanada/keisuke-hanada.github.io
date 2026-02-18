@@ -11,11 +11,19 @@
 <description>Keisuke Hanada&#39;s Columns (JP)</description>
 <language>ja</language>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 12 Jan 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Feb 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Published a co-authored paper with Kojima, Orihara, and Ohigashi on Statistics in Medicine</title>
+  <link>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</link>
+  <description><![CDATA[ 小島先生，折原先生，大東先生との共著論文 Sample Size Re-Estimation in Blinded Hybrid-Control Design Using Inverse Probability Weighting がStatistics in Medicineからpublishされました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</guid>
+  <pubDate>Mon, 09 Feb 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session</title>
   <link>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</link>
-  <description><![CDATA[ ベトナム ナッシュビルで開催されたIASC-ARS2025に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました． ]]></description>
+  <description><![CDATA[ ベトナム ナッシュビルで開催された<a href="https://viasm.edu.vn/en/hdkh/iasc-ars-2025">IASC-ARS2025</a>に参加し，Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studiesについて口頭発表しました． ]]></description>
   <category>news</category>
   <guid>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</guid>
   <pubDate>Mon, 12 Jan 2026 15:00:00 GMT</pubDate>

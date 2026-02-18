@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2026-01-13T23:51:52.124Z</lastmod>
+    <lastmod>2026-02-18T04:49:28.941Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2025-12-08T01:13:46.979Z</lastmod>
+    <lastmod>2026-02-18T04:41:44.855Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/background.html</loc>
-    <lastmod>2025-09-12T03:56:45.840Z</lastmod>
+    <lastmod>2025-06-03T05:03:09.311Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/teaching.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/tools.html</loc>
-    <lastmod>2024-08-01T11:42:00.881Z</lastmod>
+    <lastmod>2025-04-01T05:22:27.557Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/docs/CV/cv_202409.html</loc>
-    <lastmod>2025-12-08T01:11:32.852Z</lastmod>
+    <lastmod>2026-02-18T04:47:21.201Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/colmn.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/column/index.html</loc>
-    <lastmod>2026-01-13T09:05:02.148Z</lastmod>
+    <lastmod>2026-02-18T04:35:30.667Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</loc>
@@ -47,5 +47,13 @@
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</loc>
     <lastmod>2026-01-13T23:51:38.511Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</loc>
+    <lastmod>2026-02-18T04:32:52.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260213-news-大分.html</loc>
+    <lastmod>2026-02-18T04:35:26.775Z</lastmod>
   </url>
 </urlset>

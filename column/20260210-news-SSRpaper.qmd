@@ -1,0 +1,15 @@
+---
+title: "Published a co-authored paper with Kojima, Orihara, and Ohigashi on Statistics in Medicine"
+date: 2026-02-10
+categories: ["news"]
+---
+
+
+小島先生，折原先生，大東先生との共著論文 Sample Size Re-Estimation in Blinded Hybrid-Control Design Using Inverse Probability Weighting がStatistics in Medicineからpublishされました．
+
+url: [https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429)
+
+arXiv: [https://arxiv.org/abs/2506.15913](https://arxiv.org/abs/2506.15913)
+
+
+

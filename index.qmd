@@ -54,10 +54,8 @@ My interest is meta-analysis, data borrowing, transfer learning, survival analys
 メタアナリシスでは，試験数が少ないときでも正確に推測する方法に興味があります．
 生存時間解析では，比例ハザード性が成り立たないもとでの推測の中で，制限付き平均生存時間(RMST)の解析に興味があります．
 
-# Resources
-* [和歌山県立医科大学 臨床研究センター](https://waidai-csc.jp/): 現所属
-* [杉本研究室 Sugimoto labo](https://sugimoto-lab.ywstat.jp/): 出身研究室
-* [気軽にWebサイト](https://shohei-doi.github.io/academic-website/multiple-contents.html): 本サイト作成のため，参考にさせていただきました．
+
+
 
 
 

@@ -102,9 +102,9 @@ fontsize: 12pt
 ## Academic Service
 
 - **Peer Review**  
-  Japanese Journal of Statistics and Data Science
-  Journal of the Royal Statistical Society: Series C (Applied Statistics)
-  Journal of the Japan Statistical Society, Japanese Issue
+  - Japanese Journal of Statistics and Data Science
+  - Journal of the Royal Statistical Society: Series C (Applied Statistics)
+  - Journal of the Japan Statistical Society, Japanese Issue
 
 
 <!-- - **Conference Organization**  

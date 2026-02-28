@@ -1,0 +1,13 @@
+---
+title: "Published a co-authored paper with Yamada, Sunami, Takeda, and Kojima on arXiv"
+date: 2026-02-20
+categories: ["news"]
+---
+
+小島先生，山田さん，角南さん，武田さんとの共著論文 Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion がarXivにて公開されました．
+
+
+arXiv: [https://arxiv.org/abs/2602.17995](https://arxiv.org/abs/2602.17995)
+
+
+

@@ -46,17 +46,22 @@ fontsize: 12pt
 
 ## Research Publications
 
-### Peer-Reviewed Articles
+### Peer-Reviewed Methodological Articles
 1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.  *Statistics in Medicine*, 45(3-5), e70429.
 1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *Contemporary Clinical Trials*, 158, 108099.
 1. \underline{Hanada, K}., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. *Contemporary Clinical Trials*, 138, 107440.
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics. *Japanese Journal of Biometrics*, 45(1), 115-131. (in Japanese)
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
 
-### Clinical researches
+
+### Clinical Researches
+1. Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S, \underline{Hanada, K}., & Kawai, M . (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. *Surgical Endoscopy*, 1-10.
 1. Hirano, S., \underline{Hanada, K}., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. *Scientific reports*, 19300.
 
+
 ### Preprints
+1. Yamada, K., Sunami, H., Takeda, K., \underline{Hanada, K}., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. *arXiv preprint* arXiv:2602.17995.
+1. Kojima, M., \underline{Hanada, K}., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. *arXiv preprint* arXiv:2511.09890.
 1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *arXiv preprint* arXiv:2508.08758.
 1. \underline{Hanada, K}., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. *arXiv preprint* arXiv:2407.04446.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071.
@@ -67,7 +72,8 @@ fontsize: 12pt
 1. rmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: [https://cran.r-project.org/web/packages/rmstBayespara/](https://cran.r-project.org/web/packages/rmstBayespara/)
 1. metaMest: meta-analysis by M-estimator based approach. R package. Available at: [https://github.com/keisuke-hanada/metaMest](https://github.com/keisuke-hanada/metaMest)
 
-### Conference Presentations
+
+### International Conference Presentations
 1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studies, *The 13th Conference of the IASC-ARS*, Ho Chi Minh City.
 1. \underline{Hanada, K}., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, *Joint Statistical Meeting 2025*, Nashville.
 1. \underline{Hanada, K}., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small, *The VI-th International Symposium on Biopharmaceutical Statistics*, Kyoto.
@@ -78,6 +84,7 @@ fontsize: 12pt
 
 ## Grants and Funding
 
+- **2026/5 - 2031/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Early-Career Scientists [Principal Investigator]
 - **2024/7 - 2026/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up [Principal Investigator]
 - **2024/4 - 2027/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 

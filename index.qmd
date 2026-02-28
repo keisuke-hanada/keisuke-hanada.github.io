@@ -21,7 +21,7 @@ listing:
   id: recent-columns
   contents: column
   sort: "date desc"
-  max-items: 5
+  max-items: 10
   fields: [date, title]
   date-format: "YYYY-MM-DD"
   include:

@@ -2,7 +2,7 @@
 title: Research
 ---
 
-Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF3oAAAAJ&hl=ja) page for a full list of publications. Here, I highlight some of my research.
+Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF3oAAAAJ&hl=ja) page for a full list of publications. Here, I highlight some of my research focusing on methodological developments in biostatistics.
 
 ### Accepted Paper
 <details>

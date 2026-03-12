@@ -10,8 +10,32 @@
 <atom:link href="https://keisuke-hanada.github.io/column/index.xml" rel="self" type="application/rss+xml"/>
 <description>Keisuke Hanada&#39;s Columns (JP)</description>
 <language>ja</language>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Mon, 09 Feb 2026 15:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.24</generator>
+<lastBuildDate>Thu, 26 Feb 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>科研費 若手研究に採択されました．</title>
+  <link>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</link>
+  <description><![CDATA[ 日本学術振興会の科研費 2026年度若手研究に採択されました．研究課題名は「複数の外部要約データ借用による興味のある集団に対する治療効果推測法の開発」です． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</guid>
+  <pubDate>Thu, 26 Feb 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Yamada, Sunami, Takeda, and Kojima on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</link>
+  <description><![CDATA[ 小島先生，山田さん，角南さん，武田さんとの共著論文 Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion がarXivにて公開されました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</guid>
+  <pubDate>Thu, 19 Feb 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>大分統計談話会・第73回大会にて発表しました．</title>
+  <link>https://keisuke-hanada.github.io/column/20260213-news-大分.html</link>
+  <description><![CDATA[ <a href="https://www.jp-css.com/danwa/p_73.html">大分統計談話会・第73回大会</a>にて「線形混合モデルに対する差分プライベートな分散型回帰分析」について発表しました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260213-news-大分.html</guid>
+  <pubDate>Thu, 12 Feb 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Published a co-authored paper with Kojima, Orihara, and Ohigashi on Statistics in Medicine</title>
   <link>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</link>

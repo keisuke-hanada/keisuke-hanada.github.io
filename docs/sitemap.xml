@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2026-02-18T04:49:28.941Z</lastmod>
+    <lastmod>2026-02-28T01:34:04.171Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2026-02-20T00:21:18.094Z</lastmod>
+    <lastmod>2026-02-28T01:07:47.679Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/background.html</loc>
@@ -18,11 +18,11 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/tools.html</loc>
-    <lastmod>2025-04-01T05:22:27.557Z</lastmod>
+    <lastmod>2025-09-12T03:56:45.864Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/docs/CV/cv_202409.html</loc>
-    <lastmod>2026-02-18T05:00:29.182Z</lastmod>
+    <lastmod>2026-02-28T01:09:57.526Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/colmn.html</loc>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/column/index.html</loc>
-    <lastmod>2026-02-18T04:35:30.667Z</lastmod>
+    <lastmod>2026-02-28T00:44:30.543Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</loc>
@@ -55,5 +55,13 @@
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260213-news-大分.html</loc>
     <lastmod>2026-02-18T04:35:26.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</loc>
+    <lastmod>2026-02-28T01:26:43.116Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</loc>
+    <lastmod>2026-02-28T01:32:46.707Z</lastmod>
   </url>
 </urlset>

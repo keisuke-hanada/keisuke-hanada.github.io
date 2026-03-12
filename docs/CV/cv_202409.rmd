@@ -46,6 +46,7 @@ fontsize: 12pt
 
 ## Grants and Funding
 
+- **2026/5 - 2031/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Early-Career Scientists [Principal Investigator]
 - **2024/7 - 2026/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Research Activity Start-up [Principal Investigator]
 - **2024/4 - 2027/3**: Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Scientific Research (C) [Co-Investigator]
 
@@ -80,7 +81,7 @@ fontsize: 12pt
 
 ## Research Publications
 
-### Peer-Reviewed Articles
+### Peer-Reviewed Methodological Articles
 1. \underline{Hanada, K}., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. *Journal of Biopharmaceutical Statistics*, accepted for publication. 
 1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.  *Statistics in Medicine*, 45(3-5), e70429.
 1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *Contemporary Clinical Trials*, 158, 108099.

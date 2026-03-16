@@ -90,7 +90,8 @@ fontsize: 12pt
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
 
 ### Clinical Researches
-1. Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., \underline{Hanada, K}. & Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. Surgical Endoscopy, 1-10.
+1. Sagan, K., Kojima, F., Matsuzaki, I., Hanada, K., Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y. & Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to: VHL: Allelic Status. *The American Journal of Surgical Pathology*, 10-1097.
+1. Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., \underline{Hanada, K}. & Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. *Surgical Endoscopy*, 1-10.
 1. Hirano, S., \underline{Hanada, K}., & Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. *Scientific reports*, 19300.
 
 ### Submitted Manuscripts

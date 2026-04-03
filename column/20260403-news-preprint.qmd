@@ -1,0 +1,11 @@
+---
+title: "Published a co-authored paper with Shimokawa and Maruo on arXiv"
+date: 2026-04-03
+categories: ["news"]
+---
+
+下川先生，丸尾先生との共著論文 Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction がarXivにて公開されました．
+
+
+arXiv: [https://arxiv.org/abs/2604.00410](https://arxiv.org/abs/2604.00410)
+

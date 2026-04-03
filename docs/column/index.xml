@@ -10,8 +10,16 @@
 <atom:link href="https://keisuke-hanada.github.io/column/index.xml" rel="self" type="application/rss+xml"/>
 <description>Keisuke Hanada&#39;s Columns (JP)</description>
 <language>ja</language>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Thu, 26 Feb 2026 15:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.31</generator>
+<lastBuildDate>Thu, 02 Apr 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Published a co-authored paper with Shimokawa and Maruo on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260403-news-preprint.html</link>
+  <description><![CDATA[ 下川先生，丸尾先生との共著論文 Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction がarXivにて公開されました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260403-news-preprint.html</guid>
+  <pubDate>Thu, 02 Apr 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>科研費 若手研究に採択されました．</title>
   <link>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</link>

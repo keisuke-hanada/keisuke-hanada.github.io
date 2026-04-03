@@ -7,6 +7,15 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Accepted Paper
 <details>
 <summary>
+[5] <u>Hanada, K</u>., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. Journal of Biopharmaceutical Statistics, accepted. [[link](https://arxiv.org/abs/2401.02048)]
+</summary>
+
+* RMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．
+</details>
+
+
+<details>
+<summary>
 [4] Kojima, M., Orihara, S., <u>Hanada, K</u>., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. Statistics in Medicine, 45(3-5), e70429. [[link](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429), [arXiv](https://arxiv.org/abs/2503.21091)]
 </summary>
 
@@ -41,7 +50,31 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Pre-print
 <details>
 <summary>
-[5] <u>Hanada, K</u>., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. arXiv preprint arXiv:2508.08758.[[link](https://arxiv.org/abs/2508.08758)]
+[6] <u>Hanada, K</u>., Shimokawa, T., & Maruo. K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
+</summary>
+
+* 施設毎の要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案しました．個人情報保護と推定性能のトレードオフについて議論しました．
+
+</details>
+
+
+<details>
+<summary>
+[5] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K</u>., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995.[[link](https://arxiv.org/abs/2602.17995)]
+</summary>
+</details>
+
+
+<details>
+<summary>
+[4] Kojima, M.,<u>Hanada, K</u>., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. arXiv preprint arXiv:2511.09890.[[link](https://arxiv.org/abs/2511.09890)]
+</summary>
+</details>
+
+
+<details>
+<summary>
+[3] <u>Hanada, K</u>., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. arXiv preprint arXiv:2508.08758.[[link](https://arxiv.org/abs/2508.08758)]
 </summary>
 
 * 一般化線形混合モデルの下でのメタアナリシスの方法を整備し，特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました．
@@ -51,7 +84,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[4] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
+[2] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Conditional Average Treatment Effect. arXiv preprint arXiv:2503.21091.[[link](https://arxiv.org/abs/2503.21091)]
 </summary>
 
 * 興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．
@@ -61,28 +94,12 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[3] <u>Hanada, K</u>., & Sugimoto, T. (2024). Moment-based Random-effects Meta-analysis Equipped with Huber's M-Estimation. arXiv preprint arXiv:2407.04446.[[link](https://arxiv.org/abs/2407.04446)]
-</summary>
-
-* 試験数が少ないもとで試験間分散が過小推定されることに注目し，試験間分散の推定量をM推定量と考えることで，一般的な推定よりも正確な推定を提案しました．治療効果と試験間分散の同時分布により試験間分散が治療効果にどのように影響を及ぼすか可視化できるようにしました．
-
-</details>
-
-<details>
-<summary>
-[2] <u>Hanada, K</u>., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time.  arXiv preprint arXiv:2406.06071.[[link](https://arxiv.org/abs/2406.06071)]
+[1] <u>Hanada, K</u>., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time.  arXiv preprint arXiv:2406.06071.[[link](https://arxiv.org/abs/2406.06071)]
 </summary>
 
 * RMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．
 </details>
 
-<details>
-<summary>
-[1] <u>Hanada, K</u>., & Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. arXiv preprint arXiv:2401.02048.[[link](https://arxiv.org/abs/2401.02048)]
-</summary>
-
-* RMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．
-</details>
 
 
 ### Conference

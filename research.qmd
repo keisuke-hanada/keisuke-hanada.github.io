@@ -7,7 +7,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Accepted Paper
 <details>
 <summary>
-[5] <u>Hanada, K</u>., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. Journal of Biopharmaceutical Statistics, accepted. [[link](https://arxiv.org/abs/2401.02048)]
+[5] <u>Hanada, K</u>., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. Journal of Biopharmaceutical Statistics. [[link](https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641), [arXiv](https://arxiv.org/abs/2401.02048)]
 </summary>
 
 * RMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．

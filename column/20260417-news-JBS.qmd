@@ -1,0 +1,14 @@
+---
+title: "Published a co-authored paper with Kojima on Journal of Biopharmaceutical Statistics"
+date: 2026-04-17
+categories: ["news"]
+---
+
+小島先生との共著論文 Random effect restricted mean survival time model がJournal of Biopharmaceutical Statisticsにて公開されました．
+
+本研究では制限付き平均生存時間(RMST)におけるモデル解析法にランダム効果を導入することで，何らかのクラスター間変動が存在する場合のRMSTの推定精度を向上させる方法を提案しています．
+クラスター間変動として実用的な例は，例えば多施設共同臨床試験における施設間の違い，国や州，地域間の違いなどが挙げられます．
+提案法はSASのrmstregプロシジャとmixedプロシジャを組み合わせて実装可能です．
+
+Journal of Biopharmaceutical Statistics: [https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641](https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641)
+

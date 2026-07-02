@@ -90,6 +90,7 @@ fontsize: 12pt
 1. \underline{Hanada, K}., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. *Annals of the Institute of Statistical Mathematics*, 75(2), 281-302.
 
 ### Clinical Researches
+1. Nakayama, Y., Kume, K., Baba, T., Ayaki, T., \underline{Hanada, K}., Miyamoto, K., Inoue, N., Kawakami, H., Ito, H. (2026). Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis. *Neuropathology and Applied Neurobiology*, 52(4), e70086.
 1. Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., \underline{Hanada, K}., Kojima, F., & Kitano, M. (2026). Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S‐1, Irinotecan, and Oxaliplatin as Second‐Line Chemotherapy After Gemcitabine Plus Nab‐Paclitaxel for Unresectable Pancreatic Cancer. *Journal of Hepato‐Biliary‐Pancreatic Sciences*, 1-11.
 1. Sagan, K., Kojima, F., Matsuzaki, I., \underline{Hanada, K}., Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y. & Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to: VHL: Allelic Status. *The American Journal of Surgical Pathology*, 10-1097.
 1. Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., \underline{Hanada, K}. & Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. *Surgical Endoscopy*, 1-10.
@@ -104,12 +105,14 @@ fontsize: 12pt
 
 
 ### Talk at International Conference
+1. \underline{Hanada, K}. (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies, *Recent Advances in Meta-Analysis*, 2026, Göttingen.
 1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studies, *The 13th Conference of the IASC-ARS*, Ho Chi Minh City.
 1. \underline{Hanada, K}., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, *Joint Statistical Meeting 2025*, Nashville.
 1. \underline{Hanada, K}., & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small, *The VI-th International Symposium on Biopharmaceutical Statistics*, Kyoto.
 
 
 ### Software
+1. aedl: Almost-Exact Inference for the DerSimonian-Laird Test Statistic. R package. Available at: [https://cran.r-project.org/web/packages/aedl/](https://cran.r-project.org/web/packages/aedl/)
 1. metaGLMM: meta-analysis using generalized linear mixed effects model with aggregate data. R package. Available at: [https://github.com/keisuke-hanada/metaGLMM](https://github.com/keisuke-hanada/metaGLMM)
 1. rmstBayespara: Bayesian Restricted Mean Survival Time for Cluster Effect. R package. Available at: [https://cran.r-project.org/web/packages/rmstBayespara/](https://cran.r-project.org/web/packages/rmstBayespara/)
 1. metaMest: meta-analysis by M-estimator based approach. R package. Available at: [https://github.com/keisuke-hanada/metaMest](https://github.com/keisuke-hanada/metaMest)

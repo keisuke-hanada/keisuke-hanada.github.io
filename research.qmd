@@ -103,7 +103,9 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 
 ### Conference
-[3] <u>Hanada, K.</u>, & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models for few studies, The 13th conference of IASC-ARS, 2025, Ho Chi Minh City. [[oral](files/IASC-ARS2025-oral.pdf)]
+[4] <u>Hanada, K.</u>. (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies, Recent Advances in Meta-Analysis, 2026, Göttingen. [[Site](https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/)]
+
+[3] <u>Hanada, K.</u>, & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models for few studies, The 13th conference of IASC-ARS, 2025, Ho Chi Minh City. [[Oral](files/IASC-ARS2025-oral.pdf)]
 
 [2] <u>Hanada, K.</u>, & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, Joint Statistical Meeting 2025, Nashville. [[Poster]](files/JSM2025-poster.pdf)
 
@@ -130,6 +132,8 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 ### Software
 [R] [rmstBayespara](https://cran.rstudio.com/web/packages/rmstBayespara/) :Bayesian Restricted Mean Survival Time for Cluster Effect.
+
+[R] [aedl](https://cran.rstudio.com/web/packages/aedl/) :Almost-Exact Inference for the DerSimonian-Laird Test Statistic.
 
 
 <br><br>

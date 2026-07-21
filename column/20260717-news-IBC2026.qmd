@@ -4,6 +4,6 @@ date: 2026-07-17
 categories: ["news"]
 ---
 
-韓国 ソウルで開催された[[33rd International Biometric Conference](https://www.ibc2026.org/home)]に参加し，Privacy-Preserving One-Shot Federated Inference for Linear Mixed Modelsについて口頭発表しました．
+韓国 ソウルで開催された[33rd International Biometric Conference](https://www.ibc2026.org/home)に参加し，Privacy-Preserving One-Shot Federated Inference for Linear Mixed Modelsについて口頭発表しました．
 
 

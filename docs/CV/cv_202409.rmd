@@ -72,6 +72,8 @@ fontsize: 12pt
   - Japanese Journal of Statistics and Data Science
   - Journal of the Royal Statistical Society: Series C (Applied Statistics)
   - Journal of the Japan Statistical Society, Japanese Issue
+  - BMC Medical Research Methodology
+  - Research Synthesis Methods
 
 
 <!-- - **Conference Organization**  
@@ -82,7 +84,7 @@ fontsize: 12pt
 ## Research Publications
 
 ### Peer-Reviewed Methodological Articles
-1. \underline{Hanada, K}., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. *Journal of Biopharmaceutical Statistics*. 
+1. \underline{Hanada, K}., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. *Journal of Biopharmaceutical Statistics*, 1-16. 
 1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.  *Statistics in Medicine*, 45(3-5), e70429.
 1. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K}., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *Contemporary Clinical Trials*, 158, 108099.
 1. \underline{Hanada, K}., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. *Contemporary Clinical Trials*, 138, 107440.
@@ -98,13 +100,14 @@ fontsize: 12pt
 
 ### Submitted Manuscripts
 1. \underline{Hanada, K}., Shimokawa, T., & Maruo. K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410, submitted.
-1. Yamada, K., Sunami, H., Takeda, K., \underline{Hanada, K}., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995, submitted.
+1. Kojima, M., Yamada, K., Sunami, H., Takeda, K., & \underline{Hanada, K}. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995, submitted.
 1. Kojima, M., \underline{Hanada, K}., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. *arXiv preprint* arXiv:2511.09890, submitted.
 1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *arXiv preprint* arXiv:2508.08758, submitted.
 1. \underline{Hanada, K}., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. *arXiv preprint* arXiv:2406.06071, submitted.
 
 
 ### Talk at International Conference
+1. \underline{Hanada, K}., Shimokawa, T., & Maruo, K. (2026). Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models, *33rd International Biometric Conference*, Seoul.
 1. \underline{Hanada, K}. (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies, *Recent Advances in Meta-Analysis*, 2026, Göttingen.
 1. \underline{Hanada, K}., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models (GLMMs) for few studies, *The 13th Conference of the IASC-ARS*, Ho Chi Minh City.
 1. \underline{Hanada, K}., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, *Joint Statistical Meeting 2025*, Nashville.

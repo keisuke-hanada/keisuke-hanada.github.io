@@ -1,0 +1,11 @@
+---
+title: "Published a co-authored paper with Kojima on arXiv"
+date: 2026-07-29
+categories: ["news"]
+---
+
+小島先生との共著論文 Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials がarXivにて公開されました．
+
+
+arXiv: [https://arxiv.org/abs/2607.25159](https://arxiv.org/abs/2607.25159)
+

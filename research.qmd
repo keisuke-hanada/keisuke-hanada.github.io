@@ -50,7 +50,17 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Pre-print
 <details>
 <summary>
-[6] <u>Hanada, K</u>., Shimokawa, T., & Maruo. K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
+[7] <u>Hanada, K</u>., & Kojima, M. (2026). Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials. arXiv preprint arXiv:2607.25159.[[link](https://arxiv.org/abs/2607.25159)]
+</summary>
+
+* 単群試験における共変量調整つき症例数設計及び再推定法を提案しました．
+
+</details>
+
+
+<details>
+<summary>
+[6] <u>Hanada, K</u>., Shimokawa, T., & Maruo, K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
 </summary>
 
 * 施設毎の要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案しました．個人情報保護と推定性能のトレードオフについて議論しました．

@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2026-07-21T08:02:46.503Z</lastmod>
+    <lastmod>2026-07-29T03:49:08.639Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2026-07-21T07:56:20.606Z</lastmod>
+    <lastmod>2026-07-29T03:50:45.940Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/background.html</loc>
@@ -75,5 +75,9 @@
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</loc>
     <lastmod>2026-07-21T08:05:01.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260729-news-preprint.html</loc>
+    <lastmod>2026-07-29T03:52:10.959Z</lastmod>
   </url>
 </urlset>

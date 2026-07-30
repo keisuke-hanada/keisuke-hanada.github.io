@@ -1,0 +1,11 @@
+---
+title: "Accepted a co-authored paper with Sugimoto in Biometrics"
+date: 2026-07-30
+categories: ["news"]
+---
+
+杉本先生との共著論文 Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies が Biometrics にアクセプトされました．
+
+arXiv: [https://arxiv.org/abs/2508.08758](https://arxiv.org/abs/2508.08758)
+
+R package: [GitHub](https://github.com/keisuke-hanada/metaGLMM)

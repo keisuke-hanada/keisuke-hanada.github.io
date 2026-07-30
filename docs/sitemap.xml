@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2026-07-29T03:49:08.639Z</lastmod>
+    <lastmod>2026-07-30T00:02:23.308Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2026-07-29T03:50:45.940Z</lastmod>
+    <lastmod>2026-07-29T23:59:01.930Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/background.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/docs/CV/cv_202409.html</loc>
-    <lastmod>2026-07-21T06:56:19.746Z</lastmod>
+    <lastmod>2026-07-29T23:54:46.337Z</lastmod>
   </url>
   <url>
     <loc>https://keisuke-hanada.github.io/colmn.html</loc>
@@ -79,5 +79,9 @@
   <url>
     <loc>https://keisuke-hanada.github.io/column/20260729-news-preprint.html</loc>
     <lastmod>2026-07-29T03:52:10.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</loc>
+    <lastmod>2026-07-30T00:04:44.786Z</lastmod>
   </url>
 </urlset>

@@ -7,6 +7,16 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Accepted Paper
 <details>
 <summary>
+[6] <u>Hanada, K</u>., & Sugimoto, T. (2026+). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. Biometrics, accepted. [[arXiv](https://arxiv.org/abs/2508.08758)]
+</summary>
+
+* 一般化線形混合モデルの下でのメタアナリシスの方法を整備し，特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました．
+
+</details>
+
+
+<details>
+<summary>
 [5] <u>Hanada, K</u>., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. Journal of Biopharmaceutical Statistics. [[link](https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641), [arXiv](https://arxiv.org/abs/2401.02048)]
 </summary>
 
@@ -50,7 +60,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Pre-print
 <details>
 <summary>
-[7] <u>Hanada, K</u>., & Kojima, M. (2026). Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials. arXiv preprint arXiv:2607.25159.[[link](https://arxiv.org/abs/2607.25159)]
+[6] <u>Hanada, K</u>., & Kojima, M. (2026). Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials. arXiv preprint arXiv:2607.25159.[[link](https://arxiv.org/abs/2607.25159)]
 </summary>
 
 * 単群試験における共変量調整つき症例数設計及び再推定法を提案しました．
@@ -60,7 +70,7 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[6] <u>Hanada, K</u>., Shimokawa, T., & Maruo, K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
+[5] <u>Hanada, K</u>., Shimokawa, T., & Maruo, K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
 </summary>
 
 * 施設毎の要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案しました．個人情報保護と推定性能のトレードオフについて議論しました．
@@ -70,25 +80,15 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 
 <details>
 <summary>
-[5] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K</u>., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995.[[link](https://arxiv.org/abs/2602.17995)]
+[4] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K</u>., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995.[[link](https://arxiv.org/abs/2602.17995)]
 </summary>
 </details>
 
 
 <details>
 <summary>
-[4] Kojima, M.,<u>Hanada, K</u>., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. arXiv preprint arXiv:2511.09890.[[link](https://arxiv.org/abs/2511.09890)]
+[3] Kojima, M.,<u>Hanada, K</u>., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. arXiv preprint arXiv:2511.09890.[[link](https://arxiv.org/abs/2511.09890)]
 </summary>
-</details>
-
-
-<details>
-<summary>
-[3] <u>Hanada, K</u>., & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. arXiv preprint arXiv:2508.08758.[[link](https://arxiv.org/abs/2508.08758)]
-</summary>
-
-* 一般化線形混合モデルの下でのメタアナリシスの方法を整備し，特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました．
-
 </details>
 
 

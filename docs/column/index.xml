@@ -11,7 +11,31 @@
 <description>Keisuke Hanada&#39;s Columns (JP)</description>
 <language>ja</language>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Thu, 16 Apr 2026 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 29 Jul 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Accepted a co-authored paper with Sugimoto in Biometrics</title>
+  <link>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</link>
+  <description><![CDATA[ 杉本先生との共著論文 Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies が Biometrics にアクセプトされました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</guid>
+  <pubDate>Wed, 29 Jul 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Kojima on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260729-news-preprint.html</link>
+  <description><![CDATA[ 小島先生との共著論文 Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials がarXivにて公開されました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260729-news-preprint.html</guid>
+  <pubDate>Tue, 28 Jul 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Presented a co-authored paper with Shimokawa, Wan, Hiraishi, Tanioka and Maruo at 33rd International Biometric Conference oral session</title>
+  <link>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</link>
+  <description><![CDATA[ 韓国 ソウルで開催された<a href="https://www.ibc2026.org/home">33rd International Biometric Conference</a>に参加し，Privacy-Preserving One-Shot Federated Inference for Linear Mixed Modelsについて口頭発表しました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</guid>
+  <pubDate>Thu, 16 Jul 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Published a co-authored paper with Kojima on Journal of Biopharmaceutical Statistics</title>
   <link>https://keisuke-hanada.github.io/column/20260417-news-JBS.html</link>

@@ -1,0 +1,9 @@
+---
+title: "Accepted a co-authored paper with Kojima in Biometrical Journal"
+date: 2026-08-06
+categories: ["news"]
+---
+
+小島先生との共著論文 Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect が Biometrical Journal にアクセプトされました．
+
+arXiv: [https://arxiv.org/abs/2503.21091](https://arxiv.org/abs/2503.21091)

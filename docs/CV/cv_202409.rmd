@@ -84,6 +84,7 @@ fontsize: 12pt
 ## Research Publications
 
 ### Peer-Reviewed Methodological Articles
+1. \underline{Hanada, K}., & Kojima, M. (2026+). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect. *Biometrical Journal*, accepted.
 1. \underline{Hanada, K}., & Sugimoto, T. (2026+). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *Biometrics*, accepted.
 1. \underline{Hanada, K}., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. *Journal of Biopharmaceutical Statistics*, 1-16. 
 1. Kojima, M., Orihara, S., \underline{Hanada, K}., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting.  *Statistics in Medicine*, 45(3-5), e70429.

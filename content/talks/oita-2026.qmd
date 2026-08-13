@@ -2,6 +2,8 @@
 id: talk-oita-2026
 record-type: talk
 kind: conference
+scope: domestic
+presentation-type: oral
 status: presented
 date: 2026-02-13
 year: 2026
@@ -11,7 +13,7 @@ title-ja: 線形混合モデルに対する差分プライベートな分散型�
 authors-en: "{self}"
 publication-en: The 73rd Oita Statistical Meeting
 publication-ja: 大分統計談話会 第73回大会
-channels: []
+channels: [research, cv]
 links:
   event: https://www.jp-css.com/danwa/p_73.html
 news:

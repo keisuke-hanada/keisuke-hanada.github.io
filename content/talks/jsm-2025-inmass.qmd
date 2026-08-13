@@ -2,7 +2,10 @@
 id: talk-jsm-2025-inmass
 record-type: talk
 kind: conference
+scope: international
+presentation-type: poster
 status: presented
+researchmap-id: 51141129
 date: 2025-08-10
 year: 2025
 language: en

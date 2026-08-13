@@ -28,13 +28,22 @@ listing:
       section: medical
     sort: "order asc"
     field-required: [title, order]
-  - id: research-conferences
+  - id: research-conferences-international
     contents: generated/listings/research-en.yml
     template: _listings/research.ejs.md
     template-params:
       collapsible: false
     include:
-      section: conference
+      section: conference-international
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-domestic
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-domestic
     sort: "order asc"
     field-required: [title, order]
   - id: research-other
@@ -76,9 +85,14 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ::: {#research-preprints}
 :::
 
-### Conference Presentations
+### Conference Presentations (International)
 
-::: {#research-conferences}
+::: {#research-conferences-international}
+:::
+
+### Conference Presentations (JPN Domestic)
+
+::: {#research-conferences-domestic}
 :::
 
 ### Other Research Outputs

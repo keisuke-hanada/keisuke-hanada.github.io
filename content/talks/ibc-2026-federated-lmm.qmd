@@ -2,7 +2,10 @@
 id: talk-ibc-2026-federated-lmm
 record-type: talk
 kind: conference
+scope: international
+presentation-type: oral
 status: presented
+researchmap-id: 54409819
 date: 2026-07-17
 year: 2026
 language: en

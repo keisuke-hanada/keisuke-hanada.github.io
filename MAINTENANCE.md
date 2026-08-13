@@ -137,6 +137,20 @@ WebとCVへの表示は、研究成果と同じく `channels` で指定します
 - 発表の `kind` は `conference`、ソフトウェアは `software` とします。
 - `links` には `event`、`oral`、`poster`、`cran`、`github` も指定できます。
 
+発表では、発表言語とは別に国内・国際の区分を指定します。
+
+```yaml
+kind: conference
+scope: domestic             # international / domestic
+presentation-type: oral     # oral / poster / symposium / unspecified
+language: ja                # 実際の発表言語
+date: 2026-06-06            # 記事公開日ではなく実際の発表日
+researchmap-id: 53874163    # researchmapとの照合用（存在する場合）
+channels: [research, cv]
+```
+
+`scope: international` は「Conference Presentations (International)」、`scope: domestic` は「Conference Presentations (JPN Domestic)」へ自動分類されます。CVも同じ区分で生成されます。ニュースやColumnの公開日は `news[].date` として、発表日とは分けて管理します。
+
 ## ローカル生成
 
 R、Quarto、LuaLaTeX、Rパッケージ `yaml` が必要です。

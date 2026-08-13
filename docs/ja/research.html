@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-conferences-ja .list');
+    const listingTargetEl = window.document.querySelector('#listing-research-conferences-international-ja .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -168,7 +168,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-conferences-ja'] = new List('listing-research-conferences-ja', options);
+    window['quarto-listings']['listing-research-conferences-international-ja'] = new List('listing-research-conferences-international-ja', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-conferences-domestic-ja .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-title','listing-section','listing-date','listing-order','listing-display-number','listing-citation-html','listing-description-html','listing-links-html',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-id","listing-title","listing-section","listing-date","listing-order","listing-display-number","listing-citation-html","listing-description-html","listing-links-html"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-conferences-domestic-ja'] = new List('listing-research-conferences-domestic-ja', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -355,7 +383,8 @@ window.Quarto = {
   <li><a href="#採択出版済み論文" id="toc-採択出版済み論文" class="nav-link active" data-scroll-target="#採択出版済み論文">採択・出版済み論文</a></li>
   <li><a href="#medical-research臨床研究" id="toc-medical-research臨床研究" class="nav-link" data-scroll-target="#medical-research臨床研究">Medical Research（臨床研究）</a></li>
   <li><a href="#プレプリント投稿中論文" id="toc-プレプリント投稿中論文" class="nav-link" data-scroll-target="#プレプリント投稿中論文">プレプリント・投稿中論文</a></li>
-  <li><a href="#学会発表" id="toc-学会発表" class="nav-link" data-scroll-target="#学会発表">学会発表</a></li>
+  <li><a href="#学会発表国際学会" id="toc-学会発表国際学会" class="nav-link" data-scroll-target="#学会発表国際学会">学会発表（国際学会）</a></li>
+  <li><a href="#学会発表国内学会研究会" id="toc-学会発表国内学会研究会" class="nav-link" data-scroll-target="#学会発表国内学会研究会">学会発表（国内学会・研究会）</a></li>
   <li><a href="#その他の研究成果" id="toc-その他の研究成果" class="nav-link" data-scroll-target="#その他の研究成果">その他の研究成果</a></li>
   <li><a href="#ソフトウェア" id="toc-ソフトウェア" class="nav-link" data-scroll-target="#ソフトウェア">ソフトウェア</a></li>
   </ul>
@@ -460,27 +489,35 @@ We derive an exact distribution for a test statistic in random-effects meta-anal
 <h3 class="anchored" data-anchor-id="medical-research臨床研究">Medical Research（臨床研究）</h3>
 <div id="listing-research-medical-ja" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
-<details class="research-entry" id="clear-cell-papillary-renal" data-index="0" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="pancreatic-stent-outcomes" data-index="0" data-listing-date-sort="1783695600000">
+<summary>
+<span class="listing-title">[6] Tamura, T., Matsumori, T., Nishikawa, Y., Kitagawa, K., Nagai, M., Shimizu, A., Matsumoto, I., Masuda, A., Sakai, A., Yamai, T., Tomokuni, A., Ikeura, T., Ito, T., Doi, T., Miyake, H., Maruyama, H., Ishikawa-Kakiya, Y., Ogura, T., Ueno, S., Shiomi, H., Tsujimoto, A., Shintani, S., Ikeda, T., Uenoyama, Y., Emori, T., Shimatani, M., <u>Hanada, K.</u>, Kitano, M., &amp; Takenaka, M. (2026). Impact of Stent Type on Surgical Outcomes in Pancreatic Cancer Patients Undergoing Preoperative Biliary Drainage. <em>Digestive Endoscopy</em>, 38(7). <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/10.1111/den.70229">論文</a>, <a href="https://doi.org/10.1111/den.70229">DOI</a>]</span></span>
+</summary>
+<div class="research-description">
+This multicentre retrospective study compared metal and plastic stents for preoperative biliary drainage in patients with pancreatic ductal adenocarcinoma receiving neoadjuvant treatment.
+</div>
+</details>
+<details class="research-entry" id="clear-cell-papillary-renal" data-index="1" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[5] Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y., &amp; Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic Status. <em>The American Journal of Surgical Pathology</em>. </span>
 </summary>
 </details>
-<details class="research-entry" id="dnajc7-als" data-index="1" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="dnajc7-als" data-index="2" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[4] Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto, K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis. <em>Neuropathology and Applied Neurobiology</em>, 52(4), e70086. </span>
 </summary>
 </details>
-<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="2" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="3" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[3] Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. <em>Surgical Endoscopy</em>, 1-10. </span>
 </summary>
 </details>
-<details class="research-entry" id="pancreatic-second-line" data-index="3" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="pancreatic-second-line" data-index="4" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[2] Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel for Unresectable Pancreatic Cancer. <em>Journal of Hepato-Biliary-Pancreatic Sciences</em>, 1-11. </span>
 </summary>
 </details>
-<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="4" data-listing-date-sort="1748876400000">
+<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="5" data-listing-date-sort="1748876400000">
 <summary>
 <span class="listing-title">[1] Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. <em>Scientific Reports</em>, 15, 19300. <span class="research-links">[<a href="https://www.nature.com/articles/s41598-025-05053-6">論文</a>]</span></span>
 </summary>
@@ -535,9 +572,9 @@ We formulate RMST under parametric survival models, add random and frailty effec
 </div>
 </div>
 </section>
-<section id="学会発表" class="level3">
-<h3 class="anchored" data-anchor-id="学会発表">学会発表</h3>
-<div id="listing-research-conferences-ja" class="quarto-listing quarto-listing-container-custom">
+<section id="学会発表国際学会" class="level3">
+<h3 class="anchored" data-anchor-id="学会発表国際学会">学会発表（国際学会）</h3>
+<div id="listing-research-conferences-international-ja" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
 <div id="talk-ibc-2026-federated-lmm" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1784214000000">
 <p><span class="listing-title">[5] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models. <em>33rd International Biometric Conference</em>, Seoul. <span class="research-links">[<a href="https://www.ibc2026.org/home">大会サイト</a>]</span></span></p>
@@ -553,6 +590,61 @@ We formulate RMST under parametric survival models, add random and frailty effec
 </div>
 <div id="talk-isbps-2019" class="research-entry research-entry-plain" data-index="4" data-listing-date-sort="1546268400000">
 <p><span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small. <em>The VI-th International Symposium on Biopharmaceutical Statistics</em>, Kyoto. </span></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+一致なし
+</div>
+</div>
+</section>
+<section id="学会発表国内学会研究会" class="level3">
+<h3 class="anchored" data-anchor-id="学会発表国内学会研究会">学会発表（国内学会・研究会）</h3>
+<div id="listing-research-conferences-domestic-ja" class="quarto-listing quarto-listing-container-custom">
+<div class="research-list list">
+<div id="talk-jscs-2026-km-curves" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1780671600000">
+<p><span class="listing-title">[15] <u>花田 圭佑</u> (2026). Kaplan-Meier曲線図の統合による生存時間メタアナリシス. <em>日本計算機統計学会 第40回大会</em>. <span class="research-links">[<a href="https://jscs.jp/conf-taikai40/">大会サイト</a>]</span></span></p>
+</div>
+<div id="talk-biometrics-2026-federated-lmm" class="research-entry research-entry-plain" data-index="1" data-listing-date-sort="1778857200000">
+<p><span class="listing-title">[14] <u>花田 圭佑</u>、下川 敏雄、丸尾 和司 (2026). 線形混合モデルに対するlossless one-shot連合学習とプライバシー保護. <em>2026年度日本計量生物学会年会</em>. <span class="research-links">[<a href="https://biometrics.ywstat.jp/2026/">大会サイト</a>]</span></span></p>
+</div>
+<div id="talk-oita-2026" class="research-entry research-entry-plain" data-index="2" data-listing-date-sort="1770908400000">
+<p><span class="listing-title">[13] <u>Hanada, K.</u> (2026). 線形混合モデルに対する差分プライベートな分散型回帰分析. 大分統計談話会 第73回大会. <span class="research-links">[<a href="https://www.jp-css.com/danwa/p_73.html">大会サイト</a>]</span></span></p>
+</div>
+<div id="talk-kaken-symposium-2025-meta-glmm" class="research-entry research-entry-plain" data-index="3" data-listing-date-sort="1764255600000">
+<p><span class="listing-title">[12] <u>花田 圭佑</u>、杉本 知之 (2025). 少数試験に対する一般化線形ランダム効果メタアナリシスの推測. <em>科研費シンポジウム「データサイエンスの分野横断的基盤と実践の総合的探求」</em>. <span class="research-links">[<a href="../files/kaken-prof-naito.pdf">発表資料</a>]</span></span></p>
+</div>
+<div id="talk-jjss-2025-meta-glmm" class="research-entry research-entry-plain" data-index="4" data-listing-date-sort="1757343600000">
+<p><span class="listing-title">[11] <u>花田 圭佑</u> (2025). 試験数が少ない場合の一般化線形ランダム効果メタアナリシス. <em>2025年度統計関連学会連合大会</em>. </span></p>
+</div>
+<div id="talk-biometrics-2025-meta-analysis" class="research-entry research-entry-plain" data-index="5" data-listing-date-sort="1747234800000">
+<p><span class="listing-title">[10] <u>花田 圭佑</u>、小島 将裕 (2025). 臨床試験における治療効果の推定のためのメタアナリシスの活用. <em>2025年度日本計量生物学会年会</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2024-meta-joint-distribution" class="research-entry research-entry-plain" data-index="6" data-listing-date-sort="1733238000000">
+<p><span class="listing-title">[9] <u>花田 圭佑</u>、杉本 知之 (2024). メタアナリシスでの平均治療効果と試験間分散の同時分布とその活用. <em>第7回 かごしまデータ科学シンポジウム</em>. </span></p>
+</div>
+<div id="talk-jjss-2024-random-effect-rmst" class="research-entry research-entry-plain" data-index="7" data-listing-date-sort="1725375600000">
+<p><span class="listing-title">[8] <u>花田 圭佑</u>、小島 将裕 (2024). Random Effect Restricted Mean Survival Time Model. <em>2024年度統計関連学会連合大会</em>. </span></p>
+</div>
+<div id="talk-jscs-2024-meta-variance" class="research-entry research-entry-plain" data-index="8" data-listing-date-sort="1716476400000">
+<p><span class="listing-title">[7] <u>花田 圭佑</u>、杉本 知之 (2024). 少数試験メタアナリシスでの分散推定. <em>日本計算機統計学会第38回大会</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2023-ipd-meta" class="research-entry research-entry-plain" data-index="9" data-listing-date-sort="1702047600000">
+<p><span class="listing-title">[6] <u>花田 圭佑</u>、杉本 知之 (2023). イベント時間アウトカムの個人データ復元とメタアナリシス. <em>第5回かごしまデータ科学シンポジウム</em>. </span></p>
+</div>
+<div id="talk-jjss-2023-rmst-covariate" class="research-entry research-entry-plain" data-index="10" data-listing-date-sort="1694012400000">
+<p><span class="listing-title">[5] <u>花田 圭佑</u>、守屋 順之、小島 将裕 (2023). 制限付き平均生存時間（RMST）の共変量調整法の比較. <em>2023年度統計関連学会連合大会</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2022-binary-meta" class="research-entry research-entry-plain" data-index="11" data-listing-date-sort="1670598000000">
+<p><span class="listing-title">[4] <u>花田 圭佑</u> (2022). イベント数が少ないもとでの二値メタアナリシスの推測. <em>第3回かごしまデータ科学シンポジウム</em>. </span></p>
+</div>
+<div id="talk-jscs-2019-meta-nonasymptotic" class="research-entry research-entry-plain" data-index="12" data-listing-date-sort="1575039600000">
+<p><span class="listing-title">[3] <u>花田 圭佑</u>、杉本 知之 (2019). 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質. <em>日本計算機統計学会第33回シンポジウム</em>. </span></p>
+</div>
+<div id="talk-jscs-2018-dl-stratified" class="research-entry research-entry-plain" data-index="13" data-listing-date-sort="1541775600000">
+<p><span class="listing-title">[2] <u>花田 圭佑</u>、杉本 知之 (2018). ランダム効果DL層別解析における標本分布. <em>日本計算機統計学会第32回シンポジウム</em>. </span></p>
+</div>
+<div id="talk-oita-2018-random-effects" class="research-entry research-entry-plain" data-index="14" data-listing-date-sort="1518015600000">
+<p><span class="listing-title">[1] <u>花田 圭佑</u>、杉本 知之 (2018). 正規母集団におけるランダム効果層別解析における標本分布. <em>大分統計談話会第57回大会</em>. </span></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">

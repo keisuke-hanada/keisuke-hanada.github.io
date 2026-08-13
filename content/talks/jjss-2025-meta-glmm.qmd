@@ -1,0 +1,19 @@
+---
+id: talk-jjss-2025-meta-glmm
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 51141277
+date: 2025-09-09
+year: 2025
+language: ja
+title-en: Generalized Linear Random-Effects Meta-Analysis with Few Studies
+title-ja: 試験数が少ない場合の一般化線形ランダム効果メタアナリシス
+authors-en: "{self}"
+authors-ja: "{self-ja}"
+publication-en: "*2025 Japanese Joint Statistical Meeting*"
+publication-ja: "*2025年度統計関連学会連合大会*"
+channels: [research, cv]
+---

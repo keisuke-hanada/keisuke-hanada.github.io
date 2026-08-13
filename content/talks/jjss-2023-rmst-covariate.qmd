@@ -1,0 +1,19 @@
+---
+id: talk-jjss-2023-rmst-covariate
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: unspecified
+status: presented
+researchmap-id: 46015457
+date: 2023-09-07
+year: 2023
+language: ja
+title-en: Comparison of Covariate Adjustment Methods for Restricted Mean Survival Time (RMST)
+title-ja: 制限付き平均生存時間（RMST）の共変量調整法の比較
+authors-en: "{self}, Moriya, J., & Kojima, M."
+authors-ja: "{self-ja}、守屋 順之、小島 将裕"
+publication-en: "*2023 Japanese Joint Statistical Meeting*"
+publication-ja: "*2023年度統計関連学会連合大会*"
+channels: [research, cv]
+---

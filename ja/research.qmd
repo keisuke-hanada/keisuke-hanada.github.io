@@ -29,13 +29,22 @@ listing:
       section: medical
     sort: "order asc"
     field-required: [title, order]
-  - id: research-conferences-ja
+  - id: research-conferences-international-ja
     contents: ../generated/listings/research-ja.yml
     template: ../_listings/research.ejs.md
     template-params:
       collapsible: false
     include:
-      section: conference
+      section: conference-international
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-domestic-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-domestic
     sort: "order asc"
     field-required: [title, order]
   - id: research-other-ja
@@ -77,9 +86,14 @@ listing:
 ::: {#research-preprints-ja}
 :::
 
-### 学会発表
+### 学会発表（国際学会）
 
-::: {#research-conferences-ja}
+::: {#research-conferences-international-ja}
+:::
+
+### 学会発表（国内学会・研究会）
+
+::: {#research-conferences-domestic-ja}
 :::
 
 ### その他の研究成果

@@ -1,0 +1,19 @@
+---
+id: talk-oita-2018-random-effects
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 46014991
+date: 2018-02-08
+year: 2018
+language: ja
+title-en: Sampling Distribution in Random-Effects Stratified Analysis for Normal Populations
+title-ja: 正規母集団におけるランダム効果層別解析における標本分布
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*57th Oita Statistical Meeting*"
+publication-ja: "*大分統計談話会第57回大会*"
+channels: [research, cv]
+---

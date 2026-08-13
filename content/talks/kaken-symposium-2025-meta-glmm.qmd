@@ -1,0 +1,21 @@
+---
+id: talk-kaken-symposium-2025-meta-glmm
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 51811583
+date: 2025-11-28
+year: 2025
+language: ja
+title-en: Inference for Generalized Linear Random-Effects Meta-Analysis with Few Studies
+title-ja: 少数試験に対する一般化線形ランダム効果メタアナリシスの推測
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*KAKENHI Symposium: Comprehensive Exploration of Cross-Disciplinary Foundations and Practices in Data Science*"
+publication-ja: "*科研費シンポジウム「データサイエンスの分野横断的基盤と実践の総合的探求」*"
+channels: [research, cv]
+links:
+  oral: /files/kaken-prof-naito.pdf
+---

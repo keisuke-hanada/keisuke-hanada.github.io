@@ -1,0 +1,19 @@
+---
+id: talk-kagoshima-2022-binary-meta
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 46015160
+date: 2022-12-10
+year: 2022
+language: ja
+title-en: Inference for Binary Meta-Analysis with Few Events
+title-ja: イベント数が少ないもとでの二値メタアナリシスの推測
+authors-en: "{self}"
+authors-ja: "{self-ja}"
+publication-en: "*3rd Kagoshima Data Science Symposium*"
+publication-ja: "*第3回かごしまデータ科学シンポジウム*"
+channels: [research, cv]
+---

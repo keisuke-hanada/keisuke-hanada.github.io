@@ -1,0 +1,19 @@
+---
+id: talk-jscs-2018-dl-stratified
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 46015012
+date: 2018-11-10
+year: 2018
+language: ja
+title-en: Sampling Distribution in Random-Effects DerSimonian-Laird Stratified Analysis
+title-ja: ランダム効果DL層別解析における標本分布
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*32nd Symposium of the Japanese Society of Computational Statistics*"
+publication-ja: "*日本計算機統計学会第32回シンポジウム*"
+channels: [research, cv]
+---

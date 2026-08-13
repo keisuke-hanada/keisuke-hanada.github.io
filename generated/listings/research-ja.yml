@@ -104,12 +104,31 @@
     meta-analysis and study its use for testing and interval estimation.
   links-html: <span class="research-links">[<a href="https://link.springer.com/article/10.1007/s10463-022-00844-4">論文</a>,
     <a href="https://doi.org/10.1007/s10463-022-00844-4">DOI</a>]</span>
+- id: pancreatic-stent-outcomes
+  title: Impact of Stent Type on Surgical Outcomes in Pancreatic Cancer Patients Undergoing
+    Preoperative Biliary Drainage
+  section: medical
+  date: '2026-07-11'
+  order: 1
+  display-number: 6
+  citation-html: Tamura, T., Matsumori, T., Nishikawa, Y., Kitagawa, K., Nagai, M.,
+    Shimizu, A., Matsumoto, I., Masuda, A., Sakai, A., Yamai, T., Tomokuni, A., Ikeura,
+    T., Ito, T., Doi, T., Miyake, H., Maruyama, H., Ishikawa-Kakiya, Y., Ogura, T.,
+    Ueno, S., Shiomi, H., Tsujimoto, A., Shintani, S., Ikeda, T., Uenoyama, Y., Emori,
+    T., Shimatani, M., <u>Hanada, K.</u>, Kitano, M., &amp; Takenaka, M. (2026). Impact
+    of Stent Type on Surgical Outcomes in Pancreatic Cancer Patients Undergoing Preoperative
+    Biliary Drainage. <em>Digestive Endoscopy</em>, 38(7).
+  description-html: This multicentre retrospective study compared metal and plastic
+    stents for preoperative biliary drainage in patients with pancreatic ductal adenocarcinoma
+    receiving neoadjuvant treatment.
+  links-html: <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/10.1111/den.70229">論文</a>,
+    <a href="https://doi.org/10.1111/den.70229">DOI</a>]</span>
 - id: clear-cell-papillary-renal
   title: 'Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic
     and Immunohistochemical Profiles in Relation to VHL Allelic Status'
   section: medical
   date: '2026-01-01'
-  order: 1
+  order: 2
   display-number: 5
   citation-html: 'Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile,
     F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto,
@@ -123,7 +142,7 @@
     Mutation in Amyotrophic Lateral Sclerosis
   section: medical
   date: '2026-01-01'
-  order: 2
+  order: 3
   display-number: 4
   citation-html: Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto,
     K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular
@@ -137,7 +156,7 @@
     score-matched analysis'
   section: medical
   date: '2026-01-01'
-  order: 3
+  order: 4
   display-number: 3
   citation-html: 'Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai,
     T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative
@@ -152,7 +171,7 @@
     Nab-Paclitaxel for Unresectable Pancreatic Cancer
   section: medical
   date: '2026-01-01'
-  order: 4
+  order: 5
   display-number: 2
   citation-html: Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto,
     T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison
@@ -167,7 +186,7 @@
     review and meta-analysis'
   section: medical
   date: '2025-06-03'
-  order: 5
+  order: 6
   display-number: 1
   citation-html: 'Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential
     surrogate endpoint for B-cell hematologic malignancy: A systematic review and
@@ -238,7 +257,7 @@
   links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2406.06071">arXiv</a>]</span>
 - id: talk-ibc-2026-federated-lmm
   title: Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models
-  section: conference
+  section: conference-international
   date: '2026-07-17'
   order: 1
   display-number: 5
@@ -250,7 +269,7 @@
 - id: talk-meta-analysis-symposium-2026
   title: 'Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected
     approach for few studies'
-  section: conference
+  section: conference-international
   date: '2026-06-01'
   order: 2
   display-number: 4
@@ -262,7 +281,7 @@
 - id: talk-iasc-ars-2025
   title: Random-effects meta-analysis via generalized linear mixed models for few
     studies
-  section: conference
+  section: conference-international
   date: '2025-12-08'
   order: 3
   display-number: 3
@@ -274,7 +293,7 @@
 - id: talk-jsm-2025-inmass
   title: Integrate Meta-analysis into Specific Study for Estimating Conditional Average
     Treatment Effect
-  section: conference
+  section: conference-international
   date: '2025-08-10'
   order: 4
   display-number: 2
@@ -286,13 +305,152 @@
 - id: talk-isbps-2019
   title: Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis
     When the Number of Studies Is Small
-  section: conference
+  section: conference-international
   date: '2019-01-01'
   order: 5
   display-number: 1
   citation-html: <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties
     and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small.
     <em>The VI-th International Symposium on Biopharmaceutical Statistics</em>, Kyoto.
+  description-html: ''
+  links-html: ''
+- id: talk-jscs-2026-km-curves
+  title: Kaplan-Meier曲線図の統合による生存時間メタアナリシス
+  section: conference-domestic
+  date: '2026-06-06'
+  order: 1
+  display-number: 15
+  citation-html: <u>花田 圭佑</u> (2026). Kaplan-Meier曲線図の統合による生存時間メタアナリシス. <em>日本計算機統計学会
+    第40回大会</em>.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://jscs.jp/conf-taikai40/">大会サイト</a>]</span>
+- id: talk-biometrics-2026-federated-lmm
+  title: 線形混合モデルに対するlossless one-shot連合学習とプライバシー保護
+  section: conference-domestic
+  date: '2026-05-16'
+  order: 2
+  display-number: 14
+  citation-html: <u>花田 圭佑</u>、下川 敏雄、丸尾 和司 (2026). 線形混合モデルに対するlossless one-shot連合学習とプライバシー保護.
+    <em>2026年度日本計量生物学会年会</em>.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://biometrics.ywstat.jp/2026/">大会サイト</a>]</span>
+- id: talk-oita-2026
+  title: 線形混合モデルに対する差分プライベートな分散型回帰分析
+  section: conference-domestic
+  date: '2026-02-13'
+  order: 3
+  display-number: 13
+  citation-html: <u>Hanada, K.</u> (2026). 線形混合モデルに対する差分プライベートな分散型回帰分析. 大分統計談話会 第73回大会.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://www.jp-css.com/danwa/p_73.html">大会サイト</a>]</span>
+- id: talk-kaken-symposium-2025-meta-glmm
+  title: 少数試験に対する一般化線形ランダム効果メタアナリシスの推測
+  section: conference-domestic
+  date: '2025-11-28'
+  order: 4
+  display-number: 12
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2025). 少数試験に対する一般化線形ランダム効果メタアナリシスの推測. <em>科研費シンポジウム「データサイエンスの分野横断的基盤と実践の総合的探求」</em>.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="/files/kaken-prof-naito.pdf">発表資料</a>]</span>
+- id: talk-jjss-2025-meta-glmm
+  title: 試験数が少ない場合の一般化線形ランダム効果メタアナリシス
+  section: conference-domestic
+  date: '2025-09-09'
+  order: 5
+  display-number: 11
+  citation-html: <u>花田 圭佑</u> (2025). 試験数が少ない場合の一般化線形ランダム効果メタアナリシス. <em>2025年度統計関連学会連合大会</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-biometrics-2025-meta-analysis
+  title: 臨床試験における治療効果の推定のためのメタアナリシスの活用
+  section: conference-domestic
+  date: '2025-05-15'
+  order: 6
+  display-number: 10
+  citation-html: <u>花田 圭佑</u>、小島 将裕 (2025). 臨床試験における治療効果の推定のためのメタアナリシスの活用. <em>2025年度日本計量生物学会年会</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-kagoshima-2024-meta-joint-distribution
+  title: メタアナリシスでの平均治療効果と試験間分散の同時分布とその活用
+  section: conference-domestic
+  date: '2024-12-04'
+  order: 7
+  display-number: 9
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2024). メタアナリシスでの平均治療効果と試験間分散の同時分布とその活用. <em>第7回
+    かごしまデータ科学シンポジウム</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-jjss-2024-random-effect-rmst
+  title: Random Effect Restricted Mean Survival Time Model
+  section: conference-domestic
+  date: '2024-09-04'
+  order: 8
+  display-number: 8
+  citation-html: <u>花田 圭佑</u>、小島 将裕 (2024). Random Effect Restricted Mean Survival
+    Time Model. <em>2024年度統計関連学会連合大会</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-jscs-2024-meta-variance
+  title: 少数試験メタアナリシスでの分散推定
+  section: conference-domestic
+  date: '2024-05-24'
+  order: 9
+  display-number: 7
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2024). 少数試験メタアナリシスでの分散推定. <em>日本計算機統計学会第38回大会</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-kagoshima-2023-ipd-meta
+  title: イベント時間アウトカムの個人データ復元とメタアナリシス
+  section: conference-domestic
+  date: '2023-12-09'
+  order: 10
+  display-number: 6
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2023). イベント時間アウトカムの個人データ復元とメタアナリシス. <em>第5回かごしまデータ科学シンポジウム</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-jjss-2023-rmst-covariate
+  title: 制限付き平均生存時間（RMST）の共変量調整法の比較
+  section: conference-domestic
+  date: '2023-09-07'
+  order: 11
+  display-number: 5
+  citation-html: <u>花田 圭佑</u>、守屋 順之、小島 将裕 (2023). 制限付き平均生存時間（RMST）の共変量調整法の比較. <em>2023年度統計関連学会連合大会</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-kagoshima-2022-binary-meta
+  title: イベント数が少ないもとでの二値メタアナリシスの推測
+  section: conference-domestic
+  date: '2022-12-10'
+  order: 12
+  display-number: 4
+  citation-html: <u>花田 圭佑</u> (2022). イベント数が少ないもとでの二値メタアナリシスの推測. <em>第3回かごしまデータ科学シンポジウム</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-jscs-2019-meta-nonasymptotic
+  title: 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質
+  section: conference-domestic
+  date: '2019-11-30'
+  order: 13
+  display-number: 3
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2019). 試験数が少ない場合のランダム効果メタアナリシスの非漸近的性質. <em>日本計算機統計学会第33回シンポジウム</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-jscs-2018-dl-stratified
+  title: ランダム効果DL層別解析における標本分布
+  section: conference-domestic
+  date: '2018-11-10'
+  order: 14
+  display-number: 2
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2018). ランダム効果DL層別解析における標本分布. <em>日本計算機統計学会第32回シンポジウム</em>.
+  description-html: ''
+  links-html: ''
+- id: talk-oita-2018-random-effects
+  title: 正規母集団におけるランダム効果層別解析における標本分布
+  section: conference-domestic
+  date: '2018-02-08'
+  order: 15
+  display-number: 1
+  citation-html: <u>花田 圭佑</u>、杉本 知之 (2018). 正規母集団におけるランダム効果層別解析における標本分布. <em>大分統計談話会第57回大会</em>.
   description-html: ''
   links-html: ''
 - id: phd-thesis

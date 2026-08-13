@@ -1,0 +1,19 @@
+---
+id: talk-jjss-2024-random-effect-rmst
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 47683206
+date: 2024-09-04
+year: 2024
+language: ja
+title-en: Random Effect Restricted Mean Survival Time Model
+title-ja: Random Effect Restricted Mean Survival Time Model
+authors-en: "{self}, & Kojima, M."
+authors-ja: "{self-ja}、小島 将裕"
+publication-en: "*2024 Japanese Joint Statistical Meeting*"
+publication-ja: "*2024年度統計関連学会連合大会*"
+channels: [research, cv]
+---

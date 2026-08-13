@@ -1,0 +1,19 @@
+---
+id: talk-kagoshima-2024-meta-joint-distribution
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 51140908
+date: 2024-12-04
+year: 2024
+language: ja
+title-en: Joint Distribution of the Average Treatment Effect and Between-Study Variance in Meta-Analysis and Its Application
+title-ja: メタアナリシスでの平均治療効果と試験間分散の同時分布とその活用
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*7th Kagoshima Data Science Symposium*"
+publication-ja: "*第7回 かごしまデータ科学シンポジウム*"
+channels: [research, cv]
+---

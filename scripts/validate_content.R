@@ -31,11 +31,14 @@ assert(identical(news_dates, sort(news_dates, decreasing = TRUE)), "News is not 
 
 research_en <- yaml.load_file(file.path(project_dir, "generated/listings/research-en.yml"))
 research_ja <- yaml.load_file(file.path(project_dir, "generated/listings/research-ja.yml"))
-expected_counts <- c(publication = 8L, medical = 5L, preprint = 5L, conference = 5L, other = 1L, software = 2L)
+expected_counts <- c(publication = 8L, medical = 6L, preprint = 5L, `conference-international` = 5L, `conference-domestic` = 15L, other = 1L, software = 2L)
 actual_counts <- table(vapply(research_en, function(x) as.character(x$section), character(1)))
 for (section in names(expected_counts)) {
   assert(as.integer(actual_counts[[section]]) == expected_counts[[section]], "Unexpected %s count", section)
 }
+domestic <- Filter(function(x) as.character(x$section) == "conference-domestic", research_en)
+domestic_dates <- vapply(domestic, function(x) as.character(x$date), character(1))
+assert(identical(domestic_dates, sort(domestic_dates, decreasing = TRUE)), "Domestic presentations are not sorted date-descending")
 
 home_en <- read_text("docs/index.html")
 home_ja <- read_text("docs/ja/index.html")
@@ -52,9 +55,14 @@ assert(count_fixed(home_ja, 'class="news-entry"') == 10L, "Japanese Home must sh
 assert(grepl('<div class="news-entry"[^>]*>[[:space:]]*<time class="listing-date"', home_en, perl = TRUE), "English news date and title must be direct grid children")
 assert(grepl('<div class="news-entry"[^>]*>[[:space:]]*<time class="listing-date"', home_ja, perl = TRUE), "Japanese news date and title must be direct grid children")
 assert(grepl("2506.15913", research_html_en, fixed = TRUE), "Correct Statistics in Medicine arXiv link is missing")
+assert(grepl("10.1111/den.70229", research_html_en, fixed = TRUE), "Specified Digestive Endoscopy paper DOI is missing")
+assert(grepl("Impact of Stent Type on Surgical Outcomes", research_html_ja, fixed = TRUE), "English medical-paper title is missing from Japanese Research")
 assert(grepl("\u63a1\u629e\u30fb\u51fa\u7248\u6e08\u307f\u8ad6\u6587", research_html_ja, fixed = TRUE), "Japanese Research heading is missing")
 assert(grepl("Medical Research", research_html_en, fixed = TRUE), "English Medical Research heading is missing")
 assert(grepl("Medical Research", research_html_ja, fixed = TRUE), "Japanese Medical Research heading is missing")
+assert(grepl("Conference Presentations (JPN Domestic)", research_html_en, fixed = TRUE), "English domestic-presentation heading is missing")
+assert(grepl("\u5b66\u4f1a\u767a\u8868\uff08\u56fd\u5185\u5b66\u4f1a\u30fb\u7814\u7a76\u4f1a\uff09", research_html_ja, fixed = TRUE), "Japanese domestic-presentation heading is missing")
+assert(grepl("Kaplan-Meier\u66f2\u7dda\u56f3\u306e\u7d71\u5408\u306b\u3088\u308b\u751f\u5b58\u6642\u9593\u30e1\u30bf\u30a2\u30ca\u30ea\u30b7\u30b9", research_html_ja, fixed = TRUE), "Domestic presentation is missing from Japanese Research")
 assert(grepl("Clear Cell Papillary Renal Cell Tumor Revisited", research_html_ja, fixed = TRUE), "English medical-paper title must remain English on Japanese Research")
 assert(!grepl("\u6de1\u660e\u7d30\u80de\u4e73\u982d\u72b6\u814e\u7d30\u80de\u816b\u306e\u518d\u691c\u8a0e", research_html_ja, fixed = TRUE), "English medical-paper title was translated on Japanese Research")
 assert(grepl("\u30a4\u30d9\u30f3\u30c8\u6642\u9593\u30a2\u30a6\u30c8\u30ab\u30e0\u306b\u5bfe\u3059\u308b\u500b\u4eba\u30c7\u30fc\u30bf\u5fa9\u5143", research_html_ja, fixed = TRUE), "Japanese-language paper title is missing from Japanese Research")
@@ -81,7 +89,7 @@ signature <- rawToChar(readBin(pdf_path, what = "raw", n = 5L))
 assert(signature == "%PDF-", "Generated CV is not a PDF")
 
 cv <- read_text("CV/cv.qmd")
-for (heading in c("Working Experience", "Education", "Grants and Funding", "Awards", "Teaching Experience", "Academic Service", "Peer-Reviewed Methodological Articles", "Clinical Research", "Submitted Manuscripts / Preprints", "Talks at International Conferences", "Software")) {
+for (heading in c("Working Experience", "Education", "Grants and Funding", "Awards", "Teaching Experience", "Academic Service", "Peer-Reviewed Methodological Articles", "Clinical Research", "Submitted Manuscripts / Preprints", "Conference Presentations (International)", "Conference Presentations (JPN Domestic)", "Software")) {
   assert(grepl(heading, cv, fixed = TRUE), "CV section missing: %s", heading)
 }
 

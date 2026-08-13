@@ -2,7 +2,10 @@
 id: talk-isbps-2019
 record-type: talk
 kind: conference
+scope: international
+presentation-type: poster
 status: presented
+researchmap-id: 46014615
 date: 2019-01-01
 year: 2019
 language: en

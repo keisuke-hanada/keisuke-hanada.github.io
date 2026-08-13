@@ -2,7 +2,10 @@
 id: talk-iasc-ars-2025
 record-type: talk
 kind: conference
+scope: international
+presentation-type: oral
 status: presented
+researchmap-id: 51811559
 date: 2025-12-08
 year: 2025
 language: en

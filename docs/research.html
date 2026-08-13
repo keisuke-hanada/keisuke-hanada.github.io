@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-conferences .list');
+    const listingTargetEl = window.document.querySelector('#listing-research-conferences-international .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -168,7 +168,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-conferences'] = new List('listing-research-conferences', options);
+    window['quarto-listings']['listing-research-conferences-international'] = new List('listing-research-conferences-international', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-conferences-domestic .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-title','listing-section','listing-date','listing-order','listing-display-number','listing-citation-html','listing-description-html','listing-links-html',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-id","listing-title","listing-section","listing-date","listing-order","listing-display-number","listing-citation-html","listing-description-html","listing-links-html"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-conferences-domestic'] = new List('listing-research-conferences-domestic', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -355,7 +383,8 @@ window.Quarto = {
   <li><a href="#accepted-published-papers" id="toc-accepted-published-papers" class="nav-link active" data-scroll-target="#accepted-published-papers">Accepted / Published Papers</a></li>
   <li><a href="#medical-research" id="toc-medical-research" class="nav-link" data-scroll-target="#medical-research">Medical Research</a></li>
   <li><a href="#preprints-submitted-manuscripts" id="toc-preprints-submitted-manuscripts" class="nav-link" data-scroll-target="#preprints-submitted-manuscripts">Preprints / Submitted Manuscripts</a></li>
-  <li><a href="#conference-presentations" id="toc-conference-presentations" class="nav-link" data-scroll-target="#conference-presentations">Conference Presentations</a></li>
+  <li><a href="#conference-presentations-international" id="toc-conference-presentations-international" class="nav-link" data-scroll-target="#conference-presentations-international">Conference Presentations (International)</a></li>
+  <li><a href="#conference-presentations-jpn-domestic" id="toc-conference-presentations-jpn-domestic" class="nav-link" data-scroll-target="#conference-presentations-jpn-domestic">Conference Presentations (JPN Domestic)</a></li>
   <li><a href="#other-research-outputs" id="toc-other-research-outputs" class="nav-link" data-scroll-target="#other-research-outputs">Other Research Outputs</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
   </ul>
@@ -460,27 +489,35 @@ No matching items
 <h3 class="anchored" data-anchor-id="medical-research">Medical Research</h3>
 <div id="listing-research-medical" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
-<details class="research-entry" id="clear-cell-papillary-renal" data-index="0" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="pancreatic-stent-outcomes" data-index="0" data-listing-date-sort="1783695600000">
+<summary>
+<span class="listing-title">[6] Tamura, T., Matsumori, T., Nishikawa, Y., Kitagawa, K., Nagai, M., Shimizu, A., Matsumoto, I., Masuda, A., Sakai, A., Yamai, T., Tomokuni, A., Ikeura, T., Ito, T., Doi, T., Miyake, H., Maruyama, H., Ishikawa-Kakiya, Y., Ogura, T., Ueno, S., Shiomi, H., Tsujimoto, A., Shintani, S., Ikeda, T., Uenoyama, Y., Emori, T., Shimatani, M., <u>Hanada, K.</u>, Kitano, M., &amp; Takenaka, M. (2026). Impact of Stent Type on Surgical Outcomes in Pancreatic Cancer Patients Undergoing Preoperative Biliary Drainage. <em>Digestive Endoscopy</em>, 38(7). <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/10.1111/den.70229">paper</a>, <a href="https://doi.org/10.1111/den.70229">DOI</a>]</span></span>
+</summary>
+<div class="research-description">
+This multicentre retrospective study compared metal and plastic stents for preoperative biliary drainage in patients with pancreatic ductal adenocarcinoma receiving neoadjuvant treatment.
+</div>
+</details>
+<details class="research-entry" id="clear-cell-papillary-renal" data-index="1" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[5] Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y., &amp; Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic Status. <em>The American Journal of Surgical Pathology</em>. </span>
 </summary>
 </details>
-<details class="research-entry" id="dnajc7-als" data-index="1" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="dnajc7-als" data-index="2" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[4] Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto, K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis. <em>Neuropathology and Applied Neurobiology</em>, 52(4), e70086. </span>
 </summary>
 </details>
-<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="2" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="3" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[3] Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. <em>Surgical Endoscopy</em>, 1-10. </span>
 </summary>
 </details>
-<details class="research-entry" id="pancreatic-second-line" data-index="3" data-listing-date-sort="1767193200000">
+<details class="research-entry" id="pancreatic-second-line" data-index="4" data-listing-date-sort="1767193200000">
 <summary>
 <span class="listing-title">[2] Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel for Unresectable Pancreatic Cancer. <em>Journal of Hepato-Biliary-Pancreatic Sciences</em>, 1-11. </span>
 </summary>
 </details>
-<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="4" data-listing-date-sort="1748876400000">
+<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="5" data-listing-date-sort="1748876400000">
 <summary>
 <span class="listing-title">[1] Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. <em>Scientific Reports</em>, 15, 19300. <span class="research-links">[<a href="https://www.nature.com/articles/s41598-025-05053-6">paper</a>]</span></span>
 </summary>
@@ -535,9 +572,9 @@ No matching items
 </div>
 </div>
 </section>
-<section id="conference-presentations" class="level3">
-<h3 class="anchored" data-anchor-id="conference-presentations">Conference Presentations</h3>
-<div id="listing-research-conferences" class="quarto-listing quarto-listing-container-custom">
+<section id="conference-presentations-international" class="level3">
+<h3 class="anchored" data-anchor-id="conference-presentations-international">Conference Presentations (International)</h3>
+<div id="listing-research-conferences-international" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
 <div id="talk-ibc-2026-federated-lmm" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1784214000000">
 <p><span class="listing-title">[5] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models. <em>33rd International Biometric Conference</em>, Seoul. <span class="research-links">[<a href="https://www.ibc2026.org/home">event</a>]</span></span></p>
@@ -553,6 +590,61 @@ No matching items
 </div>
 <div id="talk-isbps-2019" class="research-entry research-entry-plain" data-index="4" data-listing-date-sort="1546268400000">
 <p><span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small. <em>The VI-th International Symposium on Biopharmaceutical Statistics</em>, Kyoto. </span></p>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="conference-presentations-jpn-domestic" class="level3">
+<h3 class="anchored" data-anchor-id="conference-presentations-jpn-domestic">Conference Presentations (JPN Domestic)</h3>
+<div id="listing-research-conferences-domestic" class="quarto-listing quarto-listing-container-custom">
+<div class="research-list list">
+<div id="talk-jscs-2026-km-curves" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1780671600000">
+<p><span class="listing-title">[15] <u>Hanada, K.</u> (2026). Survival Meta-Analysis by Integrating Kaplan-Meier Curves. <em>40th Annual Meeting of the Japanese Society of Computational Statistics</em>. <span class="research-links">[<a href="https://jscs.jp/conf-taikai40/">event</a>]</span></span></p>
+</div>
+<div id="talk-biometrics-2026-federated-lmm" class="research-entry research-entry-plain" data-index="1" data-listing-date-sort="1778857200000">
+<p><span class="listing-title">[14] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Lossless One-Shot Federated Learning and Privacy Protection for Linear Mixed Models. <em>2026 Annual Meeting of the Biometric Society of Japan</em>. <span class="research-links">[<a href="https://biometrics.ywstat.jp/2026/">event</a>]</span></span></p>
+</div>
+<div id="talk-oita-2026" class="research-entry research-entry-plain" data-index="2" data-listing-date-sort="1770908400000">
+<p><span class="listing-title">[13] <u>Hanada, K.</u> (2026). Differentially private distributed regression analysis for linear mixed models. The 73rd Oita Statistical Meeting. <span class="research-links">[<a href="https://www.jp-css.com/danwa/p_73.html">event</a>]</span></span></p>
+</div>
+<div id="talk-kaken-symposium-2025-meta-glmm" class="research-entry research-entry-plain" data-index="3" data-listing-date-sort="1764255600000">
+<p><span class="listing-title">[12] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2025). Inference for Generalized Linear Random-Effects Meta-Analysis with Few Studies. <em>KAKENHI Symposium: Comprehensive Exploration of Cross-Disciplinary Foundations and Practices in Data Science</em>. <span class="research-links">[<a href="./files/kaken-prof-naito.pdf">oral</a>]</span></span></p>
+</div>
+<div id="talk-jjss-2025-meta-glmm" class="research-entry research-entry-plain" data-index="4" data-listing-date-sort="1757343600000">
+<p><span class="listing-title">[11] <u>Hanada, K.</u> (2025). Generalized Linear Random-Effects Meta-Analysis with Few Studies. <em>2025 Japanese Joint Statistical Meeting</em>. </span></p>
+</div>
+<div id="talk-biometrics-2025-meta-analysis" class="research-entry research-entry-plain" data-index="5" data-listing-date-sort="1747234800000">
+<p><span class="listing-title">[10] <u>Hanada, K.</u>, &amp; Kojima, M. (2025). Use of Meta-Analysis for Treatment Effect Estimation in Clinical Trials. <em>2025 Annual Meeting of the Biometric Society of Japan</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2024-meta-joint-distribution" class="research-entry research-entry-plain" data-index="6" data-listing-date-sort="1733238000000">
+<p><span class="listing-title">[9] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2024). Joint Distribution of the Average Treatment Effect and Between-Study Variance in Meta-Analysis and Its Application. <em>7th Kagoshima Data Science Symposium</em>. </span></p>
+</div>
+<div id="talk-jjss-2024-random-effect-rmst" class="research-entry research-entry-plain" data-index="7" data-listing-date-sort="1725375600000">
+<p><span class="listing-title">[8] <u>Hanada, K.</u>, &amp; Kojima, M. (2024). Random Effect Restricted Mean Survival Time Model. <em>2024 Japanese Joint Statistical Meeting</em>. </span></p>
+</div>
+<div id="talk-jscs-2024-meta-variance" class="research-entry research-entry-plain" data-index="8" data-listing-date-sort="1716476400000">
+<p><span class="listing-title">[7] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2024). Variance Estimation in Meta-Analysis with Few Studies. <em>38th Annual Meeting of the Japanese Society of Computational Statistics</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2023-ipd-meta" class="research-entry research-entry-plain" data-index="9" data-listing-date-sort="1702047600000">
+<p><span class="listing-title">[6] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2023). Individual Participant Data Reconstruction and Meta-Analysis for Time-to-Event Outcomes. <em>5th Kagoshima Data Science Symposium</em>. </span></p>
+</div>
+<div id="talk-jjss-2023-rmst-covariate" class="research-entry research-entry-plain" data-index="10" data-listing-date-sort="1694012400000">
+<p><span class="listing-title">[5] <u>Hanada, K.</u>, Moriya, J., &amp; Kojima, M. (2023). Comparison of Covariate Adjustment Methods for Restricted Mean Survival Time (RMST). <em>2023 Japanese Joint Statistical Meeting</em>. </span></p>
+</div>
+<div id="talk-kagoshima-2022-binary-meta" class="research-entry research-entry-plain" data-index="11" data-listing-date-sort="1670598000000">
+<p><span class="listing-title">[4] <u>Hanada, K.</u> (2022). Inference for Binary Meta-Analysis with Few Events. <em>3rd Kagoshima Data Science Symposium</em>. </span></p>
+</div>
+<div id="talk-jscs-2019-meta-nonasymptotic" class="research-entry research-entry-plain" data-index="12" data-listing-date-sort="1575039600000">
+<p><span class="listing-title">[3] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties of Random-Effects Meta-Analysis with Few Studies. <em>33rd Symposium of the Japanese Society of Computational Statistics</em>. </span></p>
+</div>
+<div id="talk-jscs-2018-dl-stratified" class="research-entry research-entry-plain" data-index="13" data-listing-date-sort="1541775600000">
+<p><span class="listing-title">[2] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2018). Sampling Distribution in Random-Effects DerSimonian-Laird Stratified Analysis. <em>32nd Symposium of the Japanese Society of Computational Statistics</em>. </span></p>
+</div>
+<div id="talk-oita-2018-random-effects" class="research-entry research-entry-plain" data-index="14" data-listing-date-sort="1518015600000">
+<p><span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2018). Sampling Distribution in Random-Effects Stratified Analysis for Normal Populations. <em>57th Oita Statistical Meeting</em>. </span></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">

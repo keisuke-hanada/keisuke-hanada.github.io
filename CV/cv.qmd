@@ -2,7 +2,7 @@
 ---
 title: "Curriculum Vitae"
 author: "Keisuke Hanada"
-date: "2026-08-13"
+date: "2026-08-14"
 format:
   pdf:
     pdf-engine: lualatex
@@ -14,7 +14,7 @@ format:
       - margin=1in
     mainfont: "TeX Gyre Termes"
 fontsize: 12pt
-output-file: cv_202409.pdf
+output-file: "cv.pdf"
 ---
 
 ## Contact Information

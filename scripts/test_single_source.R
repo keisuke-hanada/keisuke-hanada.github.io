@@ -1,9 +1,14 @@
 #!/usr/bin/env Rscript
 
 run_test <- function() {
+  suppressPackageStartupMessages(library(yaml))
   project_dir <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
   fixture <- file.path(project_dir, "content/research/__single-source-test.qmd")
   render_targets <- c("index.qmd", "research.qmd", "ja/index.qmd", "ja/research.qmd", "CV/cv.qmd")
+  profile <- yaml.load_file(file.path(project_dir, "content/data/profile.yml"))
+  cv_href <- as.character(profile$cv[[1]])
+  if (!grepl("^/CV/[^/]+[.]pdf$", cv_href)) stop("profile.cv must be an absolute /CV/*.pdf path", call. = FALSE)
+  cv_path <- file.path(project_dir, "docs", sub("^/", "", cv_href))
 
   run <- function(command, args) {
     output <- system2(command, args, stdout = TRUE, stderr = TRUE)
@@ -23,7 +28,7 @@ run_test <- function() {
   }
   on.exit(cleanup(), add = TRUE)
 
-  baseline_pdf <- unname(tools::md5sum(file.path(project_dir, "docs/CV/cv_202409.pdf")))
+  baseline_pdf <- unname(tools::md5sum(cv_path))
 
   fixture_lines <- c(
   "---",
@@ -54,6 +59,7 @@ run_test <- function() {
 
   run("Rscript", "scripts/build_content.R")
   render()
+  run("Rscript", "scripts/validate_content.R")
 
   targets <- c(
     "generated/listings/research-en.yml" = "Single Source Integration Test",
@@ -71,7 +77,7 @@ run_test <- function() {
     if (!grepl(targets[[target]], text, fixed = TRUE)) stop(sprintf("Fixture missing from %s", target), call. = FALSE)
   }
 
-  fixture_pdf <- unname(tools::md5sum(file.path(project_dir, "docs/CV/cv_202409.pdf")))
+  fixture_pdf <- unname(tools::md5sum(cv_path))
   if (identical(baseline_pdf, fixture_pdf)) stop("Fixture did not change the rendered CV PDF", call. = FALSE)
 
   message("Single-source integration test passed; temporary item will be removed.")

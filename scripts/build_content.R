@@ -241,6 +241,22 @@ write_yaml(make_activity_listing("en"), file.path(listing_dir, "activities-en.ym
 write_yaml(make_activity_listing("ja"), file.path(listing_dir, "activities-ja.yml"))
 
 profile <- yaml.load_file(file.path(project_dir, "content/data/profile.yml"))
+for (field in c("google-scholar", "researchmap", "cv")) {
+  if (scalar(profile[[field]]) == "") abort("profile.yml must define %s", field)
+}
+cv_href <- scalar(profile$cv)
+if (!grepl("^/CV/[^/]+[.]pdf$", cv_href)) abort("profile.cv must be an absolute /CV/*.pdf path")
+cv_filename <- basename(cv_href)
+
+# Remove legacy/stale CV outputs before Quarto builds its search index and
+# sitemap. The CV has a PDF output only; an HTML sibling is never canonical.
+obsolete_cv_outputs <- file.path(project_dir, c(
+  "docs/CV/cv_202409.pdf",
+  "docs/CV/cv_202409.pdf.html",
+  sprintf("docs/CV/%s.html", cv_filename)
+))
+unlink(obsolete_cv_outputs[file.exists(obsolete_cv_outputs)])
+
 current_jobs <- Filter(function(x) scalar(x$type) == "employment" && isTRUE(x$current), activities)
 if (length(current_jobs) != 1L) abort("activities.yml must contain exactly one current employment")
 current_job <- current_jobs[[1]]
@@ -251,22 +267,38 @@ profile_en <- c(
   scalar(profile$`bio-en`), "",
   sprintf("%s, %s", scalar(highest_degree$`title-en`), scalar(highest_degree$`details-en`)), "",
   sprintf("%s, %s", scalar(current_job$`title-en`), scalar(current_job$`details-en`)), "",
-  "- [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ)",
-  "- [researchmap](https://researchmap.jp/k_hanada)",
-  "- [Curriculum Vitae](/CV/cv_202409.pdf)"
+  sprintf("- [Google Scholar](%s)", scalar(profile$`google-scholar`)),
+  sprintf("- [researchmap](%s)", scalar(profile$researchmap)),
+  sprintf("- [Curriculum Vitae](%s)", cv_href)
 )
 profile_ja <- c(
   scalar(profile$`bio-ja`), "",
   sprintf("%s\u3001%s", scalar(highest_degree$`title-ja`), scalar(highest_degree$`details-ja`)), "",
   sprintf("%s\u3001%s", scalar(current_job$`details-ja`), scalar(current_job$`title-ja`)), "",
-  "- [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ)",
-  "- [researchmap](https://researchmap.jp/k_hanada)",
-  "- [Curriculum Vitae](/CV/cv_202409.pdf)"
+  sprintf("- [Google Scholar](%s)", scalar(profile$`google-scholar`)),
+  sprintf("- [researchmap](%s)", scalar(profile$researchmap)),
+  sprintf("- [Curriculum Vitae](%s)", cv_href)
 )
 writeLines(profile_en, file.path(generated_dir, "profile-en.md"), useBytes = TRUE)
 writeLines(profile_ja, file.path(generated_dir, "profile-ja.md"), useBytes = TRUE)
 writeLines(scalar(profile$`interests-en`), file.path(generated_dir, "interests-en.md"), useBytes = TRUE)
 writeLines(scalar(profile$`interests-ja`), file.path(generated_dir, "interests-ja.md"), useBytes = TRUE)
+writeLines(
+  sprintf("Please see my [Google Scholar](%s) page for a full list of publications. Here, I highlight research focusing on methodological developments in biostatistics.", scalar(profile$`google-scholar`)),
+  file.path(generated_dir, "research-intro-en.md"), useBytes = TRUE
+)
+writeLines(
+  sprintf("\u7814\u7a76\u696d\u7e3e\u5168\u4f53\u306b\u3064\u3044\u3066\u306f[Google Scholar](%s)\u3082\u3054\u89a7\u304f\u3060\u3055\u3044\u3002\u3053\u3053\u3067\u306f\u3001\u751f\u7269\u7d71\u8a08\u5b66\u306e\u65b9\u6cd5\u8ad6\u3092\u4e2d\u5fc3\u3068\u3057\u305f\u7814\u7a76\u3092\u7d39\u4ecb\u3057\u307e\u3059\u3002", scalar(profile$`google-scholar`)),
+  file.path(generated_dir, "research-intro-ja.md"), useBytes = TRUE
+)
+writeLines(
+  sprintf("Other information is available on [researchmap](%s).", scalar(profile$researchmap)),
+  file.path(generated_dir, "research-outro-en.md"), useBytes = TRUE
+)
+writeLines(
+  sprintf("\u305d\u306e\u4ed6\u306e\u60c5\u5831\u306f[researchmap](%s)\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002", scalar(profile$researchmap)),
+  file.path(generated_dir, "research-outro-ja.md"), useBytes = TRUE
+)
 
 cv_author <- function(item) {
   gsub("{self}", "\\underline{Hanada, K.}", scalar(item$`authors-en`), fixed = TRUE)
@@ -336,7 +368,7 @@ cv <- c(
   "      - margin=1in",
   '    mainfont: "TeX Gyre Termes"',
   "fontsize: 12pt",
-  "output-file: cv_202409.pdf",
+  sprintf('output-file: "%s"', cv_filename),
   "---", "",
   section("Contact Information", c(
     sprintf("- Name: %s", scalar(profile$name)),

@@ -254,11 +254,11 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
   if (!window.location.pathname.startsWith("/ja/")) return;
 
   const japanesePages = new Map([
-    ["/index.html", ["/ja/index.html", "ホーム"]],
-    ["/", ["/ja/index.html", "ホーム"]],
-    ["/background.html", ["/ja/background.html", "経歴"]],
-    ["/research.html", ["/ja/research.html", "研究"]],
-    ["/teaching.html", ["/ja/teaching.html", "教育"]]
+    ["/index.html", ["/ja/index.html", "Home"]],
+    ["/", ["/ja/index.html", "Home"]],
+    ["/background.html", ["/ja/background.html", "Background"]],
+    ["/research.html", ["/ja/research.html", "Research"]],
+    ["/teaching.html", ["/ja/teaching.html", "Teaching"]]
   ]);
 
   document.querySelectorAll("#quarto-header a.nav-link").forEach((link) => {

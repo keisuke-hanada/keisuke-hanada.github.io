@@ -6,4 +6,4 @@
 
 - [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ)
 - [researchmap](https://researchmap.jp/k_hanada)
-- [Curriculum Vitae](/CV/cv_202409.pdf)
+- [Curriculum Vitae](/CV/cv.pdf)

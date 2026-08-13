@@ -12,4 +12,4 @@ quarto render
 Rscript scripts/validate_content.R
 ```
 
-The rendered website is written to `docs/`, including `docs/CV/cv_202409.pdf`.
+The rendered website is written to `docs/`, including `docs/CV/cv.pdf`.

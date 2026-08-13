@@ -16,6 +16,8 @@ content/
 
 employment、education、grant、award、teaching、academic serviceは、ファイル数を増やさず `content/data/activities.yml` でまとめて管理します。
 
+Google Scholar、researchmap、Webサイト、CVのURLは `content/data/profile.yml` で管理します。URLを変更するときは、ページや生成スクリプトではなくこのファイルだけを編集してください。
+
 ## 新しい研究成果を追加する
 
 `content/research/example-paper.qmd` を1ファイル追加します。英語版と日本語版を分けて作らないでください。
@@ -177,7 +179,7 @@ Rscript scripts/build_content.R
 quarto render CV/cv.qmd
 ```
 
-生成物は `docs/CV/cv_202409.pdf` です。公開URL互換性のためファイル名は維持しています。
+生成物は `docs/CV/cv.pdf` です。CVの公開URLは `content/data/profile.yml` の `cv` で一元管理します。
 
 ## GitHub Actions
 

@@ -6,6 +6,36 @@ project_dir <- normalizePath(getwd(), winslash = "/", mustWork = TRUE)
 abort <- function(...) stop(sprintf(...), call. = FALSE)
 assert <- function(condition, ...) if (!isTRUE(condition)) abort(...)
 read_text <- function(path) paste(readLines(file.path(project_dir, path), encoding = "UTF-8", warn = FALSE), collapse = "\n")
+scalar <- function(x, default = "") if (is.null(x) || !length(x) || is.na(x[[1]])) default else as.character(x[[1]])
+`%||%` <- function(x, y) if (is.null(x)) y else x
+
+read_qmd_metadata <- function(path) {
+  lines <- readLines(path, encoding = "UTF-8", warn = FALSE)
+  closing <- which(trimws(lines[-1]) == "---")[1] + 1L
+  assert(length(lines) >= 3L && trimws(lines[[1]]) == "---" && !is.na(closing), "Invalid front matter: %s", path)
+  yaml.load(paste(lines[2:(closing - 1L)], collapse = "\n"))
+}
+
+read_content <- function(dir) {
+  paths <- sort(list.files(file.path(project_dir, dir), pattern = "\\.qmd$", full.names = TRUE))
+  lapply(paths, read_qmd_metadata)
+}
+
+has_channel <- function(item, channel) channel %in% unlist(item$channels %||% character())
+research_section <- function(item) {
+  kind <- scalar(item$kind)
+  if (kind == "publication" && scalar(item$category) == "clinical") return("medical")
+  if (kind == "publication") return("publication")
+  if (kind == "preprint") return("preprint")
+  if (kind == "conference") return(paste0("conference-", scalar(item$scope)))
+  if (kind == "software") return("software")
+  "other"
+}
+
+profile <- yaml.load_file(file.path(project_dir, "content/data/profile.yml"))
+cv_href <- scalar(profile$cv)
+assert(grepl("^/CV/[^/]+[.]pdf$", cv_href), "profile.cv must be an absolute /CV/*.pdf path")
+cv_output <- file.path("docs", sub("^/", "", cv_href))
 
 required_outputs <- c(
   "docs/index.html",
@@ -18,7 +48,9 @@ required_outputs <- c(
   "docs/ja/teaching.html",
   "docs/column/index.html",
   "docs/column/index.xml",
-  "docs/CV/cv_202409.pdf"
+  "docs/search.json",
+  "docs/sitemap.xml",
+  cv_output
 )
 missing_outputs <- required_outputs[!file.exists(file.path(project_dir, required_outputs))]
 assert(!length(missing_outputs), "Missing rendered outputs: %s", paste(missing_outputs, collapse = ", "))
@@ -31,11 +63,17 @@ assert(identical(news_dates, sort(news_dates, decreasing = TRUE)), "News is not 
 
 research_en <- yaml.load_file(file.path(project_dir, "generated/listings/research-en.yml"))
 research_ja <- yaml.load_file(file.path(project_dir, "generated/listings/research-ja.yml"))
-expected_counts <- c(publication = 8L, medical = 6L, preprint = 5L, `conference-international` = 5L, `conference-domestic` = 15L, other = 1L, software = 2L)
-actual_counts <- table(vapply(research_en, function(x) as.character(x$section), character(1)))
-for (section in names(expected_counts)) {
-  assert(as.integer(actual_counts[[section]]) == expected_counts[[section]], "Unexpected %s count", section)
-}
+all_content <- c(read_content("content/research"), read_content("content/talks"), read_content("content/software"))
+source_research <- Filter(function(x) has_channel(x, "research"), all_content)
+section_levels <- c("publication", "medical", "preprint", "conference-international", "conference-domestic", "other", "software")
+expected_counts <- table(factor(vapply(source_research, research_section, character(1)), levels = section_levels))
+actual_counts_en <- table(factor(vapply(research_en, function(x) scalar(x$section), character(1)), levels = section_levels))
+actual_counts_ja <- table(factor(vapply(research_ja, function(x) scalar(x$section), character(1)), levels = section_levels))
+assert(identical(as.integer(actual_counts_en), as.integer(expected_counts)), "English Research listing counts do not match source metadata")
+assert(identical(as.integer(actual_counts_ja), as.integer(expected_counts)), "Japanese Research listing counts do not match source metadata")
+source_ids <- sort(vapply(source_research, function(x) scalar(x$id), character(1)))
+assert(identical(sort(vapply(research_en, function(x) scalar(x$id), character(1))), source_ids), "English Research listing IDs do not match source metadata")
+assert(identical(sort(vapply(research_ja, function(x) scalar(x$id), character(1))), source_ids), "Japanese Research listing IDs do not match source metadata")
 domestic <- Filter(function(x) as.character(x$section) == "conference-domestic", research_en)
 domestic_dates <- vapply(domestic, function(x) as.character(x$date), character(1))
 assert(identical(domestic_dates, sort(domestic_dates, decreasing = TRUE)), "Domestic presentations are not sorted date-descending")
@@ -71,6 +109,14 @@ assert(grepl("Assistant Professor", background_en, fixed = TRUE), "English emplo
 assert(grepl("\u535a\u58eb", background_ja, fixed = TRUE), "Japanese education is missing")
 assert(grepl("Statistics Fundamentals", teaching_en, fixed = TRUE), "English teaching item is missing")
 assert(grepl("\u7d71\u8a08\u57fa\u790e", teaching_ja, fixed = TRUE), "Japanese teaching item is missing")
+for (url in c(scalar(profile$`google-scholar`), scalar(profile$researchmap), cv_href)) {
+  rendered_url <- gsub("&", "&amp;", url, fixed = TRUE)
+  if (startsWith(rendered_url, "/")) rendered_url <- substring(rendered_url, 2L)
+  rendered_en <- gsub("\\", "/", paste(home_en, research_html_en), fixed = TRUE)
+  rendered_ja <- gsub("\\", "/", paste(home_ja, research_html_ja), fixed = TRUE)
+  assert(url != "" && grepl(rendered_url, rendered_en, fixed = TRUE), "Profile URL is missing from rendered English pages: %s", url)
+  assert(grepl(rendered_url, rendered_ja, fixed = TRUE), "Profile URL is missing from rendered Japanese pages: %s", url)
+}
 
 column_sources <- list.files(file.path(project_dir, "column"), pattern = "\\.qmd$", full.names = TRUE)
 column_outputs <- list.files(file.path(project_dir, "docs/column"), pattern = "\\.html$", full.names = TRUE)
@@ -82,8 +128,19 @@ for (redirect_path in c("docs/column.html", "docs/colmn.html")) {
   assert(grepl("column/index.html", redirect, fixed = TRUE), "Legacy redirect target is invalid: %s", redirect_path)
   assert(!grepl("column\\\\index.html", redirect, fixed = TRUE), "Legacy redirect contains a backslash: %s", redirect_path)
 }
+historical_news <- read_text("docs/column/20260113-news-before-2026.html")
+for (resource in c("IASC-ARS2025-oral.pdf", "JSM2025-poster.pdf")) {
+  assert(grepl(paste0("../files/", resource), historical_news, fixed = TRUE), "Column resource link is invalid: %s", resource)
+  assert(file.exists(file.path(project_dir, "docs/files", resource)), "Column resource is missing: %s", resource)
+}
 
-pdf_path <- file.path(project_dir, "docs/CV/cv_202409.pdf")
+unwanted_cv_outputs <- c("docs/CV/cv_202409.pdf", "docs/CV/cv_202409.pdf.html", paste0(cv_output, ".html"))
+assert(!any(file.exists(file.path(project_dir, unwanted_cv_outputs))), "Legacy or HTML CV output must not exist")
+search_and_sitemap <- paste(read_text("docs/search.json"), read_text("docs/sitemap.xml"))
+assert(!grepl("cv_202409", search_and_sitemap, fixed = TRUE), "Legacy CV URL remains in search index or sitemap")
+assert(!grepl(paste0(basename(cv_output), ".html"), search_and_sitemap, fixed = TRUE), "HTML CV URL remains in search index or sitemap")
+
+pdf_path <- file.path(project_dir, cv_output)
 assert(file.info(pdf_path)$size > 30000, "Generated CV PDF is unexpectedly small")
 signature <- rawToChar(readBin(pdf_path, what = "raw", n = 5L))
 assert(signature == "%PDF-", "Generated CV is not a PDF")

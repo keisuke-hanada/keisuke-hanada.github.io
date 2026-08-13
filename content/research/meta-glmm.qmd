@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: accepted
 category: methodological
+language: en
 date: 2026-07-30
 year: 2026
 year-display: 2026+
@@ -28,4 +29,3 @@ news:
     ja: 杉本先生との共著論文をarXivで公開しました。
     href: /column/20260113-news-before-2026.html
 ---
-

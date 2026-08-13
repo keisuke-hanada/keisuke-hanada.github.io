@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: methodological
+language: en
 date: 2026-04-17
 year: 2026
 title-en: Random Effect Restricted Mean Survival Time Model
@@ -24,4 +25,3 @@ news:
     ja: 小島先生との共著論文がJournal of Biopharmaceutical Statisticsに掲載されました。
     href: /column/20260417-news-JBS.html
 ---
-

@@ -4,6 +4,7 @@ record-type: research
 kind: preprint
 status: submitted
 category: methodological
+language: en
 date: 2025-11-14
 year: 2025
 title-en: A Clustering Approach for Basket Trials Based on Treatment Response Trajectories
@@ -15,4 +16,3 @@ channels: [research, cv]
 links:
   arxiv: https://arxiv.org/abs/2511.09890
 ---
-

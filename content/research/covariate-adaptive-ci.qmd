@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: methodological
+language: en
 date: 2025-10-03
 year: 2025
 title-en: Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials
@@ -23,4 +24,3 @@ news:
     ja: 小島先生、間野先生、山田先生、田中先生、守屋先生との共著論文がContemporary Clinical Trialsに掲載されました。
     href: /column/20260113-news-before-2026.html
 ---
-

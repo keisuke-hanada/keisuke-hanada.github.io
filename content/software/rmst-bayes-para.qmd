@@ -5,6 +5,7 @@ kind: software
 status: released
 date: 2024-07-04
 year: 2024
+language: en
 title-en: rmstBayespara
 title-ja: rmstBayespara
 authors-en: "{self}"
@@ -19,4 +20,3 @@ news:
     ja: RパッケージrmstBayesparaをCRANで公開しました。
     href: /column/20260113-news-before-2026.html
 ---
-

@@ -27,6 +27,7 @@ record-type: research
 kind: publication             # publication / preprint / thesis
 status: published             # submitted / accepted / published
 category: methodological      # methodological / clinical / other
+language: en                  # 成果・発表自体の言語: en / ja
 date: 2026-08-13
 year: 2026
 order: 10                     # 同一セクションで明示順が必要な場合のみ
@@ -91,7 +92,18 @@ channels: []              # いずれにも表示しない
 
 HomeのRecent newsはbooleanではなく、`news` 配列が存在する項目を自動収集します。research、talk、software、grant等で同じ形式を使用できます。
 
-## 英語・日本語
+## 成果自体の言語と英語・日本語表示
+
+`language` は論文・発表自体の言語です。
+
+```yaml
+language: en  # 英語論文・英語発表
+language: ja  # 日本語論文・日本語発表
+```
+
+日本語Researchページでも、`language: en` の成果は `title-en`、`description-en`、`publication-en`、`authors-en` を表示します。`language: ja` の成果だけが日本語fieldを表示します。英語ページでは成果の言語にかかわらず英語fieldを表示します。
+
+英語成果の `title-ja` や `description-ja` は表示には使われないため省略できます。既存metadataに残っていても問題ありません。日本語成果では `title-ja` が必須です。
 
 原則として以下の対で保持します。
 
@@ -101,7 +113,9 @@ HomeのRecent newsはbooleanではなく、`news` 配列が存在する項目を
 - `authors-en` / `authors-ja`（和文著者表記が必要な場合）
 - `news[].en` / `news[].ja`
 
-英語ページは `/research.html`、日本語ページは `/ja/research.html` に生成されますが、両方とも同じqmdを読みます。
+英語ページは `/research.html`、日本語ページは `/ja/research.html` に生成されますが、両方とも同じqmdを読みます。Recent newsの `news[].en` / `news[].ja` は成果自体の言語とは独立しており、従来どおりページ言語に合わせて表示されます。
+
+`category: clinical` のpublicationは、Researchページの「Medical Research」へ自動分類されます。
 
 ## Teaching、Background、助成、受賞等
 

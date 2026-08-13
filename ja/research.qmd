@@ -20,6 +20,15 @@ listing:
       section: preprint
     sort: "order asc"
     field-required: [title, order]
+  - id: research-medical-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: medical
+    sort: "order asc"
+    field-required: [title, order]
   - id: research-conferences-ja
     contents: ../generated/listings/research-ja.yml
     template: ../_listings/research.ejs.md
@@ -56,6 +65,11 @@ listing:
 ### 採択・出版済み論文
 
 ::: {#research-publications-ja}
+:::
+
+### Medical Research（臨床研究）
+
+::: {#research-medical-ja}
 :::
 
 ### プレプリント・投稿中論文

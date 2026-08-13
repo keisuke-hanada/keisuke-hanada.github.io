@@ -4,6 +4,7 @@ record-type: research
 kind: preprint
 status: submitted
 category: methodological
+language: en
 date: 2026-07-29
 year: 2026
 title-en: Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials
@@ -22,4 +23,3 @@ news:
     ja: 小島先生との共著論文をarXivで公開しました。
     href: /column/20260729-news-preprint.html
 ---
-

@@ -4,6 +4,7 @@ record-type: research
 kind: preprint
 status: submitted
 category: methodological
+language: en
 date: 2024-06-11
 year: 2024
 title-en: Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time
@@ -22,4 +23,3 @@ news:
     ja: 小島先生との共著論文をarXivで公開しました。
     href: /column/20260113-news-before-2026.html
 ---
-

@@ -5,6 +5,7 @@ kind: conference
 status: presented
 date: 2025-08-10
 year: 2025
+language: en
 title-en: Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect
 title-ja: 条件付き平均治療効果の推定に向けた特定研究へのメタアナリシス統合
 authors-en: "{self}, & Kojima, M."
@@ -19,4 +20,3 @@ news:
     ja: JSM 2025のポスターセッションで小島先生との共同研究を発表しました。
     href: /column/20260113-news-before-2026.html
 ---
-

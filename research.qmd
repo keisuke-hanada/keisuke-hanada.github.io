@@ -19,6 +19,15 @@ listing:
       section: preprint
     sort: "order asc"
     field-required: [title, order]
+  - id: research-medical
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: medical
+    sort: "order asc"
+    field-required: [title, order]
   - id: research-conferences
     contents: generated/listings/research-en.yml
     template: _listings/research.ejs.md
@@ -55,6 +64,11 @@ Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF
 ### Accepted / Published Papers
 
 ::: {#research-publications}
+:::
+
+### Medical Research
+
+::: {#research-medical}
 :::
 
 ### Preprints / Submitted Manuscripts

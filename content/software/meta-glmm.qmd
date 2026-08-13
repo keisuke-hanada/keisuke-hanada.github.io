@@ -5,6 +5,7 @@ kind: software
 status: released
 date: 2026-07-30
 year: 2026
+language: en
 title-en: metaGLMM
 title-ja: metaGLMM
 authors-en: "{self}"
@@ -14,4 +15,3 @@ channels: [cv]
 links:
   github: https://github.com/keisuke-hanada/metaGLMM
 ---
-

@@ -32,6 +32,7 @@ run_test <- function() {
   "kind: publication",
   "status: accepted",
   "category: methodological",
+  "language: en",
   "date: 2099-12-31",
   "year: 2099",
   "title-en: Single Source Integration Test",
@@ -56,14 +57,14 @@ run_test <- function() {
 
   targets <- c(
     "generated/listings/research-en.yml" = "Single Source Integration Test",
-    "generated/listings/research-ja.yml" = "Single Source Integration Test JA",
+    "generated/listings/research-ja.yml" = "Single Source Integration Test",
     "generated/listings/news-en.yml" = "Single source test news.",
     "generated/listings/news-ja.yml" = "Single source test news JA.",
     "CV/cv.qmd" = "Single Source Integration Test",
     "docs/index.html" = "Single source test news.",
     "docs/ja/index.html" = "Single source test news JA.",
     "docs/research.html" = "Single Source Integration Test",
-    "docs/ja/research.html" = "Single Source Integration Test JA"
+    "docs/ja/research.html" = "Single Source Integration Test"
   )
   for (target in names(targets)) {
     text <- paste(readLines(file.path(project_dir, target), encoding = "UTF-8", warn = FALSE), collapse = "\n")

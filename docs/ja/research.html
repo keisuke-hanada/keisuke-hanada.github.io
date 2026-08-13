@@ -127,6 +127,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-medical-ja .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-title','listing-section','listing-date','listing-order','listing-display-number','listing-citation-html','listing-description-html','listing-links-html',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-id","listing-title","listing-section","listing-date","listing-order","listing-display-number","listing-citation-html","listing-description-html","listing-links-html"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-medical-ja'] = new List('listing-research-medical-ja', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-research-conferences-ja .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -325,6 +353,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#採択出版済み論文" id="toc-採択出版済み論文" class="nav-link active" data-scroll-target="#採択出版済み論文">採択・出版済み論文</a></li>
+  <li><a href="#medical-research臨床研究" id="toc-medical-research臨床研究" class="nav-link" data-scroll-target="#medical-research臨床研究">Medical Research（臨床研究）</a></li>
   <li><a href="#プレプリント投稿中論文" id="toc-プレプリント投稿中論文" class="nav-link" data-scroll-target="#プレプリント投稿中論文">プレプリント・投稿中論文</a></li>
   <li><a href="#学会発表" id="toc-学会発表" class="nav-link" data-scroll-target="#学会発表">学会発表</a></li>
   <li><a href="#その他の研究成果" id="toc-その他の研究成果" class="nav-link" data-scroll-target="#その他の研究成果">その他の研究成果</a></li>
@@ -362,39 +391,39 @@ window.Quarto = {
 <div class="research-list list">
 <details class="research-entry" id="inmass" data-index="0" data-listing-date-sort="1785942000000">
 <summary>
-<span class="listing-title">[8] <u>Hanada, K.</u>, &amp; Kojima, M. (2026+). 特定の研究へのメタアナリシス統合（InMASS）による対象集団平均治療効果の推定. <em>Biometrical Journal</em>, accepted. <span class="research-links">[<a href="https://arxiv.org/abs/2503.21091">arXiv</a>]</span></span>
+<span class="listing-title">[8] <u>Hanada, K.</u>, &amp; Kojima, M. (2026+). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect. <em>Biometrical Journal</em>, accepted. <span class="research-links">[<a href="https://arxiv.org/abs/2503.21091">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-興味のある試験における平均治療効果の推定のために、メタアナリシスを活用する方法を提案しました。
+We propose a method that uses meta-analysis to estimate the average treatment effect in a target population represented by a specific study.
 </div>
 </details>
 <details class="research-entry" id="meta-glmm" data-index="1" data-listing-date-sort="1785337200000">
 <summary>
-<span class="listing-title">[7] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2026+). 一般化線形混合モデルによるランダム効果メタアナリシス：少数研究のためのBartlett補正アプローチ. <em>Biometrics</em>, accepted. <span class="research-links">[<a href="https://arxiv.org/abs/2508.08758">arXiv</a>, <a href="https://github.com/keisuke-hanada/metaGLMM">GitHub</a>]</span></span>
+<span class="listing-title">[7] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2026+). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. <em>Biometrics</em>, accepted. <span class="research-links">[<a href="https://arxiv.org/abs/2508.08758">arXiv</a>, <a href="https://github.com/keisuke-hanada/metaGLMM">GitHub</a>]</span></span>
 </summary>
 <div class="research-description">
-一般化線形混合モデルの下でのメタアナリシスを整備し、特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました。
+We develop random-effects meta-analysis under generalized linear mixed models and propose a simple Bartlett correction that gives accurate interval estimation with few studies.
 </div>
 </details>
 <details class="research-entry" id="random-effect-rmst" data-index="2" data-listing-date-sort="1776351600000">
 <summary>
-<span class="listing-title">[6] <u>Hanada, K.</u>, &amp; Kojima, M. (2026). ランダム効果を用いた制限付き平均生存時間モデル. <em>Journal of Biopharmaceutical Statistics</em>, 1-16. <span class="research-links">[<a href="https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641">論文</a>, <a href="https://doi.org/10.1080/10543406.2026.2654641">DOI</a>, <a href="https://arxiv.org/abs/2401.02048">arXiv</a>]</span></span>
+<span class="listing-title">[6] <u>Hanada, K.</u>, &amp; Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. <em>Journal of Biopharmaceutical Statistics</em>, 1-16. <span class="research-links">[<a href="https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641">論文</a>, <a href="https://doi.org/10.1080/10543406.2026.2654641">DOI</a>, <a href="https://arxiv.org/abs/2401.02048">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-RMSTのモデル解析にランダム効果を導入しました。これにより、全体効果に基づくクラスターごとの縮小推定量を構成できます。
+We introduce random effects into RMST regression, enabling cluster-specific shrinkage estimates based on the overall effect.
 </div>
 </details>
 <details class="research-entry" id="blinded-hybrid-control" data-index="3" data-listing-date-sort="1770649200000">
 <summary>
-<span class="listing-title">[5] Kojima, M., Orihara, S., <u>Hanada, K.</u>, &amp; Ohigashi, T. (2026). 逆確率重み付けを用いた盲検下ハイブリッド対照デザインの症例数再推定. <em>Statistics in Medicine</em>, 45(3-5), e70429. <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429">論文</a>, <a href="https://doi.org/10.1002/sim.70429">DOI</a>, <a href="https://arxiv.org/abs/2506.15913">arXiv</a>]</span></span>
+<span class="listing-title">[5] Kojima, M., Orihara, S., <u>Hanada, K.</u>, &amp; Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. <em>Statistics in Medicine</em>, 45(3-5), e70429. <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429">論文</a>, <a href="https://doi.org/10.1002/sim.70429">DOI</a>, <a href="https://arxiv.org/abs/2506.15913">arXiv</a>]</span></span>
 </summary>
 </details>
 <details class="research-entry" id="covariate-adaptive-ci" data-index="4" data-listing-date-sort="1759417200000">
 <summary>
-<span class="listing-title">[4] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K.</u>, Tanaka, Y., &amp; Moriya, J. (2025). 非劣性・同等性試験における共変量適応無作為化下の信頼区間調整. <em>Contemporary Clinical Trials</em>, 158, 108099. <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/pii/S1551714425002939">論文</a>, <a href="https://arxiv.org/abs/2312.15619">arXiv</a>]</span></span>
+<span class="listing-title">[4] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K.</u>, Tanaka, Y., &amp; Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. <em>Contemporary Clinical Trials</em>, 158, 108099. <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/pii/S1551714425002939">論文</a>, <a href="https://arxiv.org/abs/2312.15619">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-並べ替え法や共変量適応無作為化法による非劣性・同等性比較に対して調整信頼区間を用いた検定を提案し、シミュレーションで性能を評価しました。
+We propose confidence-interval adjustments for non-inferiority and equivalence testing under rerandomization and covariate-adaptive randomization.
 </div>
 </details>
 <details class="research-entry" id="ipd-meta-analysis-ja" data-index="5" data-listing-date-sort="1720882800000">
@@ -407,19 +436,54 @@ RMSTのモデル解析にランダム効果を導入しました。これによ�
 </details>
 <details class="research-entry" id="rmst-covariate-adjustment" data-index="6" data-listing-date-sort="1706626800000">
 <summary>
-<span class="listing-title">[2] <u>Hanada, K.</u>, Moriya, J., &amp; Kojima, M. (2024). 制限付き平均生存時間に対するベースライン共変量調整法の比較. <em>Contemporary Clinical Trials</em>, 138, 107440. <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144">論文</a>]</span></span>
+<span class="listing-title">[2] <u>Hanada, K.</u>, Moriya, J., &amp; Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. <em>Contemporary Clinical Trials</em>, 138, 107440. <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144">論文</a>]</span></span>
 </summary>
 <div class="research-description">
-RMSTに対するモデル解析法をシミュレーションで比較し、打ち切り確率の構造に応じて適切な手法が異なることを示しました。
+We compare model-based RMST analyses by simulation and identify when different adjustment methods are appropriate.
 </div>
 </details>
 <details class="research-entry" id="exact-meta-analysis" data-index="7" data-listing-date-sort="1680274800000">
 <summary>
-<span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2023). ランダム効果メタアナリシスの検定統計量の正確分布を用いた推測. <em>Annals of the Institute of Statistical Mathematics</em>, 75(2), 281-302. <span class="research-links">[<a href="https://link.springer.com/article/10.1007/s10463-022-00844-4">論文</a>, <a href="https://doi.org/10.1007/s10463-022-00844-4">DOI</a>]</span></span>
+<span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. <em>Annals of the Institute of Statistical Mathematics</em>, 75(2), 281-302. <span class="research-links">[<a href="https://link.springer.com/article/10.1007/s10463-022-00844-4">論文</a>, <a href="https://doi.org/10.1007/s10463-022-00844-4">DOI</a>]</span></span>
 </summary>
 <div class="research-description">
-ランダム効果メタアナリシスの検定統計量について正確分布を導出し、検定と区間推定への利用を検討しました。初めて採択された論文です。
+We derive an exact distribution for a test statistic in random-effects meta-analysis and study its use for testing and interval estimation.
 </div>
+</details>
+</div>
+<div class="listing-no-matching d-none">
+一致なし
+</div>
+</div>
+</section>
+<section id="medical-research臨床研究" class="level3">
+<h3 class="anchored" data-anchor-id="medical-research臨床研究">Medical Research（臨床研究）</h3>
+<div id="listing-research-medical-ja" class="quarto-listing quarto-listing-container-custom">
+<div class="research-list list">
+<details class="research-entry" id="clear-cell-papillary-renal" data-index="0" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[5] Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y., &amp; Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic Status. <em>The American Journal of Surgical Pathology</em>. </span>
+</summary>
+</details>
+<details class="research-entry" id="dnajc7-als" data-index="1" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[4] Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto, K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis. <em>Neuropathology and Applied Neurobiology</em>, 52(4), e70086. </span>
+</summary>
+</details>
+<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="2" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[3] Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. <em>Surgical Endoscopy</em>, 1-10. </span>
+</summary>
+</details>
+<details class="research-entry" id="pancreatic-second-line" data-index="3" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[2] Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel for Unresectable Pancreatic Cancer. <em>Journal of Hepato-Biliary-Pancreatic Sciences</em>, 1-11. </span>
+</summary>
+</details>
+<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="4" data-listing-date-sort="1748876400000">
+<summary>
+<span class="listing-title">[1] Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. <em>Scientific Reports</em>, 15, 19300. <span class="research-links">[<a href="https://www.nature.com/articles/s41598-025-05053-6">論文</a>]</span></span>
+</summary>
 </details>
 </div>
 <div class="listing-no-matching d-none">
@@ -433,36 +497,36 @@ RMSTに対するモデル解析法をシミュレーションで比較し、打�
 <div class="research-list list">
 <details class="research-entry" id="population-standardized-ssr" data-index="0" data-listing-date-sort="1785250800000">
 <summary>
-<span class="listing-title">[5] <u>Hanada, K.</u>, &amp; Kojima, M. (2026). 単群試験の母集団標準化ヒストリカル対照デザインに対する共変量適応型症例数再推定. <em>arXiv preprint</em> arXiv:2607.25159, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2607.25159">arXiv</a>]</span></span>
+<span class="listing-title">[5] <u>Hanada, K.</u>, &amp; Kojima, M. (2026). Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials. <em>arXiv preprint</em> arXiv:2607.25159, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2607.25159">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-単群試験における共変量調整付き症例数設計および再推定法を提案しました。
+We propose covariate-adjusted sample-size planning and re-estimation for single-arm trials using population-standardized historical controls.
 </div>
 </details>
 <details class="research-entry" id="federated-lmm" data-index="1" data-listing-date-sort="1775142000000">
 <summary>
-<span class="listing-title">[4] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). 損失のない尤度再構成による線形混合モデルの差分プライバシー保護付きワンショット連合推測. <em>arXiv preprint</em> arXiv:2604.00410, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2604.00410">arXiv</a>]</span></span>
+<span class="listing-title">[4] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. <em>arXiv preprint</em> arXiv:2604.00410, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2604.00410">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-施設ごとの要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案し、個人情報保護と推定性能のトレードオフを議論しました。
+We propose differentially private linear mixed-model inference based only on facility-level summaries and study the privacy-accuracy tradeoff.
 </div>
 </details>
 <details class="research-entry" id="dose-insertion" data-index="2" data-listing-date-sort="1771513200000">
 <summary>
-<span class="listing-title">[3] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K.</u>, &amp; Kojima, M. (2026). 試験途中の用量追加に対する非情報・情報事前分布を組み合わせたモデル支援デザイン. <em>arXiv preprint</em> arXiv:2602.17995, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2602.17995">arXiv</a>]</span></span>
+<span class="listing-title">[3] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K.</u>, &amp; Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. <em>arXiv preprint</em> arXiv:2602.17995, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2602.17995">arXiv</a>]</span></span>
 </summary>
 </details>
 <details class="research-entry" id="basket-trajectories" data-index="3" data-listing-date-sort="1763046000000">
 <summary>
-<span class="listing-title">[2] Kojima, M., <u>Hanada, K.</u>, &amp; Sato, A. (2025). 治療反応軌跡に基づくバスケット試験のクラスタリングアプローチ. <em>arXiv preprint</em> arXiv:2511.09890, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2511.09890">arXiv</a>]</span></span>
+<span class="listing-title">[2] Kojima, M., <u>Hanada, K.</u>, &amp; Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. <em>arXiv preprint</em> arXiv:2511.09890, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2511.09890">arXiv</a>]</span></span>
 </summary>
 </details>
 <details class="research-entry" id="bayesian-rmst" data-index="4" data-listing-date-sort="1718031600000">
 <summary>
-<span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Kojima, M. (2024). 制限付き平均生存時間の分布を導出するベイズパラメトリック法. <em>arXiv preprint</em> arXiv:2406.06071, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2406.06071">arXiv</a>]</span></span>
+<span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time. <em>arXiv preprint</em> arXiv:2406.06071, submitted. <span class="research-links">[<a href="https://arxiv.org/abs/2406.06071">arXiv</a>]</span></span>
 </summary>
 <div class="research-description">
-RMSTを期待値と生存関数で定式化し、パラメトリックモデルにランダム効果とフレイルティ効果を導入したベイズ推測法を提案しました。
+We formulate RMST under parametric survival models, add random and frailty effects, and propose Bayesian inference with consistency properties.
 </div>
 </details>
 </div>
@@ -476,19 +540,19 @@ RMSTを期待値と生存関数で定式化し、パラメトリックモデル�
 <div id="listing-research-conferences-ja" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
 <div id="talk-ibc-2026-federated-lmm" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1784214000000">
-<p><span class="listing-title">[5] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). 線形混合モデルに対するプライバシー保護付きワンショット連合推測. <em>第33回国際計量生物学会</em>, ソウル. <span class="research-links">[<a href="https://www.ibc2026.org/home">大会サイト</a>]</span></span></p>
+<p><span class="listing-title">[5] <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models. <em>33rd International Biometric Conference</em>, Seoul. <span class="research-links">[<a href="https://www.ibc2026.org/home">大会サイト</a>]</span></span></p>
 </div>
 <div id="talk-meta-analysis-symposium-2026" class="research-entry research-entry-plain" data-index="1" data-listing-date-sort="1780239600000">
-<p><span class="listing-title">[4] <u>Hanada, K.</u> (2026). 一般化線形混合モデルによるランダム効果メタアナリシス：少数研究のためのBartlett補正アプローチ. <em>Recent Advances in Meta-Analysis 2026</em>, ゲッティンゲン. <span class="research-links">[<a href="https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/">大会サイト</a>]</span></span></p>
+<p><span class="listing-title">[4] <u>Hanada, K.</u> (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. <em>Recent Advances in Meta-Analysis 2026</em>, Gottingen. <span class="research-links">[<a href="https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/">大会サイト</a>]</span></span></p>
 </div>
 <div id="talk-iasc-ars-2025" class="research-entry research-entry-plain" data-index="2" data-listing-date-sort="1765119600000">
-<p><span class="listing-title">[3] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2025). 少数研究に対する一般化線形混合モデルによるランダム効果メタアナリシス. <em>第13回IASC-ARS会議</em>, ホーチミン市. <span class="research-links">[<a href="../files/IASC-ARS2025-oral.pdf">発表資料</a>]</span></span></p>
+<p><span class="listing-title">[3] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models for few studies. <em>The 13th Conference of the IASC-ARS</em>, Ho Chi Minh City. <span class="research-links">[<a href="../files/IASC-ARS2025-oral.pdf">発表資料</a>]</span></span></p>
 </div>
 <div id="talk-jsm-2025-inmass" class="research-entry research-entry-plain" data-index="3" data-listing-date-sort="1754751600000">
-<p><span class="listing-title">[2] <u>Hanada, K.</u>, &amp; Kojima, M. (2025). 条件付き平均治療効果の推定に向けた特定研究へのメタアナリシス統合. <em>Joint Statistical Meetings 2025</em>, ナッシュビル. <span class="research-links">[<a href="../files/JSM2025-poster.pdf">ポスター</a>]</span></span></p>
+<p><span class="listing-title">[2] <u>Hanada, K.</u>, &amp; Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect. <em>Joint Statistical Meetings 2025</em>, Nashville. <span class="research-links">[<a href="../files/JSM2025-poster.pdf">ポスター</a>]</span></span></p>
 </div>
 <div id="talk-isbps-2019" class="research-entry research-entry-plain" data-index="4" data-listing-date-sort="1546268400000">
-<p><span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). 試験数が少ない場合のランダム効果メタアナリシスにおける非漸近的性質と挙動. <em>第6回International Symposium on Biopharmaceutical Statistics</em>, 京都. </span></p>
+<p><span class="listing-title">[1] <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small. <em>The VI-th International Symposium on Biopharmaceutical Statistics</em>, Kyoto. </span></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -502,10 +566,10 @@ RMSTを期待値と生存関数で定式化し、パラメトリックモデル�
 <div class="research-list list">
 <details class="research-entry" id="phd-thesis" data-index="0" data-listing-date-sort="1711810800000">
 <summary>
-<span class="listing-title">[1] <u>花田 圭佑</u> (2024). ランダム効果メタアナリシスの推測と正確分布. 滋賀大学博士論文. <span class="research-links">[<a href="https://shiga-u.repo.nii.ac.jp/records/2000320">論文</a>]</span></span>
+<span class="listing-title">[1] <u>Hanada, K.</u> (2024). Inference and Exact Distributions for Random-Effects Meta-Analysis. Doctoral dissertation, Shiga University. <span class="research-links">[<a href="https://shiga-u.repo.nii.ac.jp/records/2000320">論文</a>]</span></span>
 </summary>
 <div class="research-description">
-少数の試験に対するメタアナリシスと、生存時間データにおける個別被験者データ復元を用いたメタアナリシスについてまとめた博士論文です。
+My doctoral dissertation studies meta-analysis with few studies and reconstructed individual-participant-data meta-analysis for time-to-event outcomes.
 </div>
 </details>
 </div>
@@ -519,10 +583,10 @@ RMSTを期待値と生存関数で定式化し、パラメトリックモデル�
 <div id="listing-research-software-ja" class="quarto-listing quarto-listing-container-custom">
 <div class="research-list list">
 <div id="software-rmst-bayes-para" class="research-entry research-entry-plain" data-index="0" data-listing-date-sort="1720018800000">
-<p><span class="listing-title">[2] <u>Hanada, K.</u> (2024). rmstBayespara. Rパッケージ：クラスター効果を考慮したベイズ制限付き平均生存時間. <span class="research-links">[<a href="https://cran.r-project.org/web/packages/rmstBayespara/">CRAN</a>]</span></span></p>
+<p><span class="listing-title">[2] <u>Hanada, K.</u> (2024). rmstBayespara. R package: Bayesian Restricted Mean Survival Time for Cluster Effect. <span class="research-links">[<a href="https://cran.r-project.org/web/packages/rmstBayespara/">CRAN</a>]</span></span></p>
 </div>
 <div id="software-aedl" class="research-entry research-entry-plain" data-index="1" data-listing-date-sort="1704034800000">
-<p><span class="listing-title">[1] <u>Hanada, K.</u> (2024). aedl. Rパッケージ：DerSimonian-Laird検定統計量のほぼ正確な推測. <span class="research-links">[<a href="https://cran.r-project.org/web/packages/aedl/">CRAN</a>]</span></span></p>
+<p><span class="listing-title">[1] <u>Hanada, K.</u> (2024). aedl. R package: Almost-Exact Inference for the DerSimonian-Laird Test Statistic. <span class="research-links">[<a href="https://cran.r-project.org/web/packages/aedl/">CRAN</a>]</span></span></p>
 </div>
 </div>
 <div class="listing-no-matching d-none">

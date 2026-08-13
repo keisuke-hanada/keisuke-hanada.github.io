@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: clinical
+language: en
 date: 2025-06-03
 year: 2025
 title-en: "Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis"
@@ -11,7 +12,7 @@ title-ja: B細胞性造血器腫瘍における代替エンドポイントの可
 authors-en: "Hirano, S., {self}, & Maeda, H."
 publication-en: "*Scientific Reports*, 15, 19300"
 publication-ja: "*Scientific Reports*, 15, 19300"
-channels: [cv]
+channels: [research, cv]
 links:
   paper: https://www.nature.com/articles/s41598-025-05053-6
 news:
@@ -20,4 +21,3 @@ news:
     ja: 平野先生、前田先生との共著論文がScientific Reportsに掲載されました。
     href: /column/20260113-news-before-2026.html
 ---
-

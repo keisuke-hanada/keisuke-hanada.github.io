@@ -4,6 +4,7 @@ record-type: research
 kind: preprint
 status: submitted
 category: methodological
+language: en
 date: 2026-04-03
 year: 2026
 title-en: Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction
@@ -22,4 +23,3 @@ news:
     ja: 下川先生、丸尾先生との共著論文をarXivで公開しました。
     href: /column/20260403-news-preprint.html
 ---
-

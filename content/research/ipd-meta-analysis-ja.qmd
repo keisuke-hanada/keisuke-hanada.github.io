@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: methodological
+language: ja
 date: 2024-07-14
 year: 2024
 title-en: Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics

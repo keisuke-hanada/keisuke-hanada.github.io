@@ -5,6 +5,7 @@ kind: conference
 status: presented
 date: 2026-02-13
 year: 2026
+language: ja
 title-en: Differentially private distributed regression analysis for linear mixed models
 title-ja: 線形混合モデルに対する差分プライベートな分散型回帰分析
 authors-en: "{self}"
@@ -19,4 +20,3 @@ news:
     ja: 大分統計談話会・第73回大会で発表しました。
     href: /column/20260213-news-大分.html
 ---
-

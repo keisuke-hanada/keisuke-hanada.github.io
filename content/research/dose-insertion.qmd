@@ -4,6 +4,7 @@ record-type: research
 kind: preprint
 status: submitted
 category: methodological
+language: en
 date: 2026-02-20
 year: 2026
 title-en: Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion
@@ -20,4 +21,3 @@ news:
     ja: 山田先生、角南先生、武田先生、小島先生との共著論文をarXivで公開しました。
     href: /column/20260229-news-preprint.html
 ---
-

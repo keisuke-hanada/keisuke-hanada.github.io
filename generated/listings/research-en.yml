@@ -107,6 +107,76 @@
     meta-analysis and study its use for testing and interval estimation.
   links-html: <span class="research-links">[<a href="https://link.springer.com/article/10.1007/s10463-022-00844-4">paper</a>,
     <a href="https://doi.org/10.1007/s10463-022-00844-4">DOI</a>]</span>
+- id: clear-cell-papillary-renal
+  title: 'Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic
+    and Immunohistochemical Profiles in Relation to VHL Allelic Status'
+  section: medical
+  date: '2026-01-01'
+  order: 1
+  display-number: 5
+  citation-html: 'Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile,
+    F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto,
+    Y., &amp; Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited:
+    Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic
+    Status. <em>The American Journal of Surgical Pathology</em>.'
+  description-html: ''
+  links-html: ''
+- id: dnajc7-als
+  title: Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7
+    Mutation in Amyotrophic Lateral Sclerosis
+  section: medical
+  date: '2026-01-01'
+  order: 2
+  display-number: 4
+  citation-html: Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto,
+    K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular
+    Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral
+    Sclerosis. <em>Neuropathology and Applied Neurobiology</em>, 52(4), e70086.
+  description-html: ''
+  links-html: ''
+- id: esophagectomy-nerve-monitoring
+  title: 'Impact of intraoperative nerve integrity monitoring on recurrent laryngeal
+    nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity
+    score-matched analysis'
+  section: medical
+  date: '2026-01-01'
+  order: 3
+  display-number: 3
+  citation-html: 'Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai,
+    T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative
+    nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally
+    invasive esophagectomy for esophageal cancer: a propensity score-matched analysis.
+    <em>Surgical Endoscopy</em>, 1-10.'
+  description-html: ''
+  links-html: ''
+- id: pancreatic-second-line
+  title: Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1,
+    Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus
+    Nab-Paclitaxel for Unresectable Pancreatic Cancer
+  section: medical
+  date: '2026-01-01'
+  order: 4
+  display-number: 2
+  citation-html: Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto,
+    T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison
+    of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan,
+    and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel
+    for Unresectable Pancreatic Cancer. <em>Journal of Hepato-Biliary-Pancreatic Sciences</em>,
+    1-11.
+  description-html: ''
+  links-html: ''
+- id: hematologic-surrogate-endpoint
+  title: 'Potential surrogate endpoint for B-cell hematologic malignancy: A systematic
+    review and meta-analysis'
+  section: medical
+  date: '2025-06-03'
+  order: 5
+  display-number: 1
+  citation-html: 'Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential
+    surrogate endpoint for B-cell hematologic malignancy: A systematic review and
+    meta-analysis. <em>Scientific Reports</em>, 15, 19300.'
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://www.nature.com/articles/s41598-025-05053-6">paper</a>]</span>
 - id: population-standardized-ssr
   title: Covariate-Adaptive Sample Size Re-estimation for Population-Standardized
     Historical Control Designs in Single-Arm Trials

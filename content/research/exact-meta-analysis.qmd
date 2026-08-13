@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: methodological
+language: en
 date: 2023-04-01
 year: 2023
 title-en: Inference using an exact distribution of test statistic for random-effects meta-analysis
@@ -18,4 +19,3 @@ links:
   paper: https://link.springer.com/article/10.1007/s10463-022-00844-4
   doi: https://doi.org/10.1007/s10463-022-00844-4
 ---
-

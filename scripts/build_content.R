@@ -55,6 +55,13 @@ localized <- function(item, field, lang, fallback = TRUE) {
   scalar(value)
 }
 
+# Research titles and descriptions follow the language of the work. On the
+# Japanese page, only works written or presented in Japanese use Japanese
+# metadata; English-language works retain their original English wording.
+research_display_language <- function(item, page_lang) {
+  if (page_lang == "ja" && scalar(item$language) == "ja") "ja" else "en"
+}
+
 sort_date <- function(item) {
   value <- scalar(item$date, paste0(scalar(item$year, "0000"), "-01-01"))
   suppressWarnings(as.Date(value))
@@ -78,9 +85,11 @@ validate_items <- function(items) {
     source <- scalar(item$.source)
     if (!scalar(item$`record-type`) %in% allowed_records) abort("Invalid record-type in %s", source)
     if (!scalar(item$kind) %in% allowed_kinds) abort("Invalid kind in %s", source)
-    for (field in c("status", "date", "year", "title-en", "title-ja", "authors-en", "publication-en")) {
+    for (field in c("status", "date", "year", "language", "title-en", "authors-en", "publication-en")) {
       if (scalar(item[[field]]) == "") abort("Missing %s in %s", field, source)
     }
+    if (!scalar(item$language) %in% c("en", "ja")) abort("Invalid language in %s", source)
+    if (scalar(item$language) == "ja" && scalar(item$`title-ja`) == "") abort("Missing title-ja for Japanese-language work in %s", source)
     channels <- unlist(item$channels %||% character())
     invalid_channels <- setdiff(channels, c("research", "cv", "teaching", "background"))
     if (length(invalid_channels)) abort("Invalid channels in %s: %s", source, paste(invalid_channels, collapse = ", "))
@@ -126,6 +135,7 @@ citation_html <- function(item, lang) {
 
 research_section <- function(item) {
   kind <- scalar(item$kind)
+  if (kind == "publication" && scalar(item$category) == "clinical") return("medical")
   if (kind == "publication") return("publication")
   if (kind == "preprint") return("preprint")
   if (kind == "conference") return("conference")
@@ -144,22 +154,23 @@ make_research_listing <- function(lang) {
   selected <- Filter(function(x) has_channel(x, "research"), all_content)
   sections <- vapply(selected, research_section, character(1))
   result <- list()
-  for (section in c("publication", "preprint", "conference", "other", "software")) {
+  for (section in c("publication", "medical", "preprint", "conference", "other", "software")) {
     group <- selected[sections == section]
     if (!length(group)) next
     group <- ordered_items(group)
     total <- length(group)
     for (i in seq_along(group)) {
       item <- group[[i]]
+      display_lang <- research_display_language(item, lang)
       result[[length(result) + 1L]] <- list(
         id = scalar(item$id),
-        title = localized(item, "title", lang),
+        title = localized(item, "title", display_lang),
         section = section,
         date = scalar(item$date),
         order = i,
         `display-number` = total - i + 1L,
-        `citation-html` = citation_html(item, lang),
-        `description-html` = escape_html(localized(item, "description", lang)),
+        `citation-html` = citation_html(item, display_lang),
+        `description-html` = escape_html(localized(item, "description", display_lang)),
         `links-html` = link_html(item, lang)
       )
     }

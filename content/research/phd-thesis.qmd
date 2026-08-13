@@ -4,6 +4,7 @@ record-type: research
 kind: thesis
 status: published
 category: other
+language: en
 date: 2024-03-31
 year: 2024
 title-en: Inference and Exact Distributions for Random-Effects Meta-Analysis
@@ -18,4 +19,3 @@ channels: [research]
 links:
   paper: https://shiga-u.repo.nii.ac.jp/records/2000320
 ---
-

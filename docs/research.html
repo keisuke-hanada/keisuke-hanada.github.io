@@ -127,6 +127,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-research-medical .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-id','listing-title','listing-section','listing-date','listing-order','listing-display-number','listing-citation-html','listing-description-html','listing-links-html',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-id","listing-title","listing-section","listing-date","listing-order","listing-display-number","listing-citation-html","listing-description-html","listing-links-html"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-research-medical'] = new List('listing-research-medical', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-research-conferences .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -325,6 +353,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#accepted-published-papers" id="toc-accepted-published-papers" class="nav-link active" data-scroll-target="#accepted-published-papers">Accepted / Published Papers</a></li>
+  <li><a href="#medical-research" id="toc-medical-research" class="nav-link" data-scroll-target="#medical-research">Medical Research</a></li>
   <li><a href="#preprints-submitted-manuscripts" id="toc-preprints-submitted-manuscripts" class="nav-link" data-scroll-target="#preprints-submitted-manuscripts">Preprints / Submitted Manuscripts</a></li>
   <li><a href="#conference-presentations" id="toc-conference-presentations" class="nav-link" data-scroll-target="#conference-presentations">Conference Presentations</a></li>
   <li><a href="#other-research-outputs" id="toc-other-research-outputs" class="nav-link" data-scroll-target="#other-research-outputs">Other Research Outputs</a></li>
@@ -420,6 +449,41 @@ We compare model-based RMST analyses by simulation and identify when different a
 <div class="research-description">
 We derive an exact distribution for a test statistic in random-effects meta-analysis and study its use for testing and interval estimation.
 </div>
+</details>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="medical-research" class="level3">
+<h3 class="anchored" data-anchor-id="medical-research">Medical Research</h3>
+<div id="listing-research-medical" class="quarto-listing quarto-listing-container-custom">
+<div class="research-list list">
+<details class="research-entry" id="clear-cell-papillary-renal" data-index="0" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[5] Sagan, K., Kojima, F., Matsuzaki, I., <u>Hanada, K.</u>, Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y., &amp; Murata, S. I. (2026). Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic Status. <em>The American Journal of Surgical Pathology</em>. </span>
+</summary>
+</details>
+<details class="research-entry" id="dnajc7-als" data-index="1" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[4] Nakayama, Y., Kume, K., Baba, T., Ayaki, T., <u>Hanada, K.</u>, Miyamoto, K., Inoue, N., Kawakami, H., &amp; Ito, H. (2026). Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis. <em>Neuropathology and Applied Neurobiology</em>, 52(4), e70086. </span>
+</summary>
+</details>
+<details class="research-entry" id="esophagectomy-nerve-monitoring" data-index="2" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[3] Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., <u>Hanada, K.</u>, &amp; Kawai, M. (2026). Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis. <em>Surgical Endoscopy</em>, 1-10. </span>
+</summary>
+</details>
+<details class="research-entry" id="pancreatic-second-line" data-index="3" data-listing-date-sort="1767193200000">
+<summary>
+<span class="listing-title">[2] Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., <u>Hanada, K.</u>, Kojima, F., &amp; Kitano, M. (2026). Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel for Unresectable Pancreatic Cancer. <em>Journal of Hepato-Biliary-Pancreatic Sciences</em>, 1-11. </span>
+</summary>
+</details>
+<details class="research-entry" id="hematologic-surrogate-endpoint" data-index="4" data-listing-date-sort="1748876400000">
+<summary>
+<span class="listing-title">[1] Hirano, S., <u>Hanada, K.</u>, &amp; Maeda, H. (2025). Potential surrogate endpoint for B-cell hematologic malignancy: A systematic review and meta-analysis. <em>Scientific Reports</em>, 15, 19300. <span class="research-links">[<a href="https://www.nature.com/articles/s41598-025-05053-6">paper</a>]</span></span>
+</summary>
 </details>
 </div>
 <div class="listing-no-matching d-none">

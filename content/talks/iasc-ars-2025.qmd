@@ -5,6 +5,7 @@ kind: conference
 status: presented
 date: 2025-12-08
 year: 2025
+language: en
 title-en: Random-effects meta-analysis via generalized linear mixed models for few studies
 title-ja: 少数研究に対する一般化線形混合モデルによるランダム効果メタアナリシス
 authors-en: "{self}, & Sugimoto, T."
@@ -19,4 +20,3 @@ news:
     ja: IASC-ARS 2025の口頭セッションで杉本先生との共同研究を発表しました。
     href: /column/20260113-news-IASC-ARS2025.html
 ---
-

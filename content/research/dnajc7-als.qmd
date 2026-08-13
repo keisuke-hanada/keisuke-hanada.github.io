@@ -4,6 +4,7 @@ record-type: research
 kind: publication
 status: published
 category: clinical
+language: en
 date: 2026-01-01
 year: 2026
 title-en: Neuropathological and Molecular Features Associated With a Heterozygous DNAJC7 Mutation in Amyotrophic Lateral Sclerosis
@@ -11,6 +12,5 @@ title-ja: 筋萎縮性側索硬化症におけるヘテロ接合性DNAJC7変異�
 authors-en: "Nakayama, Y., Kume, K., Baba, T., Ayaki, T., {self}, Miyamoto, K., Inoue, N., Kawakami, H., & Ito, H."
 publication-en: "*Neuropathology and Applied Neurobiology*, 52(4), e70086"
 publication-ja: "*Neuropathology and Applied Neurobiology*, 52(4), e70086"
-channels: [cv]
+channels: [research, cv]
 ---
-

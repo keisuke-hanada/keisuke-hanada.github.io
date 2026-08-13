@@ -1,5 +1,5 @@
 ---
-title: 経歴
+title: Background
 lang: ja
 listing:
   - id: background-employment-ja

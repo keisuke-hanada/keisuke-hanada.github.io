@@ -1,5 +1,5 @@
 ---
-title: "花田圭佑 | Keisuke Hanada"
+title: Home
 lang: ja
 listing:
   id: recent-news-ja

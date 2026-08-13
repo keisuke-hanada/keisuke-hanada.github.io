@@ -1,5 +1,5 @@
 ---
-title: 研究
+title: Research
 lang: ja
 listing:
   - id: research-publications-ja

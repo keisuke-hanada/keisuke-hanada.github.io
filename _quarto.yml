@@ -26,8 +26,6 @@ website:
         text: Background
       - href: research.qmd
         text: Research
-      - href: tools.qmd
-        text: Tools
       - href: teaching.qmd
         text: Teaching
       - href: column/index.qmd

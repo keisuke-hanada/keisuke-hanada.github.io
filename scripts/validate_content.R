@@ -54,6 +54,8 @@ required_outputs <- c(
 )
 missing_outputs <- required_outputs[!file.exists(file.path(project_dir, required_outputs))]
 assert(!length(missing_outputs), "Missing rendered outputs: %s", paste(missing_outputs, collapse = ", "))
+assert(!file.exists(file.path(project_dir, "tools.qmd")), "Removed Tools source page still exists")
+assert(!file.exists(file.path(project_dir, "docs/tools.html")), "Removed Tools output page still exists")
 
 news_en <- yaml.load_file(file.path(project_dir, "generated/listings/news-en.yml"))
 news_ja <- yaml.load_file(file.path(project_dir, "generated/listings/news-ja.yml"))
@@ -137,8 +139,15 @@ for (resource in c("IASC-ARS2025-oral.pdf", "JSM2025-poster.pdf")) {
 unwanted_cv_outputs <- c("docs/CV/cv_202409.pdf", "docs/CV/cv_202409.pdf.html", paste0(cv_output, ".html"))
 assert(!any(file.exists(file.path(project_dir, unwanted_cv_outputs))), "Legacy or HTML CV output must not exist")
 search_and_sitemap <- paste(read_text("docs/search.json"), read_text("docs/sitemap.xml"))
+assert(!grepl("tools.html", search_and_sitemap, fixed = TRUE), "Removed Tools URL remains in search index or sitemap")
 assert(!grepl("cv_202409", search_and_sitemap, fixed = TRUE), "Legacy CV URL remains in search index or sitemap")
 assert(!grepl(paste0(basename(cv_output), ".html"), search_and_sitemap, fixed = TRUE), "HTML CV URL remains in search index or sitemap")
+
+rendered_html_paths <- list.files(file.path(project_dir, "docs"), pattern = "\\.html$", recursive = TRUE, full.names = TRUE)
+for (path in rendered_html_paths) {
+  html <- paste(readLines(path, encoding = "UTF-8", warn = FALSE), collapse = "\n")
+  assert(!grepl('href="[^\"]*tools[.]html"', html, perl = TRUE), "Removed Tools navbar link remains in %s", path)
+}
 
 pdf_path <- file.path(project_dir, cv_output)
 assert(file.info(pdf_path)$size > 30000, "Generated CV PDF is unexpectedly small")

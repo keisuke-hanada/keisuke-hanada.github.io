@@ -1,71 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://keisuke-hanada.github.io/tools.html</loc>
-    <lastmod>2024-08-01T11:42:00.881Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/teaching.html</loc>
+    <lastmod>2026-08-13T12:07:10.394Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/research.html</loc>
-    <lastmod>2026-08-13T23:35:45.280Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/ja/teaching.html</loc>
+    <lastmod>2026-08-13T14:07:00.586Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/ja/research.html</loc>
-    <lastmod>2026-08-13T23:35:46.008Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/ja/index.html</loc>
+    <lastmod>2026-08-13T14:06:58.218Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/ja/background.html</loc>
-    <lastmod>2026-08-13T14:06:58.989Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/index.html</loc>
+    <lastmod>2026-08-13T23:43:25.330Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/column/index.html</loc>
-    <lastmod>2026-08-13T12:14:17.732Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</loc>
-    <lastmod>2026-08-13T11:32:13.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</loc>
-    <lastmod>2026-08-13T11:32:13.137Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260403-news-preprint.html</loc>
-    <lastmod>2026-08-13T11:32:13.120Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</loc>
-    <lastmod>2026-08-13T11:32:13.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</loc>
-    <lastmod>2026-08-13T11:32:13.117Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</loc>
-    <lastmod>2026-08-13T11:32:13.117Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/background.html</loc>
-    <lastmod>2026-08-13T12:07:09.628Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20250810-JSM2025.html</loc>
-    <lastmod>2025-08-10T06:50:49.521Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</loc>
-    <lastmod>2026-08-13T23:35:44.557Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260213-news-大分.html</loc>
-    <lastmod>2026-08-13T11:32:13.118Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</loc>
-    <lastmod>2026-08-13T11:32:13.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://keisuke-hanada.github.io/column/20260417-news-JBS.html</loc>
+    <loc>https://keisuke-hanada.github.io/column/20260806-news-accepted.html</loc>
     <lastmod>2026-08-13T11:32:13.137Z</lastmod>
   </url>
   <url>
@@ -73,27 +25,67 @@
     <lastmod>2026-08-13T11:32:13.137Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/column/20260806-news-accepted.html</loc>
+    <loc>https://keisuke-hanada.github.io/column/20260417-news-JBS.html</loc>
     <lastmod>2026-08-13T11:32:13.137Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/index.html</loc>
-    <lastmod>2026-08-13T23:43:25.330Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</loc>
+    <lastmod>2026-08-13T11:32:13.119Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/ja/index.html</loc>
-    <lastmod>2026-08-13T14:06:58.218Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/column/20260213-news-大分.html</loc>
+    <lastmod>2026-08-13T11:32:13.118Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/ja/teaching.html</loc>
-    <lastmod>2026-08-13T14:07:00.586Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</loc>
+    <lastmod>2026-08-13T23:35:44.557Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/teaching.html</loc>
-    <lastmod>2026-08-13T12:07:10.394Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/column/20250810-JSM2025.html</loc>
+    <lastmod>2025-08-10T06:50:49.521Z</lastmod>
   </url>
   <url>
-    <loc>https://keisuke-hanada.github.io/CV/cv.pdf.html</loc>
-    <lastmod>2026-08-13T23:43:31.478Z</lastmod>
+    <loc>https://keisuke-hanada.github.io/background.html</loc>
+    <lastmod>2026-08-13T12:07:09.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</loc>
+    <lastmod>2026-08-13T11:32:13.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</loc>
+    <lastmod>2026-08-13T11:32:13.117Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</loc>
+    <lastmod>2026-08-13T11:32:13.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260403-news-preprint.html</loc>
+    <lastmod>2026-08-13T11:32:13.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</loc>
+    <lastmod>2026-08-13T11:32:13.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</loc>
+    <lastmod>2026-08-13T11:32:13.137Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/column/index.html</loc>
+    <lastmod>2026-08-13T12:14:17.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/ja/background.html</loc>
+    <lastmod>2026-08-13T14:06:58.989Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/ja/research.html</loc>
+    <lastmod>2026-08-13T23:35:46.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://keisuke-hanada.github.io/research.html</loc>
+    <lastmod>2026-08-13T23:35:45.280Z</lastmod>
   </url>
 </urlset>

@@ -1,14 +1,22 @@
 [
   {
-    "listing": "/research.html",
+    "listing": "/teaching.html",
     "items": []
   },
   {
-    "listing": "/ja/research.html",
+    "listing": "/ja/teaching.html",
     "items": []
   },
   {
-    "listing": "/ja/background.html",
+    "listing": "/ja/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/background.html",
     "items": []
   },
   {
@@ -30,23 +38,15 @@
     ]
   },
   {
-    "listing": "/background.html",
+    "listing": "/ja/background.html",
     "items": []
   },
   {
-    "listing": "/index.html",
+    "listing": "/ja/research.html",
     "items": []
   },
   {
-    "listing": "/ja/index.html",
-    "items": []
-  },
-  {
-    "listing": "/ja/teaching.html",
-    "items": []
-  },
-  {
-    "listing": "/teaching.html",
+    "listing": "/research.html",
     "items": []
   }
 ]

@@ -1,0 +1,23 @@
+---
+id: dose-insertion
+record-type: research
+kind: preprint
+status: submitted
+category: methodological
+date: 2026-02-20
+year: 2026
+title-en: Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion
+title-ja: 試験途中の用量追加に対する非情報・情報事前分布を組み合わせたモデル支援デザイン
+authors-en: "Yamada, K., Sunami, H., Takeda, K., {self}, & Kojima, M."
+publication-en: "*arXiv preprint* arXiv:2602.17995, submitted"
+publication-ja: "*arXiv preprint* arXiv:2602.17995, submitted"
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2602.17995
+news:
+  - date: 2026-02-20
+    en: Our paper with Yamada, Sunami, Takeda, and Kojima was published on arXiv.
+    ja: 山田先生、角南先生、武田先生、小島先生との共著論文をarXivで公開しました。
+    href: /column/20260229-news-preprint.html
+---
+

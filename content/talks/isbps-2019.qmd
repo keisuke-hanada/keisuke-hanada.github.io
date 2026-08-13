@@ -1,0 +1,15 @@
+---
+id: talk-isbps-2019
+record-type: talk
+kind: conference
+status: presented
+date: 2019-01-01
+year: 2019
+title-en: Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small
+title-ja: 試験数が少ない場合のランダム効果メタアナリシスにおける非漸近的性質と挙動
+authors-en: "{self}, & Sugimoto, T."
+publication-en: "*The VI-th International Symposium on Biopharmaceutical Statistics*, Kyoto"
+publication-ja: "*第6回International Symposium on Biopharmaceutical Statistics*, 京都"
+channels: [research, cv]
+---
+

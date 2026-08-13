@@ -1,62 +1,25 @@
 ---
 title: "Keisuke Hanada | 花田圭佑"
-# date: 2025-06-03
-author:
-    - name: Keisuke Hanada
-      orcid: 0000-0002-1444-0280
-      email: khanada@wakayama-med.ac.jp
-      affiliation:
-      - name: Wakayama Medical University
-abstract: |
-    I am a statistician. My interests are survival time analysis and meta-analysis.
-    In particular, I am studying restricted mean survival time in survival time analyses and better meta-analysis inferences when the number of studies is small.
-keywords: 
-    - Meta-Analysis
-    - Survival Analysis
-    - data borrowing
-copyright:
-    holder: Keisuke Hanada
-    year: 2024
 listing:
-  id: recent-columns
-  contents: column
+  id: recent-news
+  contents: generated/listings/news-en.yml
+  template: _listings/news.ejs.md
   sort: "date desc"
   max-items: 10
   fields: [date, title]
+  field-required: [date, title]
   date-format: "YYYY-MM-DD"
-  include:
-    categories: news
 ---
 
-Ph.D in Data Science (2024, Shiga University)
+[日本語](ja/index.html)
 
-For more information, see below:
-
-- [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ)
-- [my researchmap](https://researchmap.jp/k_hanada)
-- [Curriculum Vitae](https://keisuke-hanada.github.io/CV/cv_202409.pdf)
-
-
-2025年より，和歌山県立医科大学 医学部 医療統計学講座 助教
-
-2024年3月に滋賀大学データサイエンス研究科を終了し，博士(データサイエンス)を取得．
+{{< include generated/profile-en.md >}}
 
 ## Recent news
-::: {#recent-columns}
+
+::: {#recent-news}
 :::
 
+## Recent Interests
 
-
-# Recent Interests
-My interest is meta-analysis, data borrowing, transfer learning, survival analysis and related model estimation.
-
-メタアナリシス，生存時間解析の研究をしています．
-メタアナリシスでは，試験数が少ないときでも正確に推測する方法に興味があります．
-生存時間解析では，比例ハザード性が成り立たないもとでの推測の中で，制限付き平均生存時間(RMST)の解析に興味があります．
-
-
-
-
-
-
-
+{{< include generated/interests-en.md >}}

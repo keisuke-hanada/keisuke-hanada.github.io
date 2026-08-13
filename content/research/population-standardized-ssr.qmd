@@ -1,0 +1,25 @@
+---
+id: population-standardized-ssr
+record-type: research
+kind: preprint
+status: submitted
+category: methodological
+date: 2026-07-29
+year: 2026
+title-en: Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials
+title-ja: 単群試験の母集団標準化ヒストリカル対照デザインに対する共変量適応型症例数再推定
+authors-en: "{self}, & Kojima, M."
+publication-en: "*arXiv preprint* arXiv:2607.25159, submitted"
+publication-ja: "*arXiv preprint* arXiv:2607.25159, submitted"
+description-en: We propose covariate-adjusted sample-size planning and re-estimation for single-arm trials using population-standardized historical controls.
+description-ja: 単群試験における共変量調整付き症例数設計および再推定法を提案しました。
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2607.25159
+news:
+  - date: 2026-07-29
+    en: Our paper with Kojima was published on arXiv.
+    ja: 小島先生との共著論文をarXivで公開しました。
+    href: /column/20260729-news-preprint.html
+---
+

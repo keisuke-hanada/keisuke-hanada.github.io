@@ -1,0 +1,17 @@
+---
+id: talk-meta-analysis-symposium-2026
+record-type: talk
+kind: conference
+status: presented
+date: 2026-06-01
+year: 2026
+title-en: "Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies"
+title-ja: "一般化線形混合モデルによるランダム効果メタアナリシス：少数研究のためのBartlett補正アプローチ"
+authors-en: "{self}"
+publication-en: "*Recent Advances in Meta-Analysis 2026*, Göttingen"
+publication-ja: "*Recent Advances in Meta-Analysis 2026*, ゲッティンゲン"
+channels: [research, cv]
+links:
+  event: https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/
+---
+

@@ -1,0 +1,22 @@
+---
+id: talk-iasc-ars-2025
+record-type: talk
+kind: conference
+status: presented
+date: 2025-12-08
+year: 2025
+title-en: Random-effects meta-analysis via generalized linear mixed models for few studies
+title-ja: 少数研究に対する一般化線形混合モデルによるランダム効果メタアナリシス
+authors-en: "{self}, & Sugimoto, T."
+publication-en: "*The 13th Conference of the IASC-ARS*, Ho Chi Minh City"
+publication-ja: "*第13回IASC-ARS会議*, ホーチミン市"
+channels: [research, cv]
+links:
+  oral: /files/IASC-ARS2025-oral.pdf
+news:
+  - date: 2026-01-13
+    en: I presented our work with Sugimoto in an oral session at IASC-ARS 2025.
+    ja: IASC-ARS 2025の口頭セッションで杉本先生との共同研究を発表しました。
+    href: /column/20260113-news-IASC-ARS2025.html
+---
+

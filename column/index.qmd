@@ -1,5 +1,8 @@
 ---
 title: Column (JP)
+aliases:
+  - /column.html
+  - /colmn.html
 listing:
   contents: .
   type: default

@@ -1,0 +1,17 @@
+name: Keisuke Hanada
+name-ja: 花田 圭佑
+email: khanada@wakayama-med.ac.jp
+orcid: 0000-0002-1444-0280
+github: https://github.com/keisuke-hanada
+website: https://keisuke-hanada.github.io/
+google-scholar: https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ
+researchmap: https://researchmap.jp/k_hanada
+cv: /CV/cv_202409.pdf
+bio-en: >-
+  I am a statistician specializing in survival analysis and meta-analysis. I study restricted mean survival time and reliable meta-analysis inference when the number of studies is small.
+bio-ja: >-
+  生存時間解析とメタアナリシスを専門とする統計学者です。制限付き平均生存時間と、試験数が少ない場合にも信頼できるメタアナリシスの推測法を研究しています。
+interests-en: >-
+  My interests include meta-analysis, data borrowing, transfer learning, survival analysis, and related model estimation.
+interests-ja: >-
+  メタアナリシス、データ借用、転移学習、生存時間解析、および関連するモデル推定に関心があります。特に、試験数が少ない場合の正確な推測と、比例ハザード性が成り立たない場合の制限付き平均生存時間（RMST）の解析を研究しています。

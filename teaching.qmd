@@ -1,10 +1,16 @@
 ---
 title: Teaching
+listing:
+  id: teaching-list
+  contents: generated/listings/activities-en.yml
+  template: _listings/activity.ejs.md
+  include:
+    section: teaching
+  sort: "order asc"
+  field-required: [title, order]
 ---
 
-### 2025年度
+[日本語](ja/teaching.html)
 
-- 統計基礎 (和歌山県立医科大学)
-- 統計講義 (明治薬科大学 レギュラトリーサイエンス研究室)
-
-
+::: {#teaching-list}
+:::

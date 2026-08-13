@@ -1,0 +1,51 @@
+- id: employment-wmu
+  title: Assistant Professor
+  details: Faculty of Medicine, Wakayama Medical University
+  period: Apr. 2025-Present
+  section: employment
+  order: 1
+- id: employment-osaka
+  title: Specially Appointed Assistant Professor (Full Time)
+  details: Graduate School of Engineering Science, Osaka University
+  period: Apr. 2024-Mar. 2025
+  section: employment
+  order: 2
+- id: employment-kyowa-kirin
+  title: Biostatistician
+  details: Biometrics Department, Kyowa Kirin Co., Ltd.
+  period: Apr. 2019-Feb. 2024
+  section: employment
+  order: 3
+- id: education-shiga-phd
+  title: Ph.D. in Data Science
+  details: Graduate School of Data Science, Shiga University; supervisor, Dr. Tomoyuki
+    Sugimoto
+  period: Apr. 2020-Mar. 2024
+  section: education
+  order: 1
+- id: education-kagoshima-ms
+  title: M.S. in Science
+  details: Graduate School of Science and Engineering, Kagoshima University; supervisor,
+    Dr. Tomoyuki Sugimoto
+  period: Apr. 2017-Mar. 2019
+  section: education
+  order: 2
+- id: education-hirosaki-bs
+  title: B.Sc. in Science
+  details: Faculty of Science and Technology, Hirosaki University; supervisor, Dr.
+    Kimitoshi Tsutaya
+  period: Apr. 2013-Mar. 2017
+  section: education
+  order: 3
+- id: teaching-statistics-fundamentals-2025
+  title: Statistics Fundamentals
+  details: Wakayama Medical University
+  period: '2025'
+  section: teaching
+  order: 1
+- id: teaching-statistical-lectures-2025
+  title: Statistical Lectures
+  details: Regulatory Science Laboratory, Meiji Pharmaceutical University
+  period: '2025'
+  section: teaching
+  order: 2

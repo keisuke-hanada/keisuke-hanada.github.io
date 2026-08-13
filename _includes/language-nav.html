@@ -1,0 +1,24 @@
+<script>
+(() => {
+  if (!window.location.pathname.startsWith("/ja/")) return;
+
+  const japanesePages = new Map([
+    ["/index.html", ["/ja/index.html", "ホーム"]],
+    ["/", ["/ja/index.html", "ホーム"]],
+    ["/background.html", ["/ja/background.html", "経歴"]],
+    ["/research.html", ["/ja/research.html", "研究"]],
+    ["/teaching.html", ["/ja/teaching.html", "教育"]]
+  ]);
+
+  document.querySelectorAll("#quarto-header a.nav-link").forEach((link) => {
+    const target = japanesePages.get(new URL(link.href, window.location.href).pathname);
+    if (!target) return;
+    link.href = target[0];
+    const label = link.querySelector(".menu-text");
+    if (label) label.textContent = target[1];
+  });
+
+  const brand = document.querySelector("#quarto-header .navbar-brand");
+  if (brand) brand.href = "/ja/index.html";
+})();
+</script>

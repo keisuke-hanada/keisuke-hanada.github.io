@@ -1,0 +1,160 @@
+# サイト更新手順
+
+このサイトでは、`content/` 配下の構造化metadataを情報の正本とします。`research.qmd`、HomeのRecent news、`CV/cv.qmd`、`generated/` は直接編集しません。
+
+## ディレクトリ
+
+```text
+content/
+├─ research/       # 1 publication / preprint / thesis = 1 qmd
+├─ talks/          # 1 presentation = 1 qmd
+├─ software/       # 1 software package = 1 qmd
+└─ data/
+   ├─ profile.yml
+   └─ activities.yml
+```
+
+employment、education、grant、award、teaching、academic serviceは、ファイル数を増やさず `content/data/activities.yml` でまとめて管理します。
+
+## 新しい研究成果を追加する
+
+`content/research/example-paper.qmd` を1ファイル追加します。英語版と日本語版を分けて作らないでください。
+
+```yaml
+---
+id: example-paper
+record-type: research
+kind: publication             # publication / preprint / thesis
+status: published             # submitted / accepted / published
+category: methodological      # methodological / clinical / other
+date: 2026-08-13
+year: 2026
+order: 10                     # 同一セクションで明示順が必要な場合のみ
+
+title-en: English title
+title-ja: 日本語タイトル
+authors-en: "{self}, & Coauthor, A."
+authors-ja: "{self-ja}、共著者 A."
+publication-en: "*Journal Name*, 12(3), 1-10"
+publication-ja: "*Journal Name*, 12(3), 1-10"
+description-en: English description.
+description-ja: 日本語の説明。
+
+channels: [research, cv]
+
+links:
+  paper: https://example.org/paper
+  doi: https://doi.org/10.xxxx/example
+  arxiv: https://arxiv.org/abs/xxxx.xxxxx
+  github: https://github.com/example/repository
+
+news:
+  - date: 2026-08-13
+    en: Our paper was published in Journal Name.
+    ja: 論文がJournal Nameに掲載されました。
+---
+```
+
+`authors-en` 内の `{self}` はWebとCVで本人を下線表示するための記号です。和文著者列を使う場合は `authors-ja` に `{self-ja}` を指定します。
+
+通常は日付降順です。`order` を設定した項目は同一セクション内で小さい値から優先表示されるため、日付だけでは決められない順番に使用します。
+
+## submittedからacceptedになった場合
+
+新しいファイルは作らず、既存qmdの次の項目を更新します。
+
+```yaml
+status: accepted
+date: 2026-08-13
+year: 2026
+year-display: 2026+       # 必要な場合のみ
+publication-en: "*Journal Name*, accepted"
+publication-ja: "*Journal Name*, accepted"
+news:
+  - date: 2026-08-13
+    en: Our paper was accepted in Journal Name.
+    ja: 論文がJournal Nameに採択されました。
+```
+
+過去のarXiv公開newsも残す場合は、`news` に複数の項目を保持できます。
+
+## Research、CVへの掲載指定
+
+`channels` で表示先を制御します。
+
+```yaml
+channels: [research, cv]  # ResearchとCV
+channels: [research]      # Researchのみ
+channels: [cv]            # CVのみ
+channels: []              # いずれにも表示しない
+```
+
+HomeのRecent newsはbooleanではなく、`news` 配列が存在する項目を自動収集します。research、talk、software、grant等で同じ形式を使用できます。
+
+## 英語・日本語
+
+原則として以下の対で保持します。
+
+- `title-en` / `title-ja`
+- `description-en` / `description-ja`
+- `publication-en` / `publication-ja`
+- `authors-en` / `authors-ja`（和文著者表記が必要な場合）
+- `news[].en` / `news[].ja`
+
+英語ページは `/research.html`、日本語ページは `/ja/research.html` に生成されますが、両方とも同じqmdを読みます。
+
+## Teaching、Background、助成、受賞等
+
+`content/data/activities.yml` の `items` に追加します。主な `type` は次のとおりです。
+
+- `employment`
+- `education`
+- `grant`
+- `award`
+- `teaching`
+- `service`
+
+WebとCVへの表示は、研究成果と同じく `channels` で指定します。
+
+## 発表・ソフトウェア
+
+- 発表は `content/talks/` に1発表1qmdで追加します。
+- ソフトウェアは `content/software/` に1ソフトウェア1qmdで追加します。
+- 発表の `kind` は `conference`、ソフトウェアは `software` とします。
+- `links` には `event`、`oral`、`poster`、`cran`、`github` も指定できます。
+
+## ローカル生成
+
+R、Quarto、LuaLaTeX、Rパッケージ `yaml` が必要です。
+
+```powershell
+# metadata検証、listing入力、CV用qmdの生成
+Rscript scripts/build_content.R
+
+# WebとCV PDFをまとめて生成
+quarto render
+
+# 生成結果を検証
+Rscript scripts/validate_content.R
+
+# 架空の研究1件を実際に追加・renderし、英日Home・英日Research・CVへの
+# 同時反映を確認後、自動削除・再render
+Rscript scripts/test_single_source.R
+```
+
+CV PDFのみを生成する場合は次を実行します。
+
+```powershell
+Rscript scripts/build_content.R
+quarto render CV/cv.qmd
+```
+
+生成物は `docs/CV/cv_202409.pdf` です。公開URL互換性のためファイル名は維持しています。
+
+## GitHub Actions
+
+Pull Requestではrenderとvalidationを行います。`main` にmergeされたpushでは、同じ処理後にGitHub Pagesへdeployします。リポジトリのPages設定は、初回利用時にSourceを **GitHub Actions** に設定してください。
+
+## Column
+
+`column/` は従来どおりQuarto blog/listingとして独立管理します。既存記事URL、カテゴリ、RSSは維持されます。HomeのRecent newsの正本は今後 `content/` 側ですが、`news[].href` から詳細なColumn記事へリンクできます。

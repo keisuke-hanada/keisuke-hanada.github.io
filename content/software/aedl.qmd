@@ -1,0 +1,17 @@
+---
+id: software-aedl
+record-type: software
+kind: software
+status: released
+date: 2024-01-01
+year: 2024
+title-en: aedl
+title-ja: aedl
+authors-en: "{self}"
+publication-en: "R package: Almost-Exact Inference for the DerSimonian-Laird Test Statistic"
+publication-ja: "Rパッケージ：DerSimonian-Laird検定統計量のほぼ正確な推測"
+channels: [research, cv]
+links:
+  cran: https://cran.r-project.org/web/packages/aedl/
+---
+

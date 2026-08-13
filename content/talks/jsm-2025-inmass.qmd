@@ -1,0 +1,22 @@
+---
+id: talk-jsm-2025-inmass
+record-type: talk
+kind: conference
+status: presented
+date: 2025-08-10
+year: 2025
+title-en: Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect
+title-ja: 条件付き平均治療効果の推定に向けた特定研究へのメタアナリシス統合
+authors-en: "{self}, & Kojima, M."
+publication-en: "*Joint Statistical Meetings 2025*, Nashville"
+publication-ja: "*Joint Statistical Meetings 2025*, ナッシュビル"
+channels: [research, cv]
+links:
+  poster: /files/JSM2025-poster.pdf
+news:
+  - date: 2025-08-10
+    en: I presented our work with Kojima in a poster session at JSM 2025.
+    ja: JSM 2025のポスターセッションで小島先生との共同研究を発表しました。
+    href: /column/20260113-news-before-2026.html
+---
+

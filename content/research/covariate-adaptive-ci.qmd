@@ -1,0 +1,26 @@
+---
+id: covariate-adaptive-ci
+record-type: research
+kind: publication
+status: published
+category: methodological
+date: 2025-10-03
+year: 2025
+title-en: Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials
+title-ja: 非劣性・同等性試験における共変量適応無作為化下の信頼区間調整
+authors-en: "Kojima, M., Mano, H., Yamada, K., {self}, Tanaka, Y., & Moriya, J."
+publication-en: "*Contemporary Clinical Trials*, 158, 108099"
+publication-ja: "*Contemporary Clinical Trials*, 158, 108099"
+description-en: We propose confidence-interval adjustments for non-inferiority and equivalence testing under rerandomization and covariate-adaptive randomization.
+description-ja: 並べ替え法や共変量適応無作為化法による非劣性・同等性比較に対して調整信頼区間を用いた検定を提案し、シミュレーションで性能を評価しました。
+channels: [research, cv]
+links:
+  paper: https://www.sciencedirect.com/science/article/pii/S1551714425002939
+  arxiv: https://arxiv.org/abs/2312.15619
+news:
+  - date: 2025-10-03
+    en: Our paper with Kojima, Mano, Yamada, Tanaka, and Moriya was published in Contemporary Clinical Trials.
+    ja: 小島先生、間野先生、山田先生、田中先生、守屋先生との共著論文がContemporary Clinical Trialsに掲載されました。
+    href: /column/20260113-news-before-2026.html
+---
+

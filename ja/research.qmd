@@ -1,0 +1,81 @@
+---
+title: 研究
+lang: ja
+listing:
+  - id: research-publications-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: publication
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-preprints-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: preprint
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-other-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: other
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-software-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: software
+    sort: "order asc"
+    field-required: [title, order]
+---
+
+[English](../research.html)
+
+研究業績全体については[Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF3oAAAAJ&hl=ja)もご覧ください。ここでは、生物統計学の方法論を中心とした研究を紹介します。
+
+### 採択・出版済み論文
+
+::: {#research-publications-ja}
+:::
+
+### プレプリント・投稿中論文
+
+::: {#research-preprints-ja}
+:::
+
+### 学会発表
+
+::: {#research-conferences-ja}
+:::
+
+### その他の研究成果
+
+::: {#research-other-ja}
+:::
+
+### ソフトウェア
+
+::: {#research-software-ja}
+:::
+
+その他の情報は[researchmap](https://researchmap.jp/k_hanada)をご覧ください。

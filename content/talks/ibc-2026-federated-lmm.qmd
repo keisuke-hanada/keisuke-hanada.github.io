@@ -1,0 +1,22 @@
+---
+id: talk-ibc-2026-federated-lmm
+record-type: talk
+kind: conference
+status: presented
+date: 2026-07-17
+year: 2026
+title-en: Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models
+title-ja: 線形混合モデルに対するプライバシー保護付きワンショット連合推測
+authors-en: "{self}, Shimokawa, T., & Maruo, K."
+publication-en: "*33rd International Biometric Conference*, Seoul"
+publication-ja: "*第33回国際計量生物学会*, ソウル"
+channels: [research, cv]
+links:
+  event: https://www.ibc2026.org/home
+news:
+  - date: 2026-07-17
+    en: I presented co-authored work on privacy-preserving federated inference at the 33rd International Biometric Conference.
+    ja: 第33回国際計量生物学会でプライバシー保護付き連合推測に関する共同研究を口頭発表しました。
+    href: /column/20260717-news-IBC2026.html
+---
+

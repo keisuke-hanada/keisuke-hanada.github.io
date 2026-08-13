@@ -1,0 +1,25 @@
+---
+id: bayesian-rmst
+record-type: research
+kind: preprint
+status: submitted
+category: methodological
+date: 2024-06-11
+year: 2024
+title-en: Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time
+title-ja: 制限付き平均生存時間の分布を導出するベイズパラメトリック法
+authors-en: "{self}, & Kojima, M."
+publication-en: "*arXiv preprint* arXiv:2406.06071, submitted"
+publication-ja: "*arXiv preprint* arXiv:2406.06071, submitted"
+description-en: We formulate RMST under parametric survival models, add random and frailty effects, and propose Bayesian inference with consistency properties.
+description-ja: RMSTを期待値と生存関数で定式化し、パラメトリックモデルにランダム効果とフレイルティ効果を導入したベイズ推測法を提案しました。
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2406.06071
+news:
+  - date: 2024-06-11
+    en: Our paper with Kojima was published on arXiv.
+    ja: 小島先生との共著論文をarXivで公開しました。
+    href: /column/20260113-news-before-2026.html
+---
+

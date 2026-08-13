@@ -1,0 +1,262 @@
+- id: inmass
+  title: Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population
+    Average Treatment Effect
+  section: publication
+  date: '2026-08-06'
+  order: 1
+  display-number: 8
+  citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2026+). Integrate Meta-analysis
+    into Specific Study (InMASS) for Estimating Target-Population Average Treatment
+    Effect. <em>Biometrical Journal</em>, accepted.
+  description-html: We propose a method that uses meta-analysis to estimate the average
+    treatment effect in a target population represented by a specific study.
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2503.21091">arXiv</a>]</span>
+- id: meta-glmm
+  title: 'Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected
+    approach for few studies'
+  section: publication
+  date: '2026-07-30'
+  order: 2
+  display-number: 7
+  citation-html: '<u>Hanada, K.</u>, &amp; Sugimoto, T. (2026+). Random-effects meta-analysis
+    via generalized linear mixed models: A Bartlett-corrected approach for few studies.
+    <em>Biometrics</em>, accepted.'
+  description-html: We develop random-effects meta-analysis under generalized linear
+    mixed models and propose a simple Bartlett correction that gives accurate interval
+    estimation with few studies.
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2508.08758">arXiv</a>,
+    <a href="https://github.com/keisuke-hanada/metaGLMM">GitHub</a>]</span>
+- id: random-effect-rmst
+  title: Random Effect Restricted Mean Survival Time Model
+  section: publication
+  date: '2026-04-17'
+  order: 3
+  display-number: 6
+  citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2026). Random Effect Restricted
+    Mean Survival Time Model. <em>Journal of Biopharmaceutical Statistics</em>, 1-16.
+  description-html: We introduce random effects into RMST regression, enabling cluster-specific
+    shrinkage estimates based on the overall effect.
+  links-html: <span class="research-links">[<a href="https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641">paper</a>,
+    <a href="https://doi.org/10.1080/10543406.2026.2654641">DOI</a>, <a href="https://arxiv.org/abs/2401.02048">arXiv</a>]</span>
+- id: blinded-hybrid-control
+  title: Sample size re-estimation in blinded hybrid-control design using inverse
+    probability weighting
+  section: publication
+  date: '2026-02-10'
+  order: 4
+  display-number: 5
+  citation-html: Kojima, M., Orihara, S., <u>Hanada, K.</u>, &amp; Ohigashi, T. (2026).
+    Sample size re-estimation in blinded hybrid-control design using inverse probability
+    weighting. <em>Statistics in Medicine</em>, 45(3-5), e70429.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429">paper</a>,
+    <a href="https://doi.org/10.1002/sim.70429">DOI</a>, <a href="https://arxiv.org/abs/2506.15913">arXiv</a>]</span>
+- id: covariate-adaptive-ci
+  title: Adjusting confidence intervals under covariate-adaptive randomization in
+    non-inferiority and equivalence trials
+  section: publication
+  date: '2025-10-03'
+  order: 5
+  display-number: 4
+  citation-html: Kojima, M., Mano, H., Yamada, K., <u>Hanada, K.</u>, Tanaka, Y.,
+    &amp; Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive
+    randomization in non-inferiority and equivalence trials. <em>Contemporary Clinical
+    Trials</em>, 158, 108099.
+  description-html: We propose confidence-interval adjustments for non-inferiority
+    and equivalence testing under rerandomization and covariate-adaptive randomization.
+  links-html: <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/pii/S1551714425002939">paper</a>,
+    <a href="https://arxiv.org/abs/2312.15619">arXiv</a>]</span>
+- id: ipd-meta-analysis-ja
+  title: Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant
+    Data and Summary Statistics
+  section: publication
+  date: '2024-07-14'
+  order: 6
+  display-number: 3
+  citation-html: <u>Hanada, K.</u>, &amp; Sugimoto, T. (2024). Meta-Analysis for Time-to-event
+    Outcome Based on Restored Individual Participant Data and Summary Statistics.
+    <em>Japanese Journal of Biometrics</em>, 45(1), 115-131 (in Japanese).
+  description-html: We compare reconstructed individual-participant-data meta-analysis
+    with summary-statistics approaches for time-to-event outcomes through simulation.
+  links-html: <span class="research-links">[<a href="https://www.jstage.jst.go.jp/article/jjb/45/1/45_115/_article/-char/ja">paper</a>,
+    <a href="https://arxiv.org/abs/2407.04446">arXiv</a>]</span>
+- id: rmst-covariate-adjustment
+  title: Comparison of baseline covariate adjustment methods for restricted mean survival
+    time
+  section: publication
+  date: '2024-01-31'
+  order: 7
+  display-number: 2
+  citation-html: <u>Hanada, K.</u>, Moriya, J., &amp; Kojima, M. (2024). Comparison
+    of baseline covariate adjustment methods for restricted mean survival time. <em>Contemporary
+    Clinical Trials</em>, 138, 107440.
+  description-html: We compare model-based RMST analyses by simulation and identify
+    when different adjustment methods are appropriate.
+  links-html: <span class="research-links">[<a href="https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144">paper</a>]</span>
+- id: exact-meta-analysis
+  title: Inference using an exact distribution of test statistic for random-effects
+    meta-analysis
+  section: publication
+  date: '2023-04-01'
+  order: 8
+  display-number: 1
+  citation-html: <u>Hanada, K.</u>, &amp; Sugimoto, T. (2023). Inference using an
+    exact distribution of test statistic for random-effects meta-analysis. <em>Annals
+    of the Institute of Statistical Mathematics</em>, 75(2), 281-302.
+  description-html: We derive an exact distribution for a test statistic in random-effects
+    meta-analysis and study its use for testing and interval estimation.
+  links-html: <span class="research-links">[<a href="https://link.springer.com/article/10.1007/s10463-022-00844-4">paper</a>,
+    <a href="https://doi.org/10.1007/s10463-022-00844-4">DOI</a>]</span>
+- id: population-standardized-ssr
+  title: Covariate-Adaptive Sample Size Re-estimation for Population-Standardized
+    Historical Control Designs in Single-Arm Trials
+  section: preprint
+  date: '2026-07-29'
+  order: 1
+  display-number: 5
+  citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2026). Covariate-Adaptive Sample
+    Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm
+    Trials. <em>arXiv preprint</em> arXiv:2607.25159, submitted.
+  description-html: We propose covariate-adjusted sample-size planning and re-estimation
+    for single-arm trials using population-standardized historical controls.
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2607.25159">arXiv</a>]</span>
+- id: federated-lmm
+  title: Differentially Private One-Shot Federated Inference for Linear Mixed Models
+    via Lossless Likelihood Reconstruction
+  section: preprint
+  date: '2026-04-03'
+  order: 2
+  display-number: 4
+  citation-html: <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Differentially
+    Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood
+    Reconstruction. <em>arXiv preprint</em> arXiv:2604.00410, submitted.
+  description-html: We propose differentially private linear mixed-model inference
+    based only on facility-level summaries and study the privacy-accuracy tradeoff.
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2604.00410">arXiv</a>]</span>
+- id: dose-insertion
+  title: Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial
+    Dose Insertion
+  section: preprint
+  date: '2026-02-20'
+  order: 3
+  display-number: 3
+  citation-html: Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K.</u>, &amp; Kojima,
+    M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs
+    for Mid-trial Dose Insertion. <em>arXiv preprint</em> arXiv:2602.17995, submitted.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2602.17995">arXiv</a>]</span>
+- id: basket-trajectories
+  title: A Clustering Approach for Basket Trials Based on Treatment Response Trajectories
+  section: preprint
+  date: '2025-11-14'
+  order: 4
+  display-number: 2
+  citation-html: Kojima, M., <u>Hanada, K.</u>, &amp; Sato, A. (2025). A Clustering
+    Approach for Basket Trials Based on Treatment Response Trajectories. <em>arXiv
+    preprint</em> arXiv:2511.09890, submitted.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2511.09890">arXiv</a>]</span>
+- id: bayesian-rmst
+  title: Bayesian Parametric Methods for Deriving Distribution of Restricted Mean
+    Survival Time
+  section: preprint
+  date: '2024-06-11'
+  order: 5
+  display-number: 1
+  citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2024). Bayesian Parametric Methods
+    for Deriving Distribution of Restricted Mean Survival Time. <em>arXiv preprint</em>
+    arXiv:2406.06071, submitted.
+  description-html: We formulate RMST under parametric survival models, add random
+    and frailty effects, and propose Bayesian inference with consistency properties.
+  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2406.06071">arXiv</a>]</span>
+- id: talk-ibc-2026-federated-lmm
+  title: Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models
+  section: conference
+  date: '2026-07-17'
+  order: 1
+  display-number: 5
+  citation-html: <u>Hanada, K.</u>, Shimokawa, T., &amp; Maruo, K. (2026). Privacy-Preserving
+    One-Shot Federated Inference for Linear Mixed Models. <em>33rd International Biometric
+    Conference</em>, Seoul.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://www.ibc2026.org/home">event</a>]</span>
+- id: talk-meta-analysis-symposium-2026
+  title: 'Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected
+    approach for few studies'
+  section: conference
+  date: '2026-06-01'
+  order: 2
+  display-number: 4
+  citation-html: '<u>Hanada, K.</u> (2026). Random-effects meta-analysis via generalized
+    linear mixed models: A Bartlett-corrected approach for few studies. <em>Recent
+    Advances in Meta-Analysis 2026</em>, Gottingen.'
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/">event</a>]</span>
+- id: talk-iasc-ars-2025
+  title: Random-effects meta-analysis via generalized linear mixed models for few
+    studies
+  section: conference
+  date: '2025-12-08'
+  order: 3
+  display-number: 3
+  citation-html: <u>Hanada, K.</u>, &amp; Sugimoto, T. (2025). Random-effects meta-analysis
+    via generalized linear mixed models for few studies. <em>The 13th Conference of
+    the IASC-ARS</em>, Ho Chi Minh City.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="/files/IASC-ARS2025-oral.pdf">oral</a>]</span>
+- id: talk-jsm-2025-inmass
+  title: Integrate Meta-analysis into Specific Study for Estimating Conditional Average
+    Treatment Effect
+  section: conference
+  date: '2025-08-10'
+  order: 4
+  display-number: 2
+  citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2025). Integrate Meta-analysis
+    into Specific Study for Estimating Conditional Average Treatment Effect. <em>Joint
+    Statistical Meetings 2025</em>, Nashville.
+  description-html: ''
+  links-html: <span class="research-links">[<a href="/files/JSM2025-poster.pdf">poster</a>]</span>
+- id: talk-isbps-2019
+  title: Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis
+    When the Number of Studies Is Small
+  section: conference
+  date: '2019-01-01'
+  order: 5
+  display-number: 1
+  citation-html: <u>Hanada, K.</u>, &amp; Sugimoto, T. (2019). Non-Asymptotic Properties
+    and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small.
+    <em>The VI-th International Symposium on Biopharmaceutical Statistics</em>, Kyoto.
+  description-html: ''
+  links-html: ''
+- id: phd-thesis
+  title: Inference and Exact Distributions for Random-Effects Meta-Analysis
+  section: other
+  date: '2024-03-31'
+  order: 1
+  display-number: 1
+  citation-html: <u>Hanada, K.</u> (2024). Inference and Exact Distributions for Random-Effects
+    Meta-Analysis. Doctoral dissertation, Shiga University.
+  description-html: My doctoral dissertation studies meta-analysis with few studies
+    and reconstructed individual-participant-data meta-analysis for time-to-event
+    outcomes.
+  links-html: <span class="research-links">[<a href="https://shiga-u.repo.nii.ac.jp/records/2000320">paper</a>]</span>
+- id: software-rmst-bayes-para
+  title: rmstBayespara
+  section: software
+  date: '2024-07-04'
+  order: 1
+  display-number: 2
+  citation-html: '<u>Hanada, K.</u> (2024). rmstBayespara. R package: Bayesian Restricted
+    Mean Survival Time for Cluster Effect.'
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://cran.r-project.org/web/packages/rmstBayespara/">CRAN</a>]</span>
+- id: software-aedl
+  title: aedl
+  section: software
+  date: '2024-01-01'
+  order: 2
+  display-number: 1
+  citation-html: '<u>Hanada, K.</u> (2024). aedl. R package: Almost-Exact Inference
+    for the DerSimonian-Laird Test Statistic.'
+  description-html: ''
+  links-html: <span class="research-links">[<a href="https://cran.r-project.org/web/packages/aedl/">CRAN</a>]</span>

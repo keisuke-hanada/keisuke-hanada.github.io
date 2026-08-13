@@ -1,0 +1,20 @@
+---
+id: rmst-covariate-adjustment
+record-type: research
+kind: publication
+status: published
+category: methodological
+date: 2024-01-31
+year: 2024
+title-en: Comparison of baseline covariate adjustment methods for restricted mean survival time
+title-ja: 制限付き平均生存時間に対するベースライン共変量調整法の比較
+authors-en: "{self}, Moriya, J., & Kojima, M."
+publication-en: "*Contemporary Clinical Trials*, 138, 107440"
+publication-ja: "*Contemporary Clinical Trials*, 138, 107440"
+description-en: We compare model-based RMST analyses by simulation and identify when different adjustment methods are appropriate.
+description-ja: RMSTに対するモデル解析法をシミュレーションで比較し、打ち切り確率の構造に応じて適切な手法が異なることを示しました。
+channels: [research, cv]
+links:
+  paper: https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144
+---
+

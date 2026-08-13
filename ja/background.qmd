@@ -1,0 +1,31 @@
+---
+title: 経歴
+lang: ja
+listing:
+  - id: background-employment-ja
+    contents: ../generated/listings/activities-ja.yml
+    template: ../_listings/activity.ejs.md
+    include:
+      section: employment
+    sort: "order asc"
+    field-required: [title, order]
+  - id: background-education-ja
+    contents: ../generated/listings/activities-ja.yml
+    template: ../_listings/activity.ejs.md
+    include:
+      section: education
+    sort: "order asc"
+    field-required: [title, order]
+---
+
+[English](../background.html)
+
+### 職歴
+
+::: {#background-employment-ja}
+:::
+
+### 学歴
+
+::: {#background-education-ja}
+:::

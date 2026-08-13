@@ -1,0 +1,22 @@
+---
+id: software-rmst-bayes-para
+record-type: software
+kind: software
+status: released
+date: 2024-07-04
+year: 2024
+title-en: rmstBayespara
+title-ja: rmstBayespara
+authors-en: "{self}"
+publication-en: "R package: Bayesian Restricted Mean Survival Time for Cluster Effect"
+publication-ja: "Rパッケージ：クラスター効果を考慮したベイズ制限付き平均生存時間"
+channels: [research, cv]
+links:
+  cran: https://cran.r-project.org/web/packages/rmstBayespara/
+news:
+  - date: 2024-07-04
+    en: I released the R package rmstBayespara on CRAN.
+    ja: RパッケージrmstBayesparaをCRANで公開しました。
+    href: /column/20260113-news-before-2026.html
+---
+

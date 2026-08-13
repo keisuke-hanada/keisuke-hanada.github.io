@@ -1,0 +1,16 @@
+---
+id: clear-cell-papillary-renal
+record-type: research
+kind: publication
+status: published
+category: clinical
+date: 2026-01-01
+year: 2026
+title-en: "Clear Cell Papillary Renal Cell Tumor Revisited: Comparison of Histologic and Immunohistochemical Profiles in Relation to VHL Allelic Status"
+title-ja: "淡明細胞乳頭状腎細胞腫の再検討：VHLアレル状態に関連した組織学的・免疫組織化学的特徴の比較"
+authors-en: "Sagan, K., Kojima, F., Matsuzaki, I., {self}, Musangile, F. Y., Nakamoto, T., Hayashi, H., Ohe, C., Ohashi, R., Nagashima, Y., Kohjimoto, Y., & Murata, S. I."
+publication-en: "*The American Journal of Surgical Pathology*"
+publication-ja: "*The American Journal of Surgical Pathology*"
+channels: [cv]
+---
+

@@ -78,6 +78,7 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </script>
 
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -120,6 +121,21 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
   <li class="nav-item">
     <a class="nav-link" href="../column/index.html"> 
 <span class="menu-text">Column (JP)</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">English</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../ja/index.html"> 
+<span class="menu-text">日本語</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../column/index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -233,6 +249,30 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </section>
 
 <p>Copyright by Keisuke Hanada</p></main> <!-- /main -->
+<script>
+(() => {
+  if (!window.location.pathname.startsWith("/ja/")) return;
+
+  const japanesePages = new Map([
+    ["/index.html", ["/ja/index.html", "ホーム"]],
+    ["/", ["/ja/index.html", "ホーム"]],
+    ["/background.html", ["/ja/background.html", "経歴"]],
+    ["/research.html", ["/ja/research.html", "研究"]],
+    ["/teaching.html", ["/ja/teaching.html", "教育"]]
+  ]);
+
+  document.querySelectorAll("#quarto-header a.nav-link").forEach((link) => {
+    const target = japanesePages.get(new URL(link.href, window.location.href).pathname);
+    if (!target) return;
+    link.href = target[0];
+    const label = link.querySelector(".menu-text");
+    if (label) label.textContent = target[1];
+  });
+
+  const brand = document.querySelector("#quarto-header .navbar-brand");
+  if (brand) brand.href = "/ja/index.html";
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

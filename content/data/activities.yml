@@ -1,0 +1,182 @@
+items:
+  - id: employment-wmu
+    type: employment
+    current: true
+    start: 2025-04
+    end:
+    period-en: Apr. 2025-Present
+    period-ja: 2025年4月-現在
+    title-en: Assistant Professor
+    title-ja: 助教
+    details-en: Faculty of Medicine, Wakayama Medical University
+    details-ja: 和歌山県立医科大学 医学部 医療統計学講座
+    channels: [background, cv]
+
+  - id: employment-osaka
+    type: employment
+    start: 2024-04
+    end: 2025-03
+    period-en: Apr. 2024-Mar. 2025
+    period-ja: 2024年4月-2025年3月
+    title-en: Specially Appointed Assistant Professor (Full Time)
+    title-ja: 特任助教（常勤）
+    details-en: Graduate School of Engineering Science, Osaka University
+    details-ja: 大阪大学 大学院基礎工学研究科 システム創成専攻 数理科学領域
+    channels: [background, cv]
+
+  - id: employment-kyowa-kirin
+    type: employment
+    start: 2019-04
+    end: 2024-02
+    period-en: Apr. 2019-Feb. 2024
+    period-ja: 2019年4月-2024年2月
+    title-en: Biostatistician
+    title-ja: バイオスタティスティシャン
+    details-en: Biometrics Department, Kyowa Kirin Co., Ltd.
+    details-ja: 協和キリン株式会社 バイオメトリックス部
+    channels: [background, cv]
+
+  - id: education-shiga-phd
+    type: education
+    start: 2020-04
+    end: 2024-03
+    period-en: Apr. 2020-Mar. 2024
+    period-ja: 2020年4月-2024年3月
+    title-en: Ph.D. in Data Science
+    title-ja: 博士（データサイエンス）
+    details-en: Graduate School of Data Science, Shiga University; supervisor, Dr. Tomoyuki Sugimoto
+    details-ja: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之先生）
+    channels: [background, cv]
+
+  - id: education-kagoshima-ms
+    type: education
+    start: 2017-04
+    end: 2019-03
+    period-en: Apr. 2017-Mar. 2019
+    period-ja: 2017年4月-2019年3月
+    title-en: M.S. in Science
+    title-ja: 修士（理学）
+    details-en: Graduate School of Science and Engineering, Kagoshima University; supervisor, Dr. Tomoyuki Sugimoto
+    details-ja: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之先生）
+    channels: [background, cv]
+
+  - id: education-hirosaki-bs
+    type: education
+    start: 2013-04
+    end: 2017-03
+    period-en: Apr. 2013-Mar. 2017
+    period-ja: 2013年4月-2017年3月
+    title-en: B.Sc. in Science
+    title-ja: 学士（理学）
+    details-en: Faculty of Science and Technology, Hirosaki University; supervisor, Dr. Kimitoshi Tsutaya
+    details-ja: 弘前大学 理工学部（指導教員：蔦谷喜壽先生）
+    channels: [background, cv]
+
+  - id: grant-jsps-early-career
+    type: grant
+    start: 2026-04
+    end: 2031-03
+    period-en: Apr. 2026-Mar. 2031
+    period-ja: 2026年4月-2031年3月
+    title-en: JSPS Grant-in-Aid for Early-Career Scientists
+    title-ja: 日本学術振興会 科学研究費助成事業 若手研究
+    details-en: Principal Investigator
+    details-ja: 研究代表者
+    channels: [cv]
+    news:
+      - date: 2026-02-27
+        en: My proposal was selected for a JSPS Grant-in-Aid for Early-Career Scientists.
+        ja: 科研費の若手研究に採択されました。
+        href: /column/20260227-news-JSPS.html
+
+  - id: grant-jsps-startup
+    type: grant
+    start: 2024-07
+    end: 2026-03
+    period-en: Jul. 2024-Mar. 2026
+    period-ja: 2024年7月-2026年3月
+    title-en: JSPS Grant-in-Aid for Research Activity Start-up
+    title-ja: 日本学術振興会 科学研究費助成事業 研究活動スタート支援
+    details-en: Principal Investigator
+    details-ja: 研究代表者
+    channels: [cv]
+
+  - id: grant-jsps-c
+    type: grant
+    start: 2024-04
+    end: 2027-03
+    period-en: Apr. 2024-Mar. 2027
+    period-ja: 2024年4月-2027年3月
+    title-en: JSPS Grant-in-Aid for Scientific Research (C)
+    title-ja: 日本学術振興会 科学研究費助成事業 基盤研究（C）
+    details-en: Co-Investigator
+    details-ja: 研究分担者
+    channels: [cv]
+
+  - id: award-biometric-society-2025
+    type: award
+    start: 2025
+    period-en: "2025"
+    period-ja: "2025年"
+    title-en: Best Presentation Award for Young Researcher (regular membership category)
+    title-ja: 若手研究者優秀発表賞（一般会員部門）
+    details-en: Annual Meeting of the Biometric Society of Japan
+    details-ja: 日本計量生物学会年会
+    channels: [cv]
+
+  - id: teaching-statistics-fundamentals-2025
+    type: teaching
+    start: 2025
+    period-en: "2025"
+    period-ja: 2025年度
+    title-en: Statistics Fundamentals
+    title-ja: 統計基礎
+    details-en: Wakayama Medical University
+    details-ja: 和歌山県立医科大学
+    channels: [teaching, cv]
+
+  - id: teaching-statistical-lectures-2025
+    type: teaching
+    start: 2025
+    period-en: "2025"
+    period-ja: 2025年度
+    title-en: Statistical Lectures
+    title-ja: 統計講義
+    details-en: Regulatory Science Laboratory, Meiji Pharmaceutical University
+    details-ja: 明治薬科大学 レギュラトリーサイエンス研究室
+    channels: [teaching, cv]
+
+  - id: service-peer-review
+    type: service
+    start: 2024
+    period-en: Peer review
+    period-ja: 査読
+    title-en: Academic journal reviewer
+    title-ja: 学術誌査読
+    details-en:
+      - Japanese Journal of Statistics and Data Science
+      - "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      - Journal of the Japan Statistical Society, Japanese Issue
+      - BMC Medical Research Methodology
+      - Research Synthesis Methods
+    details-ja:
+      - Japanese Journal of Statistics and Data Science
+      - "Journal of the Royal Statistical Society: Series C (Applied Statistics)"
+      - Journal of the Japan Statistical Society, Japanese Issue
+      - BMC Medical Research Methodology
+      - Research Synthesis Methods
+    channels: [cv]
+
+  - id: website-created
+    type: activity
+    start: 2024-04-21
+    period-en: Apr. 21, 2024
+    period-ja: 2024年4月21日
+    title-en: Website created
+    title-ja: 本Webサイトを開設しました
+    channels: []
+    news:
+      - date: 2024-04-21
+        en: I created this website.
+        ja: 本Webサイトを開設しました。
+        href: /

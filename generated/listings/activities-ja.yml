@@ -1,0 +1,48 @@
+- id: employment-wmu
+  title: 助教
+  details: 和歌山県立医科大学 医学部 医療統計学講座
+  period: 2025年4月-現在
+  section: employment
+  order: 1
+- id: employment-osaka
+  title: 特任助教（常勤）
+  details: 大阪大学 大学院基礎工学研究科 システム創成専攻 数理科学領域
+  period: 2024年4月-2025年3月
+  section: employment
+  order: 2
+- id: employment-kyowa-kirin
+  title: バイオスタティスティシャン
+  details: 協和キリン株式会社 バイオメトリックス部
+  period: 2019年4月-2024年2月
+  section: employment
+  order: 3
+- id: education-shiga-phd
+  title: 博士（データサイエンス）
+  details: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之先生）
+  period: 2020年4月-2024年3月
+  section: education
+  order: 1
+- id: education-kagoshima-ms
+  title: 修士（理学）
+  details: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之先生）
+  period: 2017年4月-2019年3月
+  section: education
+  order: 2
+- id: education-hirosaki-bs
+  title: 学士（理学）
+  details: 弘前大学 理工学部（指導教員：蔦谷喜壽先生）
+  period: 2013年4月-2017年3月
+  section: education
+  order: 3
+- id: teaching-statistics-fundamentals-2025
+  title: 統計基礎
+  details: 和歌山県立医科大学
+  period: 2025年度
+  section: teaching
+  order: 1
+- id: teaching-statistical-lectures-2025
+  title: 統計講義
+  details: 明治薬科大学 レギュラトリーサイエンス研究室
+  period: 2025年度
+  section: teaching
+  order: 2

@@ -1,0 +1,17 @@
+---
+id: software-meta-glmm
+record-type: software
+kind: software
+status: released
+date: 2026-07-30
+year: 2026
+title-en: metaGLMM
+title-ja: metaGLMM
+authors-en: "{self}"
+publication-en: "R package: meta-analysis using generalized linear mixed-effects models with aggregate data"
+publication-ja: "Rパッケージ：集計データに対する一般化線形混合効果モデルを用いたメタアナリシス"
+channels: [cv]
+links:
+  github: https://github.com/keisuke-hanada/metaGLMM
+---
+

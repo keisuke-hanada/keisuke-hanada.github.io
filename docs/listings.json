@@ -1,18 +1,20 @@
 [
   {
-    "listing": "/column.html",
-    "items": [
-      "/background.html",
-      "/index.html",
-      "/research.html",
-      "/teaching.html",
-      "/tools.html",
-      "/docs/CV/cv_202409.html"
-    ]
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/ja/research.html",
+    "items": []
+  },
+  {
+    "listing": "/ja/background.html",
+    "items": []
   },
   {
     "listing": "/column/index.html",
     "items": [
+      "/column/20260806-news-accepted.html",
       "/column/20260730-news-accepted.html",
       "/column/20260729-news-preprint.html",
       "/column/20260717-news-IBC2026.html",
@@ -28,20 +30,23 @@
     ]
   },
   {
+    "listing": "/background.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
-    "items": [
-      "/column/20260806-news-accepted.html",
-      "/column/20260730-news-accepted.html",
-      "/column/20260729-news-preprint.html",
-      "/column/20260717-news-IBC2026.html",
-      "/column/20260417-news-JBS.html",
-      "/column/20260403-news-preprint.html",
-      "/column/20260227-news-JSPS.html",
-      "/column/20260229-news-preprint.html",
-      "/column/20260213-news-大分.html",
-      "/column/20260210-news-SSRpaper.html",
-      "/column/20260113-news-IASC-ARS2025.html",
-      "/column/20260113-news-before-2026.html"
-    ]
+    "items": []
+  },
+  {
+    "listing": "/ja/index.html",
+    "items": []
+  },
+  {
+    "listing": "/ja/teaching.html",
+    "items": []
+  },
+  {
+    "listing": "/teaching.html",
+    "items": []
   }
 ]

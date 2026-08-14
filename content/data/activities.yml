@@ -31,7 +31,7 @@ items:
     period-en: Apr. 2019-Feb. 2024
     period-ja: 2019年4月-2024年2月
     title-en: Biostatistician
-    title-ja: バイオスタティスティシャン
+    title-ja: Biostatistician
     details-en: Biometrics Department, Kyowa Kirin Co., Ltd.
     details-ja: 協和キリン株式会社 バイオメトリックス部
     channels: [background, cv]
@@ -44,8 +44,8 @@ items:
     period-ja: 2020年4月-2024年3月
     title-en: Ph.D. in Data Science
     title-ja: 博士（データサイエンス）
-    details-en: Graduate School of Data Science, Shiga University; supervisor, Dr. Tomoyuki Sugimoto
-    details-ja: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之先生）
+    details-en: Graduate School of Data Science, Shiga University; supervisor, Prof. Tomoyuki Sugimoto
+    details-ja: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之 先生）
     channels: [background, cv]
 
   - id: education-kagoshima-ms
@@ -56,8 +56,8 @@ items:
     period-ja: 2017年4月-2019年3月
     title-en: M.S. in Science
     title-ja: 修士（理学）
-    details-en: Graduate School of Science and Engineering, Kagoshima University; supervisor, Dr. Tomoyuki Sugimoto
-    details-ja: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之先生）
+    details-en: Graduate School of Science and Engineering, Kagoshima University; supervisor, Prof. Tomoyuki Sugimoto
+    details-ja: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之 先生）
     channels: [background, cv]
 
   - id: education-hirosaki-bs
@@ -68,8 +68,8 @@ items:
     period-ja: 2013年4月-2017年3月
     title-en: B.Sc. in Science
     title-ja: 学士（理学）
-    details-en: Faculty of Science and Technology, Hirosaki University; supervisor, Dr. Kimitoshi Tsutaya
-    details-ja: 弘前大学 理工学部（指導教員：蔦谷喜壽先生）
+    details-en: Faculty of Science and Technology, Hirosaki University; supervisor, Prof. Kimitoshi Tsutaya
+    details-ja: 弘前大学 理工学部（指導教員：津田谷公利 先生）
     channels: [background, cv]
 
   - id: grant-jsps-early-career

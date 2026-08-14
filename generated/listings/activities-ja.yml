@@ -11,26 +11,26 @@
   section: employment
   order: 2
 - id: employment-kyowa-kirin
-  title: バイオスタティスティシャン
+  title: Biostatistician
   details: 協和キリン株式会社 バイオメトリックス部
   period: 2019年4月-2024年2月
   section: employment
   order: 3
 - id: education-shiga-phd
   title: 博士（データサイエンス）
-  details: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之先生）
+  details: 滋賀大学 大学院データサイエンス研究科（指導教員：杉本知之 先生）
   period: 2020年4月-2024年3月
   section: education
   order: 1
 - id: education-kagoshima-ms
   title: 修士（理学）
-  details: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之先生）
+  details: 鹿児島大学 大学院理工学研究科（指導教員：杉本知之 先生）
   period: 2017年4月-2019年3月
   section: education
   order: 2
 - id: education-hirosaki-bs
   title: 学士（理学）
-  details: 弘前大学 理工学部（指導教員：蔦谷喜壽先生）
+  details: 弘前大学 理工学部（指導教員：津田谷公利 先生）
   period: 2013年4月-2017年3月
   section: education
   order: 3

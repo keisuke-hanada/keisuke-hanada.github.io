@@ -18,7 +18,7 @@
   order: 3
 - id: education-shiga-phd
   title: Ph.D. in Data Science
-  details: Graduate School of Data Science, Shiga University; supervisor, Dr. Tomoyuki
+  details: Graduate School of Data Science, Shiga University; supervisor, Prof. Tomoyuki
     Sugimoto
   period: Apr. 2020-Mar. 2024
   section: education
@@ -26,13 +26,13 @@
 - id: education-kagoshima-ms
   title: M.S. in Science
   details: Graduate School of Science and Engineering, Kagoshima University; supervisor,
-    Dr. Tomoyuki Sugimoto
+    Prof. Tomoyuki Sugimoto
   period: Apr. 2017-Mar. 2019
   section: education
   order: 2
 - id: education-hirosaki-bs
   title: B.Sc. in Science
-  details: Faculty of Science and Technology, Hirosaki University; supervisor, Dr.
+  details: Faculty of Science and Technology, Hirosaki University; supervisor, Prof.
     Kimitoshi Tsutaya
   period: Apr. 2013-Mar. 2017
   section: education

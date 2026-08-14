@@ -1,0 +1,17 @@
+---
+title: Teaching
+lang: ja
+listing:
+  id: teaching-list-ja
+  contents: ../generated/listings/activities-ja.yml
+  template: ../_listings/activity.ejs.md
+  include:
+    section: teaching
+  sort: "order asc"
+  field-required: [title, order]
+---
+
+[English](../teaching.html)
+
+::: {#teaching-list-ja}
+:::

@@ -1,0 +1,35 @@
+---
+id: ipd-meta-analysis-ja
+record-type: research
+kind: publication
+status: published
+category: methodological
+language: ja
+date: 2024-07-14
+year: 2024
+title-en: Meta-Analysis for Time-to-event Outcome Based on Restored Individual Participant Data and Summary Statistics
+title-ja: イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*Japanese Journal of Biometrics*, 45(1), 115-131 (in Japanese)"
+publication-ja: "『計量生物学』45(1), 115-131"
+description-en: We compare reconstructed individual-participant-data meta-analysis with summary-statistics approaches for time-to-event outcomes through simulation.
+description-ja: 生存時間データについて、個別被験者データを復元するメタアナリシスと要約統計量を用いる方法の性能をシミュレーションで比較しました。
+channels: [research, cv]
+links:
+  paper: https://www.jstage.jst.go.jp/article/jjb/45/1/45_115/_article/-char/ja
+  arxiv: https://arxiv.org/abs/2407.04446
+news:
+  - date: 2024-12-05
+    en: Our paper with Sugimoto was updated on arXiv.
+    ja: 杉本先生との共著論文のarXiv版を更新しました。
+    href: /column/20260113-news-before-2026.html
+  - date: 2024-07-14
+    en: Our Japanese-language paper with Sugimoto was published in Japanese Journal of Biometrics.
+    ja: 杉本先生との和文共著論文が『計量生物学』に掲載されました。
+    href: /column/20260113-news-before-2026.html
+  - date: 2024-07-08
+    en: Our paper with Sugimoto was published on arXiv.
+    ja: 杉本先生との共著論文をarXivで公開しました。
+    href: /column/20260113-news-before-2026.html
+---

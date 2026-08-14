@@ -1,0 +1,26 @@
+---
+title: Home
+lang: ja
+listing:
+  id: recent-news-ja
+  contents: ../generated/listings/news-ja.yml
+  template: ../_listings/news.ejs.md
+  sort: "date desc"
+  max-items: 10
+  fields: [date, title]
+  field-required: [date, title]
+  date-format: "YYYY-MM-DD"
+---
+
+[English](../index.html)
+
+{{< include ../generated/profile-ja.md >}}
+
+## 最近のお知らせ
+
+::: {#recent-news-ja}
+:::
+
+## 最近の研究関心
+
+{{< include ../generated/interests-ja.md >}}

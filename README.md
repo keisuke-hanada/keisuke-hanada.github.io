@@ -1,11 +1,15 @@
-### About me
+# keisuke-hanada.github.io
 
-<!--
-**keisuke-hanada/keisuke-hanada** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Keisuke Hanada's Quarto website.
 
-Here are some ideas to get you started:
--->
+Research, talks, software, background, teaching, Home news, and the PDF CV are generated from structured metadata under `content/`. See [MAINTENANCE.md](MAINTENANCE.md) for update instructions.
 
-- I'm a statistician.
-- My interest: meta-analysis, survival analysis and related model estimation
+## Local build
 
+```powershell
+Rscript scripts/build_content.R
+quarto render
+Rscript scripts/validate_content.R
+```
+
+The rendered website is written to `docs/`, including `docs/CV/cv.pdf`.

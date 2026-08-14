@@ -10,8 +10,16 @@
 <atom:link href="https://keisuke-hanada.github.io/column/index.xml" rel="self" type="application/rss+xml"/>
 <description>Keisuke Hanada&#39;s Columns (JP)</description>
 <language>ja</language>
-<generator>quarto-1.7.31</generator>
-<lastBuildDate>Wed, 29 Jul 2026 15:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.553</generator>
+<lastBuildDate>Wed, 05 Aug 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Accepted a co-authored paper with Kojima in Biometrical Journal</title>
+  <link>https://keisuke-hanada.github.io/column/20260806-news-accepted.html</link>
+  <description><![CDATA[ 小島先生との共著論文 Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect が Biometrical Journal にアクセプトされました． ]]></description>
+  <category>news</category>
+  <guid>https://keisuke-hanada.github.io/column/20260806-news-accepted.html</guid>
+  <pubDate>Wed, 05 Aug 2026 15:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Accepted a co-authored paper with Sugimoto in Biometrics</title>
   <link>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</link>

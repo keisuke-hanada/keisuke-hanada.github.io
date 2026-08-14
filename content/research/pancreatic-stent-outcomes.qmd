@@ -1,0 +1,19 @@
+---
+id: pancreatic-stent-outcomes
+record-type: research
+kind: publication
+status: published
+category: clinical
+language: en
+researchmap-id: 54372760
+date: 2026-07-11
+year: 2026
+title-en: Impact of Stent Type on Surgical Outcomes in Pancreatic Cancer Patients Undergoing Preoperative Biliary Drainage
+authors-en: "Tamura, T., Matsumori, T., Nishikawa, Y., Kitagawa, K., Nagai, M., Shimizu, A., Matsumoto, I., Masuda, A., Sakai, A., Yamai, T., Tomokuni, A., Ikeura, T., Ito, T., Doi, T., Miyake, H., Maruyama, H., Ishikawa-Kakiya, Y., Ogura, T., Ueno, S., Shiomi, H., Tsujimoto, A., Shintani, S., Ikeda, T., Uenoyama, Y., Emori, T., Shimatani, M., {self}, Kitano, M., & Takenaka, M."
+publication-en: "*Digestive Endoscopy*, 38(7)"
+description-en: This multicentre retrospective study compared metal and plastic stents for preoperative biliary drainage in patients with pancreatic ductal adenocarcinoma receiving neoadjuvant treatment.
+channels: [research, cv]
+links:
+  paper: https://onlinelibrary.wiley.com/doi/10.1111/den.70229
+  doi: https://doi.org/10.1111/den.70229
+---

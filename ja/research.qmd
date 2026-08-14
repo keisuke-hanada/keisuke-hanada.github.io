@@ -1,0 +1,109 @@
+---
+title: Research
+lang: ja
+listing:
+  - id: research-publications-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: publication
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-preprints-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: preprint
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-medical-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: medical
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-international-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-international
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-domestic-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-domestic
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-other-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: other
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-software-ja
+    contents: ../generated/listings/research-ja.yml
+    template: ../_listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: software
+    sort: "order asc"
+    field-required: [title, order]
+---
+
+[English](../research.html)
+
+{{< include ../generated/research-intro-ja.md >}}
+
+### 採択・出版済み論文
+
+::: {#research-publications-ja}
+:::
+
+### Medical Research（臨床研究）
+
+::: {#research-medical-ja}
+:::
+
+### プレプリント・投稿中論文
+
+::: {#research-preprints-ja}
+:::
+
+### 学会発表（国際学会）
+
+::: {#research-conferences-international-ja}
+:::
+
+### 学会発表（国内学会・研究会）
+
+::: {#research-conferences-domestic-ja}
+:::
+
+### その他の研究成果
+
+::: {#research-other-ja}
+:::
+
+### ソフトウェア
+
+::: {#research-software-ja}
+:::
+
+{{< include ../generated/research-outro-ja.md >}}

@@ -1,0 +1,29 @@
+---
+id: blinded-hybrid-control
+record-type: research
+kind: publication
+status: published
+category: methodological
+language: en
+date: 2026-02-10
+year: 2026
+title-en: Sample size re-estimation in blinded hybrid-control design using inverse probability weighting
+title-ja: 逆確率重み付けを用いた盲検下ハイブリッド対照デザインの症例数再推定
+authors-en: "Kojima, M., Orihara, S., {self}, & Ohigashi, T."
+publication-en: "*Statistics in Medicine*, 45(3-5), e70429"
+publication-ja: "*Statistics in Medicine*, 45(3-5), e70429"
+channels: [research, cv]
+links:
+  paper: https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429
+  doi: https://doi.org/10.1002/sim.70429
+  arxiv: https://arxiv.org/abs/2506.15913
+news:
+  - date: 2026-02-10
+    en: Our paper with Kojima, Orihara, and Ohigashi was published in Statistics in Medicine.
+    ja: 小島先生、折原先生、大東先生との共著論文がStatistics in Medicineに掲載されました。
+    href: /column/20260210-news-SSRpaper.html
+  - date: 2025-06-18
+    en: Our paper with Kojima, Orihara, and Ohigashi was published on arXiv.
+    ja: 小島先生、折原先生、大東先生との共著論文をarXivで公開しました。
+    href: /column/20260113-news-before-2026.html
+---

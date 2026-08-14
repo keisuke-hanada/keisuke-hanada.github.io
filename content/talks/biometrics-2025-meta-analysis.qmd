@@ -1,0 +1,19 @@
+---
+id: talk-biometrics-2025-meta-analysis
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 51140950
+date: 2025-05-15
+year: 2025
+language: ja
+title-en: Use of Meta-Analysis for Treatment Effect Estimation in Clinical Trials
+title-ja: 臨床試験における治療効果の推定のためのメタアナリシスの活用
+authors-en: "{self}, & Kojima, M."
+authors-ja: "{self-ja}、小島 将裕"
+publication-en: "*2025 Annual Meeting of the Biometric Society of Japan*"
+publication-ja: "*2025年度日本計量生物学会年会*"
+channels: [research, cv]
+---

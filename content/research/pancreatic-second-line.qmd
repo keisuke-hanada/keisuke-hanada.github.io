@@ -1,0 +1,16 @@
+---
+id: pancreatic-second-line
+record-type: research
+kind: publication
+status: published
+category: clinical
+language: en
+date: 2026-01-01
+year: 2026
+title-en: Comparison of Nanoliposomal Irinotecan Plus Fluorouracil/Leucovorin and S-1, Irinotecan, and Oxaliplatin as Second-Line Chemotherapy After Gemcitabine Plus Nab-Paclitaxel for Unresectable Pancreatic Cancer
+title-ja: 切除不能膵癌に対するゲムシタビン・nab-パクリタキセル療法後の二次治療としてのナノリポソーム型イリノテカン＋フルオロウラシル／ロイコボリンとS-1・イリノテカン・オキサリプラチンの比較
+authors-en: "Itonaga, M., Ashida, R., Tamura, T., Yamashita, Y., Kawaji, Y., Shishimoto, T., Morishita, M., {self}, Kojima, F., & Kitano, M."
+publication-en: "*Journal of Hepato-Biliary-Pancreatic Sciences*, 1-11"
+publication-ja: "*Journal of Hepato-Biliary-Pancreatic Sciences*, 1-11"
+channels: [research, cv]
+---

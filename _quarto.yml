@@ -1,11 +1,21 @@
 project:
   type: website
   output-dir: docs
+  pre-render: Rscript scripts/build_content.R
+  post-render: Rscript scripts/post_render.R
+  render:
+    - "*.qmd"
+    - "!content/"
+    - "ja/*.qmd"
+    - "column/*.qmd"
+    - "CV/cv.qmd"
   resources:
     - files/**
 
 website:
   title: "keisuke-hanada"
+  site-url: https://keisuke-hanada.github.io
+  site-path: "/"
   google-analytics: "G-80RE24GCEC"
   body-footer: Copyright by Keisuke Hanada
   navbar:
@@ -13,20 +23,25 @@ website:
       - href: index.qmd
         text: Home
       - href: background.qmd
+        text: Background
       - href: research.qmd
-      - href: tools.qmd
+        text: Research
       - href: teaching.qmd
+        text: Teaching
       - href: column/index.qmd
+        text: Column (JP)
     right:
+      - text: English
+        href: index.qmd
+      - text: 日本語
+        href: ja/index.qmd
       - icon: rss
-        href: column/index.xml
-  site-url: https://keisuke-hanada.github.io
-  site-path: '/'
-
+        href: updates.xml
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: _includes/rss.html
+    include-after-body: _includes/language-nav.html
     toc: true
-

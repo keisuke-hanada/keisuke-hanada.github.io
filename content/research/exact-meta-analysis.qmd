@@ -1,0 +1,21 @@
+---
+id: exact-meta-analysis
+record-type: research
+kind: publication
+status: published
+category: methodological
+language: en
+date: 2023-04-01
+year: 2023
+title-en: Inference using an exact distribution of test statistic for random-effects meta-analysis
+title-ja: ランダム効果メタアナリシスの検定統計量の正確分布を用いた推測
+authors-en: "{self}, & Sugimoto, T."
+publication-en: "*Annals of the Institute of Statistical Mathematics*, 75(2), 281-302"
+publication-ja: "*Annals of the Institute of Statistical Mathematics*, 75(2), 281-302"
+description-en: We derive an exact distribution for a test statistic in random-effects meta-analysis and study its use for testing and interval estimation.
+description-ja: ランダム効果メタアナリシスの検定統計量について正確分布を導出し、検定と区間推定への利用を検討しました。初めて採択された論文です。
+channels: [research, cv]
+links:
+  paper: https://link.springer.com/article/10.1007/s10463-022-00844-4
+  doi: https://doi.org/10.1007/s10463-022-00844-4
+---

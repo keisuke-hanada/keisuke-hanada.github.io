@@ -1,0 +1,27 @@
+---
+id: random-effect-rmst
+record-type: research
+kind: publication
+status: published
+category: methodological
+language: en
+date: 2026-04-17
+year: 2026
+title-en: Random Effect Restricted Mean Survival Time Model
+title-ja: ランダム効果を用いた制限付き平均生存時間モデル
+authors-en: "{self}, & Kojima, M."
+publication-en: "*Journal of Biopharmaceutical Statistics*, 1-16"
+publication-ja: "*Journal of Biopharmaceutical Statistics*, 1-16"
+description-en: We introduce random effects into RMST regression, enabling cluster-specific shrinkage estimates based on the overall effect.
+description-ja: RMSTのモデル解析にランダム効果を導入しました。これにより、全体効果に基づくクラスターごとの縮小推定量を構成できます。
+channels: [research, cv]
+links:
+  paper: https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641
+  doi: https://doi.org/10.1080/10543406.2026.2654641
+  arxiv: https://arxiv.org/abs/2401.02048
+news:
+  - date: 2026-04-17
+    en: Our paper with Kojima was published in Journal of Biopharmaceutical Statistics.
+    ja: 小島先生との共著論文がJournal of Biopharmaceutical Statisticsに掲載されました。
+    href: /column/20260417-news-JBS.html
+---

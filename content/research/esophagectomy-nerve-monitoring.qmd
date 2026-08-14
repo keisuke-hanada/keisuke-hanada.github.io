@@ -1,0 +1,16 @@
+---
+id: esophagectomy-nerve-monitoring
+record-type: research
+kind: publication
+status: published
+category: clinical
+language: en
+date: 2026-01-01
+year: 2026
+title-en: "Impact of intraoperative nerve integrity monitoring on recurrent laryngeal nerve paralysis in minimally invasive esophagectomy for esophageal cancer: a propensity score-matched analysis"
+title-ja: 食道癌に対する低侵襲食道切除術における術中神経モニタリングが反回神経麻痺に及ぼす影響
+authors-en: "Kitadani, J., Hayata, K., Goda, T., Tominaga, S., Fukuda, N., Nakai, T., Nagano, S., {self}, & Kawai, M."
+publication-en: "*Surgical Endoscopy*, 1-10"
+publication-ja: "*Surgical Endoscopy*, 1-10"
+channels: [research, cv]
+---

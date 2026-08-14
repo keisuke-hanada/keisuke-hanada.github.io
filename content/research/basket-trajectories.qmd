@@ -1,0 +1,18 @@
+---
+id: basket-trajectories
+record-type: research
+kind: preprint
+status: submitted
+category: methodological
+language: en
+date: 2025-11-14
+year: 2025
+title-en: A Clustering Approach for Basket Trials Based on Treatment Response Trajectories
+title-ja: 治療反応軌跡に基づくバスケット試験のクラスタリングアプローチ
+authors-en: "Kojima, M., {self}, & Sato, A."
+publication-en: "*arXiv preprint* arXiv:2511.09890, submitted"
+publication-ja: "*arXiv preprint* arXiv:2511.09890, submitted"
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2511.09890
+---

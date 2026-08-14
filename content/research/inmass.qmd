@@ -1,0 +1,30 @@
+---
+id: inmass
+record-type: research
+kind: publication
+status: accepted
+category: methodological
+language: en
+date: 2026-08-06
+year: 2026
+year-display: 2026+
+title-en: Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect
+title-ja: 特定の研究へのメタアナリシス統合（InMASS）による対象集団平均治療効果の推定
+authors-en: "{self}, & Kojima, M."
+publication-en: "*Biometrical Journal*, accepted"
+publication-ja: "*Biometrical Journal*, accepted"
+description-en: We propose a method that uses meta-analysis to estimate the average treatment effect in a target population represented by a specific study.
+description-ja: 興味のある試験における平均治療効果の推定のために、メタアナリシスを活用する方法を提案しました。
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2503.21091
+news:
+  - date: 2026-08-06
+    en: Our paper with Kojima was accepted in Biometrical Journal.
+    ja: 小島先生との共著論文がBiometrical Journalに採択されました。
+    href: /column/20260806-news-accepted.html
+  - date: 2025-03-27
+    en: Our paper with Kojima was published on arXiv.
+    ja: 小島先生との共著論文をarXivで公開しました。
+    href: /column/20260113-news-before-2026.html
+---

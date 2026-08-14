@@ -1,153 +1,108 @@
 ---
 title: Research
+listing:
+  - id: research-publications
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: publication
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-preprints
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: preprint
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-medical
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: medical
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-international
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-international
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-conferences-domestic
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: conference-domestic
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-other
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: true
+    include:
+      section: other
+    sort: "order asc"
+    field-required: [title, order]
+  - id: research-software
+    contents: generated/listings/research-en.yml
+    template: _listings/research.ejs.md
+    template-params:
+      collapsible: false
+    include:
+      section: software
+    sort: "order asc"
+    field-required: [title, order]
 ---
 
-Please see my [Google Scholar](https://scholar.google.co.jp/citations?user=wJaRF3oAAAAJ&hl=ja) page for a full list of publications. Here, I highlight some of my research focusing on methodological developments in biostatistics.
+[日本語](ja/research.html)
 
-### Accepted Paper
-<details>
-<summary>
-[7] <u>Hanada, K</u>., & Kojima, M. (2025). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect. Biometrical Journal, accepted [[arXiv](https://arxiv.org/abs/2503.21091)]
-</summary>
+{{< include generated/research-intro-en.md >}}
 
-* 興味のある試験における平均治療効果の推定のために，メタアナリシスを活用する方法論を提案しました．
+### Accepted / Published Papers
 
-</details>
+::: {#research-publications}
+:::
 
-<details>
-<summary>
-[6] <u>Hanada, K</u>., & Sugimoto, T. (2026+). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. Biometrics, accepted. [[arXiv](https://arxiv.org/abs/2508.08758)]
-</summary>
+### Medical Research
 
-* 一般化線形混合モデルの下でのメタアナリシスの方法を整備し，特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました．
+::: {#research-medical}
+:::
 
-</details>
+### Preprints / Submitted Manuscripts
 
+::: {#research-preprints}
+:::
 
-<details>
-<summary>
-[5] <u>Hanada, K</u>., & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. Journal of Biopharmaceutical Statistics. [[link](https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641), [arXiv](https://arxiv.org/abs/2401.02048)]
-</summary>
+### Conference Presentations (International)
 
-* RMSTのモデル解析にランダム効果を入れる方法を提案しました．これにより，全体効果に基づくクラスター毎の縮小統計量を導入できます．
-</details>
+::: {#research-conferences-international}
+:::
 
+### Conference Presentations (JPN Domestic)
 
-<details>
-<summary>
-[4] Kojima, M., Orihara, S., <u>Hanada, K</u>., & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. Statistics in Medicine, 45(3-5), e70429. [[link](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429), [arXiv](https://arxiv.org/abs/2503.21091)]
-</summary>
+::: {#research-conferences-domestic}
+:::
 
-</details>
+### Other Research Outputs
 
-
-<details>
-<summary>
-[3] Kojima, M., Mano, H., Yamada, K., <u>Hanada, K</u>., Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. Contemporary Clinical Trials, 158, 108099.[[link](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]
-</summary>
-
-* 並べ替え法や共変量適応無作為化法で得られる帰無分布が非劣性及び同等性の比較では適切ではないのではないかと考え，調整信頼区間を用いた検定を提案し，シミュレーションベースで性能を評価しました．説明変数が連続変数のとき，type-I errorが名目水準通りの結果が得られました．
-</details>
-
-<details>
-<summary>
-[2] <u>Hanada, K</u>., Moriya, J., & Kojima, M. (2024). Comparison of baseline covariate adjustment methods for restricted mean survival time. Contemporary Clinical Trials, 138, 107440.[[link](https://www.sciencedirect.com/science/article/abs/pii/S1551714424000144)]
-</summary>
-
-* RMSTに対するモデル解析法をシミュレーションベースで比較し，各手法の適切な状況を示しました．打ち切り確率が均一かどうかで選択する方法を変える必要がある事がわかりました．
-</details>
-
-<details>
-<summary>
-[1] <u>Hanada, K</u>., & Sugimoto, T. (2023). Inference using an exact distribution of test statistic for random-effects meta-analysis. Annals of the Institute of Statistical Mathematics, 75(2), 281-302. [[link](https://link.springer.com/article/10.1007/s10463-022-00844-4)]
-</summary>
-
-* 治療効果の検定統計量に対して，正確分布を求めました．未知パラメータが残ってしまい，検定での正確性は担保できたものの，区間推定での正確性には課題が残りました．初めてアクセプトされた論文です．
-</details>
-
-
-### Pre-print
-<details>
-<summary>
-[5] <u>Hanada, K</u>., & Kojima, M. (2026). Covariate-Adaptive Sample Size Re-estimation for Population-Standardized Historical Control Designs in Single-Arm Trials. arXiv preprint arXiv:2607.25159.[[link](https://arxiv.org/abs/2607.25159)]
-</summary>
-
-* 単群試験における共変量調整つき症例数設計及び再推定法を提案しました．
-
-</details>
-
-
-<details>
-<summary>
-[4] <u>Hanada, K</u>., Shimokawa, T., & Maruo, K. (2026). Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction. arXiv preprint arXiv:2604.00410.[[link](https://arxiv.org/abs/2604.00410)]
-</summary>
-
-* 施設毎の要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案しました．個人情報保護と推定性能のトレードオフについて議論しました．
-
-</details>
-
-
-<details>
-<summary>
-[3] Yamada, K., Sunami, H., Takeda, K., <u>Hanada, K</u>., & Kojima, M. (2026). Hybrid Non-informative and Informative Prior Model-assisted Designs for Mid-trial Dose Insertion. arXiv preprint arXiv:2602.17995.[[link](https://arxiv.org/abs/2602.17995)]
-</summary>
-</details>
-
-
-<details>
-<summary>
-[2] Kojima, M.,<u>Hanada, K</u>., & Sato, A. (2025). A Clustering Approach for Basket Trials Based on Treatment Response Trajectories. arXiv preprint arXiv:2511.09890.[[link](https://arxiv.org/abs/2511.09890)]
-</summary>
-</details>
-
-
-
-<details>
-<summary>
-[1] <u>Hanada, K</u>., & Kojima, M. (2024). Bayesian Parametric Methods for Deriving Distribution of Restricted Mean Survival Time.  arXiv preprint arXiv:2406.06071.[[link](https://arxiv.org/abs/2406.06071)]
-</summary>
-
-* RMSTを期待値と生存関数で定式化し，パラメトリックモデル下での真のRMSTを示しました．さらにrandom-effectとfrailty-effectを導入し，ベイズ流での推測を提案しました．ベイズ推定に基づくRMSTが一致性をもつことを示し，推測の妥当性を与えました．
-</details>
-
-
-
-### Conference
-[5] <u>Hanada, K.</u>, Shimokawa, T., & Maruo, K. (2026). Privacy-Preserving One-Shot Federated Inference for Linear Mixed Models, *33rd International Biometric Conference*, Seoul. [[Site](https://www.ibc2026.org/home)]
-
-[4] <u>Hanada, K.</u>. (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies, Recent Advances in Meta-Analysis, 2026, Göttingen. [[Site](https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/)]
-
-[3] <u>Hanada, K.</u>, & Sugimoto, T. (2025). Random-effects meta-analysis via generalized linear mixed models for few studies, The 13th conference of IASC-ARS, 2025, Ho Chi Minh City. [[Oral](files/IASC-ARS2025-oral.pdf)]
-
-[2] <u>Hanada, K.</u>, & Kojima, M. (2025). Integrate Meta-analysis into Specific Study for Estimating Conditional Average Treatment Effect, Joint Statistical Meeting 2025, Nashville. [[Poster]](files/JSM2025-poster.pdf)
-
-[1] <u>Hanada, K.</u>, & Sugimoto, T. (2019). Non-Asymptotic Properties and Behaviors for Random-Effects Meta-Analysis When the Number of Studies Is Small, The VI-th International Symposium on Biopharmaceutical Statistics, Kyoto.
-
-
-### 和文
-<details>
-<summary>
-[2] 花田圭佑, 杉本知之. (2024). イベント時間アウトカムに対する個人データ復元と要約統計量に基づくメタアナリシスとその性能．計量生物学．[[link](https://www.jstage.jst.go.jp/article/jjb/45/1/45_115/_article/-char/ja)]
-</summary>
-
-* 生存時間データにおいて個別被験者データを復元するメタアナリシスが要約統計量を用いるメタアナリシスと比べてどの程度の性能になるかシミュレーションを中心にまとめました．
-</details>
-
-<details>
-<summary>
-[1] 花田圭佑. (2024). ランダム効果メタアナリシスの推測と正確分布. [[link](https://shiga-u.repo.nii.ac.jp/records/2000320)]
-</summary>
-
-* 博士論文です．少数の試験に対するメタアナリシスの方法と特に生存時間データにおいて個別被験者データを復元するメタアナリシスについてまとめました．
-</details>
-
+::: {#research-other}
+:::
 
 ### Software
-[R] [rmstBayespara](https://cran.rstudio.com/web/packages/rmstBayespara/) :Bayesian Restricted Mean Survival Time for Cluster Effect.
 
-[R] [aedl](https://cran.rstudio.com/web/packages/aedl/) :Almost-Exact Inference for the DerSimonian-Laird Test Statistic.
+::: {#research-software}
+:::
 
-
-<br><br>
-Other information is in [researchmap](https://researchmap.jp/k_hanada).
-
+{{< include generated/research-outro-en.md >}}

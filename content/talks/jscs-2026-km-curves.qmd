@@ -1,0 +1,21 @@
+---
+id: talk-jscs-2026-km-curves
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 53874163
+date: 2026-06-06
+year: 2026
+language: ja
+title-en: Survival Meta-Analysis by Integrating Kaplan-Meier Curves
+title-ja: Kaplan-Meier曲線図の統合による生存時間メタアナリシス
+authors-en: "{self}"
+authors-ja: "{self-ja}"
+publication-en: "*40th Annual Meeting of the Japanese Society of Computational Statistics*"
+publication-ja: "*日本計算機統計学会 第40回大会*"
+channels: [research, cv]
+links:
+  event: https://jscs.jp/conf-taikai40/
+---

@@ -1,0 +1,21 @@
+---
+id: talk-biometrics-2026-federated-lmm
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: oral
+status: presented
+researchmap-id: 53679532
+date: 2026-05-16
+year: 2026
+language: ja
+title-en: Lossless One-Shot Federated Learning and Privacy Protection for Linear Mixed Models
+title-ja: 線形混合モデルに対するlossless one-shot連合学習とプライバシー保護
+authors-en: "{self}, Shimokawa, T., & Maruo, K."
+authors-ja: "{self-ja}、下川 敏雄、丸尾 和司"
+publication-en: "*2026 Annual Meeting of the Biometric Society of Japan*"
+publication-ja: "*2026年度日本計量生物学会年会*"
+channels: [research, cv]
+links:
+  event: https://biometrics.ywstat.jp/2026/
+---

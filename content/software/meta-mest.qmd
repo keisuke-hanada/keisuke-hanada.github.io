@@ -1,0 +1,17 @@
+---
+id: software-meta-mest
+record-type: software
+kind: software
+status: released
+date: 2024-01-01
+year: 2024
+language: en
+title-en: metaMest
+title-ja: metaMest
+authors-en: "{self}"
+publication-en: "R package: meta-analysis using an M-estimator-based approach"
+publication-ja: "Rパッケージ：M推定量に基づくメタアナリシス"
+channels: [cv]
+links:
+  github: https://github.com/keisuke-hanada/metaMest
+---

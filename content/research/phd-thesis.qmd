@@ -1,0 +1,21 @@
+---
+id: phd-thesis
+record-type: research
+kind: thesis
+status: published
+category: other
+language: en
+date: 2024-03-31
+year: 2024
+title-en: Inference and Exact Distributions for Random-Effects Meta-Analysis
+title-ja: ランダム効果メタアナリシスの推測と正確分布
+authors-en: "{self}"
+authors-ja: "{self-ja}"
+publication-en: Doctoral dissertation, Shiga University
+publication-ja: 滋賀大学博士論文
+description-en: My doctoral dissertation studies meta-analysis with few studies and reconstructed individual-participant-data meta-analysis for time-to-event outcomes.
+description-ja: 少数の試験に対するメタアナリシスと、生存時間データにおける個別被験者データ復元を用いたメタアナリシスについてまとめた博士論文です。
+channels: [research]
+links:
+  paper: https://shiga-u.repo.nii.ac.jp/records/2000320
+---

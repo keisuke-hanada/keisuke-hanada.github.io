@@ -1,12 +1,70 @@
 .quarto-listing .listing-date {
-  font-size: 1.2em;
   color: #555;
+  font-size: 0.95rem;
 }
 
 .quarto-listing .listing-title {
-  font-size: 1.0em;
+  font-size: 1rem;
 }
 
 .quarto-listing .listing-description {
-  font-size: 0.8em;
+  font-size: 0.9rem;
+}
+
+.research-list,
+.news-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.research-entry {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.25rem 0 0.75rem;
+}
+
+.research-entry summary {
+  cursor: pointer;
+  line-height: 1.55;
+}
+
+.research-entry-plain {
+  line-height: 1.55;
+}
+
+.research-description {
+  color: #333;
+  margin: 0.5rem 0 0 1.2rem;
+}
+
+.research-links {
+  white-space: nowrap;
+}
+
+.news-entry {
+  align-items: baseline;
+  display: grid;
+  gap: 0.25rem 1rem;
+  grid-template-columns: 7rem minmax(0, 1fr);
+}
+
+.news-entry .listing-date {
+  font-variant-numeric: tabular-nums;
+}
+
+.activity-list {
+  padding-left: 1.25rem;
+}
+
+.activity-entry {
+  margin-bottom: 0.5rem;
+}
+
+.activity-period {
+  font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .news-entry {
+    grid-template-columns: 1fr;
+  }
 }

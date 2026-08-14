@@ -1,0 +1,1 @@
+Please see my [Google Scholar](https://scholar.google.co.jp/citations?hl=ja&user=wJaRF3oAAAAJ) page for a full list of publications. Here, I highlight research focusing on methodological developments in biostatistics.

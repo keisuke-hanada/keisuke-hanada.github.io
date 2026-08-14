@@ -1,0 +1,25 @@
+---
+id: federated-lmm
+record-type: research
+kind: preprint
+status: submitted
+category: methodological
+language: en
+date: 2026-04-03
+year: 2026
+title-en: Differentially Private One-Shot Federated Inference for Linear Mixed Models via Lossless Likelihood Reconstruction
+title-ja: 損失のない尤度再構成による線形混合モデルの差分プライバシー保護付きワンショット連合推測
+authors-en: "{self}, Shimokawa, T., & Maruo, K."
+publication-en: "*arXiv preprint* arXiv:2604.00410, submitted"
+publication-ja: "*arXiv preprint* arXiv:2604.00410, submitted"
+description-en: We propose differentially private linear mixed-model inference based only on facility-level summaries and study the privacy-accuracy tradeoff.
+description-ja: 施設ごとの要約データのみから実施できる差分プライバシー保護付き線形混合モデル解析を提案し、個人情報保護と推定性能のトレードオフを議論しました。
+channels: [research, cv]
+links:
+  arxiv: https://arxiv.org/abs/2604.00410
+news:
+  - date: 2026-04-03
+    en: Our paper with Shimokawa and Maruo was published on arXiv.
+    ja: 下川先生、丸尾先生との共著論文をarXivで公開しました。
+    href: /column/20260403-news-preprint.html
+---

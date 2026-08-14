@@ -1,0 +1,19 @@
+---
+id: talk-kagoshima-2023-ipd-meta
+record-type: talk
+kind: conference
+scope: domestic
+presentation-type: unspecified
+status: presented
+researchmap-id: 46015470
+date: 2023-12-09
+year: 2023
+language: ja
+title-en: Individual Participant Data Reconstruction and Meta-Analysis for Time-to-Event Outcomes
+title-ja: イベント時間アウトカムの個人データ復元とメタアナリシス
+authors-en: "{self}, & Sugimoto, T."
+authors-ja: "{self-ja}、杉本 知之"
+publication-en: "*5th Kagoshima Data Science Symposium*"
+publication-ja: "*第5回かごしまデータ科学シンポジウム*"
+channels: [research, cv]
+---

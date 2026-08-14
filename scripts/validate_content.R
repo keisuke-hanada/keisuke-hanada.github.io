@@ -41,6 +41,7 @@ research_section <- function(item) {
 }
 
 profile <- yaml.load_file(file.path(project_dir, "content/data/profile.yml"))
+activities <- yaml.load_file(file.path(project_dir, "content/data/activities.yml"))$items
 cv_href <- scalar(profile$cv)
 assert(grepl("^/CV/[^/]+[.]pdf$", cv_href), "profile.cv must be an absolute /CV/*.pdf path")
 cv_output <- file.path("docs", sub("^/", "", cv_href))
@@ -160,7 +161,10 @@ assert(grepl("\u30a4\u30d9\u30f3\u30c8\u6642\u9593\u30a2\u30a6\u30c8\u30ab\u30e0
 assert(grepl("Random-effects meta-analysis via generalized linear mixed models", research_html_ja, fixed = TRUE), "English methodological title must remain English on Japanese Research")
 assert(grepl("Assistant Professor", background_en, fixed = TRUE), "English employment is missing")
 assert(grepl("\u535a\u58eb", background_ja, fixed = TRUE), "Japanese education is missing")
-assert(grepl("\u6d25\u7530\u8c37\u3000\u516c\u5229", background_ja, fixed = TRUE), "Japanese undergraduate supervisor name is incorrect")
+undergraduate <- Filter(function(x) scalar(x$id) == "education-hirosaki-bs", activities)
+assert(length(undergraduate) == 1L, "Undergraduate education metadata is missing or duplicated")
+undergraduate_details_ja <- scalar(undergraduate[[1]]$`details-ja`)
+assert(grepl(undergraduate_details_ja, background_ja, fixed = TRUE), "Japanese undergraduate metadata is not rendered from activities.yml")
 assert(!grepl("\u8526\u8c37\u559c\u58fd", background_ja, fixed = TRUE), "Obsolete Japanese undergraduate supervisor name remains")
 assert(grepl("Statistics Fundamentals", teaching_en, fixed = TRUE), "English teaching item is missing")
 assert(grepl("\u7d71\u8a08\u57fa\u790e", teaching_ja, fixed = TRUE), "Japanese teaching item is missing")
@@ -200,6 +204,7 @@ rendered_html_paths <- list.files(file.path(project_dir, "docs"), pattern = "\\.
 for (path in rendered_html_paths) {
   html <- paste(readLines(path, encoding = "UTF-8", warn = FALSE), collapse = "\n")
   assert(!grepl('href="[^\"]*tools[.]html"', html, perl = TRUE), "Removed Tools navbar link remains in %s", path)
+  assert(!grepl("polyfill.io", html, fixed = TRUE), "polyfill.io dependency remains in %s", path)
 }
 
 pdf_path <- file.path(project_dir, cv_output)

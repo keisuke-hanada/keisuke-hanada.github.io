@@ -42,6 +42,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    html-math-method: plain
     include-in-header: _includes/rss.html
     include-after-body: _includes/language-nav.html
     toc: true

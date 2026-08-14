@@ -32,11 +32,8 @@ jobs:
         with:
           tinytex: true
 
-      - name: Install R and LaTeX dependencies
-        shell: bash
-        run: |
-          Rscript -e "install.packages('yaml', repos = 'https://cloud.r-project.org')"
-          tlmgr install caption tex-gyre
+      - name: Install R dependency
+        run: Rscript -e "install.packages('yaml', repos = 'https://cloud.r-project.org')"
 
       - name: Render website and CV
         run: quarto render

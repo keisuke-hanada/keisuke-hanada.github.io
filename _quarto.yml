@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   pre-render: Rscript scripts/build_content.R
-  post-render: Rscript scripts/fix_redirects.R
+  post-render: Rscript scripts/post_render.R
   render:
     - "*.qmd"
     - "!content/"
@@ -36,11 +36,12 @@ website:
       - text: 日本語
         href: ja/index.qmd
       - icon: rss
-        href: column/index.xml
+        href: updates.xml
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-in-header: _includes/rss.html
     include-after-body: _includes/language-nav.html
     toc: true

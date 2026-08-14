@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Keisuke Hanada - Site Updates</title>
+<link>https://keisuke-hanada.github.io/updates.html</link>
+<atom:link href="https://keisuke-hanada.github.io/updates.xml" rel="self" type="application/rss+xml"/>
+<description>Research, professional activities, and columns by Keisuke Hanada</description>
+<language>en</language>
+<generator>Quarto with scripts/post_render.R</generator>
+<lastBuildDate>Thu, 06 Aug 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Accepted a co-authored paper with Kojima in Biometrical Journal</title>
+  <link>https://keisuke-hanada.github.io/column/20260806-news-accepted.html</link>
+  <description>Accepted a co-authored paper with Kojima in Biometrical Journal</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260806-news-accepted.html</guid>
+  <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Accepted a co-authored paper with Sugimoto in Biometrics</title>
+  <link>https://keisuke-hanada.github.io/column/20260730-news-accepted.html</link>
+  <description>Accepted a co-authored paper with Sugimoto in Biometrics</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260730-news-accepted.html</guid>
+  <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Kojima on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260729-news-preprint.html</link>
+  <description>Published a co-authored paper with Kojima on arXiv</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260729-news-preprint.html</guid>
+  <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Presented a co-authored paper with Shimokawa, Wan, Hiraishi, Tanioka and Maruo at 33rd International Biometric Conference oral session</title>
+  <link>https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</link>
+  <description>Presented a co-authored paper with Shimokawa, Wan, Hiraishi, Tanioka and Maruo at 33rd International Biometric Conference oral session</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260717-news-IBC2026.html</guid>
+  <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Kojima on Journal of Biopharmaceutical Statistics</title>
+  <link>https://keisuke-hanada.github.io/column/20260417-news-JBS.html</link>
+  <description>Published a co-authored paper with Kojima on Journal of Biopharmaceutical Statistics</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260417-news-JBS.html</guid>
+  <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Shimokawa and Maruo on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260403-news-preprint.html</link>
+  <description>Published a co-authored paper with Shimokawa and Maruo on arXiv</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260403-news-preprint.html</guid>
+  <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>科研費 若手研究に採択されました．</title>
+  <link>https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</link>
+  <description>科研費 若手研究に採択されました．</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260227-news-JSPS.html</guid>
+  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Yamada, Sunami, Takeda, and Kojima on arXiv</title>
+  <link>https://keisuke-hanada.github.io/column/20260229-news-preprint.html</link>
+  <description>Published a co-authored paper with Yamada, Sunami, Takeda, and Kojima on arXiv</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260229-news-preprint.html</guid>
+  <pubDate>Fri, 20 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>大分統計談話会・第73回大会にて発表しました．</title>
+  <link>https://keisuke-hanada.github.io/column/20260213-news-大分.html</link>
+  <description>大分統計談話会・第73回大会にて発表しました．</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260213-news-大分.html</guid>
+  <pubDate>Fri, 13 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Published a co-authored paper with Kojima, Orihara, and Ohigashi on Statistics in Medicine</title>
+  <link>https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</link>
+  <description>Published a co-authored paper with Kojima, Orihara, and Ohigashi on Statistics in Medicine</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260210-news-SSRpaper.html</guid>
+  <pubDate>Tue, 10 Feb 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session</title>
+  <link>https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</link>
+  <description>Presented a co-authoered paper with Sugimoto at IASC-ARS2025 oral session</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260113-news-IASC-ARS2025.html</guid>
+  <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>News before 2026</title>
+  <link>https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</link>
+  <description>News before 2026</description>
+  <category>column</category>
+  <category>news</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20260113-news-before-2026.html</guid>
+  <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>JSM2025参加記</title>
+  <link>https://keisuke-hanada.github.io/column/20250810-JSM2025.html</link>
+  <description>JSM2025参加記</description>
+  <category>column</category>
+  <category>学会参加記</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/column/20250810-JSM2025.html</guid>
+  <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>I created this website.</title>
+  <link>https://keisuke-hanada.github.io/#update-website-created-2024-04-21</link>
+  <description>I created this website.</description>
+  <category>activity</category>
+  <guid isPermaLink="true">https://keisuke-hanada.github.io/#update-website-created-2024-04-21</guid>
+  <pubDate>Sun, 21 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

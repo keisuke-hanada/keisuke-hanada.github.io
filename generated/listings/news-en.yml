@@ -2,95 +2,118 @@
   title: Our paper with Kojima was accepted in Biometrical Journal.
   date: '2026-08-06'
   href: /column/20260806-news-accepted.html
+  category: research
 - id: meta-glmm-2026-07-30
   title: Our paper with Sugimoto was accepted in Biometrics.
   date: '2026-07-30'
   href: /column/20260730-news-accepted.html
+  category: research
 - id: population-standardized-ssr-2026-07-29
   title: Our paper with Kojima was published on arXiv.
   date: '2026-07-29'
   href: /column/20260729-news-preprint.html
+  category: research
 - id: talk-ibc-2026-federated-lmm-2026-07-17
   title: I presented co-authored work on privacy-preserving federated inference at
     the 33rd International Biometric Conference.
   date: '2026-07-17'
   href: /column/20260717-news-IBC2026.html
+  category: talk
 - id: random-effect-rmst-2026-04-17
   title: Our paper with Kojima was published in Journal of Biopharmaceutical Statistics.
   date: '2026-04-17'
   href: /column/20260417-news-JBS.html
+  category: research
 - id: federated-lmm-2026-04-03
   title: Our paper with Shimokawa and Maruo was published on arXiv.
   date: '2026-04-03'
   href: /column/20260403-news-preprint.html
+  category: research
 - id: grant-jsps-early-career-2026-02-27
   title: My proposal was selected for a JSPS Grant-in-Aid for Early-Career Scientists.
   date: '2026-02-27'
   href: /column/20260227-news-JSPS.html
+  category: grant
 - id: dose-insertion-2026-02-20
   title: Our paper with Yamada, Sunami, Takeda, and Kojima was published on arXiv.
   date: '2026-02-20'
   href: /column/20260229-news-preprint.html
+  category: research
 - id: talk-oita-2026-2026-02-13
   title: I presented at the 73rd Oita Statistical Meeting.
   date: '2026-02-13'
   href: /column/20260213-news-大分.html
+  category: talk
 - id: blinded-hybrid-control-2026-02-10
   title: Our paper with Kojima, Orihara, and Ohigashi was published in Statistics
     in Medicine.
   date: '2026-02-10'
   href: /column/20260210-news-SSRpaper.html
+  category: research
 - id: talk-iasc-ars-2025-2026-01-13
   title: I presented our work with Sugimoto in an oral session at IASC-ARS 2025.
   date: '2026-01-13'
   href: /column/20260113-news-IASC-ARS2025.html
+  category: talk
 - id: covariate-adaptive-ci-2025-10-03
   title: Our paper with Kojima, Mano, Yamada, Tanaka, and Moriya was published in
     Contemporary Clinical Trials.
   date: '2025-10-03'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: meta-glmm-2025-08-14
   title: Our paper with Sugimoto was published on arXiv.
   date: '2025-08-14'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: talk-jsm-2025-inmass-2025-08-10
   title: I presented our work with Kojima in a poster session at JSM 2025.
   date: '2025-08-10'
   href: /column/20260113-news-before-2026.html
+  category: talk
 - id: blinded-hybrid-control-2025-06-18
   title: Our paper with Kojima, Orihara, and Ohigashi was published on arXiv.
   date: '2025-06-18'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: hematologic-surrogate-endpoint-2025-06-03
   title: Our paper with Hirano and Maeda was published in Scientific Reports.
   date: '2025-06-03'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: inmass-2025-03-27
   title: Our paper with Kojima was published on arXiv.
   date: '2025-03-27'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: ipd-meta-analysis-ja-2024-12-05
   title: Our paper with Sugimoto was updated on arXiv.
   date: '2024-12-05'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: ipd-meta-analysis-ja-2024-07-14
   title: Our Japanese-language paper with Sugimoto was published in Japanese Journal
     of Biometrics.
   date: '2024-07-14'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: ipd-meta-analysis-ja-2024-07-08
   title: Our paper with Sugimoto was published on arXiv.
   date: '2024-07-08'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: software-rmst-bayes-para-2024-07-04
   title: I released the R package rmstBayespara on CRAN.
   date: '2024-07-04'
   href: /column/20260113-news-before-2026.html
+  category: software
 - id: bayesian-rmst-2024-06-11
   title: Our paper with Kojima was published on arXiv.
   date: '2024-06-11'
   href: /column/20260113-news-before-2026.html
+  category: research
 - id: website-created-2024-04-21
   title: I created this website.
   date: '2024-04-21'
   href: /
+  category: activity

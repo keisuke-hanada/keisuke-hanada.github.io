@@ -1,0 +1,17 @@
+---
+title: Updates
+toc: false
+listing:
+  id: site-updates
+  contents: generated/listings/updates.yml
+  template: _listings/news.ejs.md
+  sort: "date desc"
+  fields: [date, title, description, categories]
+  field-required: [date, title, href]
+  date-format: "YYYY-MM-DD"
+---
+
+This feed combines updates from structured site metadata and new Column articles.
+
+::: {#site-updates}
+:::

@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-id","listing-title","listing-date","listing-href"],
+      searchColumns: ["listing-id","listing-title","listing-date","listing-href","listing-category"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -106,6 +106,7 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </script>
+<link rel="alternate" type="application/rss+xml" title="Keisuke Hanada - Site Updates" href="./updates.xml">
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -188,7 +189,7 @@ window.Quarto = {
 <span class="menu-text">日本語</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./column/index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./updates.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  

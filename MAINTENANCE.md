@@ -94,6 +94,8 @@ channels: []              # いずれにも表示しない
 
 HomeのRecent newsはbooleanではなく、`news` 配列が存在する項目を自動収集します。research、talk、software、grant等で同じ形式を使用できます。
 
+同じ `news` 配列は統合RSS（`/updates.xml`）にも使用されます。`news` を追加してmainへpushすると、HomeのRecent newsと統合RSSが同時に更新されます。`href` は任意で、省略時は内容に応じてResearch、Background、TeachingまたはHomeへリンクします。詳細なColumn記事がある場合は、そのURLを `href` に指定してください。
+
 ## 成果自体の言語と英語・日本語表示
 
 `language` は論文・発表自体の言語です。
@@ -187,4 +189,6 @@ Pull Requestではrenderとvalidationを行います。`main` にmergeされたp
 
 ## Column
 
-`column/` は従来どおりQuarto blog/listingとして独立管理します。既存記事URL、カテゴリ、RSSは維持されます。HomeのRecent newsの正本は今後 `content/` 側ですが、`news[].href` から詳細なColumn記事へリンクできます。
+`column/` は従来どおりQuarto blog/listingとして独立管理します。既存記事URL、カテゴリ、Column専用RSS（`/column/index.xml`）は維持されます。新しいColumnのqmdは、`news` を追加しなくても統合RSS（`/updates.xml`）へ自動的に掲載されます。
+
+HomeのRecent newsの正本は `content/` 側ですが、`news[].href` から詳細なColumn記事へリンクできます。同じURLのColumn記事と `news` が存在する場合、統合RSSではColumn記事を優先して重複掲載を防ぎます。

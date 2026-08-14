@@ -22,6 +22,14 @@ read_content <- function(dir) {
 }
 
 has_channel <- function(item, channel) channel %in% unlist(item$channels %||% character())
+canonical_href <- function(href) {
+  value <- scalar(href)
+  value <- sub("^https://keisuke-hanada[.]github[.]io", "", value)
+  value <- sub("[?#].*$", "", value)
+  if (value == "") value <- "/"
+  if (!grepl("^(https?://|/)", value)) value <- paste0("/", value)
+  sub("/index[.]html$", "/", value)
+}
 research_section <- function(item) {
   kind <- scalar(item$kind)
   if (kind == "publication" && scalar(item$category) == "clinical") return("medical")
@@ -48,6 +56,8 @@ required_outputs <- c(
   "docs/ja/teaching.html",
   "docs/column/index.html",
   "docs/column/index.xml",
+  "docs/updates.html",
+  "docs/updates.xml",
   "docs/search.json",
   "docs/sitemap.xml",
   cv_output
@@ -62,6 +72,46 @@ news_ja <- yaml.load_file(file.path(project_dir, "generated/listings/news-ja.yml
 assert(length(news_en) == length(news_ja), "English and Japanese news counts differ")
 news_dates <- vapply(news_en, function(x) as.character(x$date), character(1))
 assert(identical(news_dates, sort(news_dates, decreasing = TRUE)), "News is not sorted date-descending")
+
+updates <- yaml.load_file(file.path(project_dir, "generated/listings/updates.yml"))
+update_ids <- vapply(updates, function(x) scalar(x$id), character(1))
+update_dates <- vapply(updates, function(x) scalar(x$date), character(1))
+update_hrefs <- vapply(updates, function(x) scalar(x$href), character(1))
+assert(!anyDuplicated(update_ids), "Unified RSS listing contains duplicate ids")
+assert(!anyDuplicated(update_hrefs), "Unified RSS listing contains duplicate item URLs")
+assert(identical(update_dates, sort(update_dates, decreasing = TRUE)), "Unified RSS listing is not sorted date-descending")
+
+column_article_sources <- setdiff(
+  list.files(file.path(project_dir, "column"), pattern = "\\.qmd$", full.names = FALSE),
+  "index.qmd"
+)
+column_ids <- paste0("column-", tools::file_path_sans_ext(column_article_sources))
+column_hrefs <- paste0("/column/", sub("[.]qmd$", ".html", column_article_sources))
+canonical_column_hrefs <- vapply(column_hrefs, canonical_href, character(1))
+news_matches_column <- vapply(news_en, function(x) canonical_href(x$href) %in% canonical_column_hrefs, logical(1))
+expected_update_ids <- c(column_ids, vapply(news_en[!news_matches_column], function(x) scalar(x$id), character(1)))
+assert(setequal(update_ids, expected_update_ids), "Unified RSS listing does not match news metadata plus Column articles")
+
+updates_xml <- read_text("docs/updates.xml")
+updates_html <- read_text("docs/updates.html")
+rss_item_matches <- gregexpr("<item>", updates_xml, fixed = TRUE)[[1]]
+rss_item_count <- if (identical(rss_item_matches, -1L)) 0L else length(rss_item_matches)
+update_entry_matches <- gregexpr('class="news-entry"', updates_html, fixed = TRUE)[[1]]
+update_entry_count <- if (identical(update_entry_matches, -1L)) 0L else length(update_entry_matches)
+assert(rss_item_count == min(50L, length(updates)), "Unified RSS item count is incorrect")
+assert(update_entry_count == length(updates), "Unified updates page item count is incorrect")
+assert(grepl("<rss", updates_xml, fixed = TRUE), "Unified RSS root element is missing")
+assert(grepl("https://keisuke-hanada.github.io/updates.xml", updates_xml, fixed = TRUE), "Unified RSS self URL is incorrect")
+rss_blocks <- regmatches(updates_xml, gregexpr("(?s)<item>.*?</item>", updates_xml, perl = TRUE))[[1]]
+rss_links <- vapply(rss_blocks, function(block) sub("(?s).*?<link>(.*?)</link>.*", "\\1", block, perl = TRUE), character(1))
+rss_guids <- vapply(rss_blocks, function(block) sub('(?s).*?<guid[^>]*>(.*?)</guid>.*', "\\1", block, perl = TRUE), character(1))
+expected_rss_links <- vapply(head(updates, 50L), function(item) {
+  href <- scalar(item$href)
+  if (grepl("^https?://", href)) href else paste0("https://keisuke-hanada.github.io", if (startsWith(href, "/")) href else paste0("/", href))
+}, character(1))
+expected_rss_links <- gsub("&", "&amp;", expected_rss_links, fixed = TRUE)
+assert(identical(unname(rss_links), unname(expected_rss_links)), "Unified RSS item links do not match generated update metadata")
+assert(identical(unname(rss_guids), unname(expected_rss_links)), "Unified RSS GUIDs do not match generated update metadata")
 
 research_en <- yaml.load_file(file.path(project_dir, "generated/listings/research-en.yml"))
 research_ja <- yaml.load_file(file.path(project_dir, "generated/listings/research-ja.yml"))
@@ -94,6 +144,7 @@ assert(count_fixed(home_en, 'class="news-entry"') == 10L, "English Home must sho
 assert(count_fixed(home_ja, 'class="news-entry"') == 10L, "Japanese Home must show 10 news items")
 assert(grepl('<div class="news-entry"[^>]*>[[:space:]]*<time class="listing-date"', home_en, perl = TRUE), "English news date and title must be direct grid children")
 assert(grepl('<div class="news-entry"[^>]*>[[:space:]]*<time class="listing-date"', home_ja, perl = TRUE), "Japanese news date and title must be direct grid children")
+assert(grepl('href="[^"]*updates[.]xml"', home_en, perl = TRUE), "Navbar does not link to the unified RSS feed")
 assert(grepl("2506.15913", research_html_en, fixed = TRUE), "Correct Statistics in Medicine arXiv link is missing")
 assert(grepl("10.1111/den.70229", research_html_en, fixed = TRUE), "Specified Digestive Endoscopy paper DOI is missing")
 assert(grepl("Impact of Stent Type on Surgical Outcomes", research_html_ja, fixed = TRUE), "English medical-paper title is missing from Japanese Research")

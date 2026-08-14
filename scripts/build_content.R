@@ -97,12 +97,23 @@ validate_items <- function(items) {
     channels <- unlist(item$channels %||% character())
     invalid_channels <- setdiff(channels, c("research", "cv", "teaching", "background"))
     if (length(invalid_channels)) abort("Invalid channels in %s: %s", source, paste(invalid_channels, collapse = ", "))
-    if (!is.null(item$news)) {
-      for (event in item$news) {
-        for (field in c("date", "en", "ja")) {
-          if (scalar(event[[field]]) == "") abort("Missing news.%s in %s", field, source)
-        }
+  }
+  invisible(TRUE)
+}
+
+validate_news_events <- function(items) {
+  event_ids <- character()
+  for (item in items) {
+    if (is.null(item$news)) next
+    source <- scalar(item$.source, scalar(item$id, "content/data/activities.yml"))
+    for (event in item$news) {
+      for (field in c("date", "en", "ja")) {
+        if (scalar(event[[field]]) == "") abort("Missing news.%s in %s", field, source)
       }
+      if (is.na(suppressWarnings(as.Date(scalar(event$date))))) abort("Invalid news.date in %s", source)
+      event_id <- paste(scalar(item$id), scalar(event$date), sep = "-")
+      if (event_id %in% event_ids) abort("Duplicate news event id: %s", event_id)
+      event_ids <- c(event_ids, event_id)
     }
   }
   invisible(TRUE)
@@ -153,6 +164,7 @@ software <- read_content("content/software")
 all_content <- c(research, talks, software)
 validate_items(all_content)
 activities <- yaml.load_file(file.path(project_dir, "content/data/activities.yml"))$items
+validate_news_events(c(all_content, activities))
 
 make_research_listing <- function(lang) {
   selected <- Filter(function(x) has_channel(x, "research"), all_content)
@@ -182,32 +194,88 @@ make_research_listing <- function(lang) {
   result
 }
 
+default_news_href <- function(item) {
+  channels <- unlist(item$channels %||% character())
+  if ("research" %in% channels || scalar(item$`record-type`) %in% c("research", "talk", "software")) return("/research.html")
+  if ("background" %in% channels || scalar(item$type) %in% c("employment", "education")) return("/background.html")
+  if ("teaching" %in% channels || scalar(item$type) == "teaching") return("/teaching.html")
+  "/"
+}
+
+news_category <- function(item) {
+  record_type <- scalar(item$`record-type`)
+  if (record_type != "") return(record_type)
+  scalar(item$type, "update")
+}
+
 make_news_listing <- function(lang) {
   events <- list()
-  for (item in all_content) {
+  for (item in c(all_content, activities)) {
     if (is.null(item$news)) next
     for (event in item$news) {
       events[[length(events) + 1L]] <- list(
         id = paste(scalar(item$id), scalar(event$date), sep = "-"),
         title = scalar(event[[lang]]),
         date = scalar(event$date),
-        href = scalar(event$href)
-      )
-    }
-  }
-  for (item in activities) {
-    if (is.null(item$news)) next
-    for (event in item$news) {
-      events[[length(events) + 1L]] <- list(
-        id = paste(scalar(item$id), scalar(event$date), sep = "-"),
-        title = scalar(event[[lang]]),
-        date = scalar(event$date),
-        href = scalar(event$href)
+        href = scalar(event$href, default_news_href(item)),
+        category = news_category(item)
       )
     }
   }
   dates <- vapply(events, function(x) as.numeric(as.Date(x$date)), numeric(1))
   events[order(dates, decreasing = TRUE)]
+}
+
+canonical_href <- function(href) {
+  value <- scalar(href)
+  value <- sub("^https://keisuke-hanada[.]github[.]io", "", value)
+  value <- sub("[?#].*$", "", value)
+  if (value == "") value <- "/"
+  if (!grepl("^(https?://|/)", value)) value <- paste0("/", value)
+  sub("/index[.]html$", "/", value)
+}
+
+unique_news_href <- function(href, id) {
+  base <- sub("#.*$", "", scalar(href))
+  paste0(base, "#update-", scalar(id))
+}
+
+column_feed_items <- function() {
+  paths <- sort(list.files(file.path(project_dir, "column"), pattern = "\\.qmd$", full.names = TRUE))
+  paths <- paths[basename(paths) != "index.qmd"]
+  columns <- lapply(paths, read_qmd_metadata)
+  lapply(columns, function(item) {
+    href <- paste0("/", sub("[.]qmd$", ".html", scalar(item$.source)))
+    list(
+      id = paste0("column-", tools::file_path_sans_ext(basename(scalar(item$.source)))),
+      title = scalar(item$title),
+      description = scalar(item$description, scalar(item$title)),
+      date = scalar(item$date),
+      href = href,
+      categories = as.list(unique(c("column", unlist(item$categories %||% character()))))
+    )
+  })
+}
+
+make_updates_listing <- function() {
+  columns <- column_feed_items()
+  column_hrefs <- vapply(columns, function(x) canonical_href(x$href), character(1))
+  news <- make_news_listing("en")
+  news <- Filter(function(x) !canonical_href(x$href) %in% column_hrefs, news)
+  news <- lapply(news, function(item) {
+    href <- unique_news_href(item$href, item$id)
+    list(
+      id = scalar(item$id),
+      title = scalar(item$title),
+      description = scalar(item$title),
+      date = scalar(item$date),
+      href = href,
+      categories = list(scalar(item$category))
+    )
+  })
+  updates <- c(columns, news)
+  dates <- vapply(updates, function(x) as.numeric(as.Date(x$date)), numeric(1))
+  updates[order(dates, decreasing = TRUE)]
 }
 
 make_activity_listing <- function(lang) {
@@ -237,6 +305,7 @@ write_yaml(make_research_listing("en"), file.path(listing_dir, "research-en.yml"
 write_yaml(make_research_listing("ja"), file.path(listing_dir, "research-ja.yml"), handlers = list(date = function(x) format(x, "%Y-%m-%d")))
 write_yaml(make_news_listing("en"), file.path(listing_dir, "news-en.yml"), handlers = list(date = function(x) format(x, "%Y-%m-%d")))
 write_yaml(make_news_listing("ja"), file.path(listing_dir, "news-ja.yml"), handlers = list(date = function(x) format(x, "%Y-%m-%d")))
+write_yaml(make_updates_listing(), file.path(listing_dir, "updates.yml"), handlers = list(date = function(x) format(x, "%Y-%m-%d")))
 write_yaml(make_activity_listing("en"), file.path(listing_dir, "activities-en.yml"))
 write_yaml(make_activity_listing("ja"), file.path(listing_dir, "activities-ja.yml"))
 

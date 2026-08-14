@@ -136,6 +136,7 @@ gtag('config', 'G-80RE24GCEC', { 'anonymize_ip': true});
 </script>
 <link rel="alternate" type="application/rss+xml" title="Keisuke Hanada - Site Updates" href="../updates.xml">
 
+
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
@@ -295,7 +296,7 @@ window.Quarto = {
 <span class="activity-period">2017年4月-2019年3月</span> <span class="listing-title">修士（理学）</span><span class="activity-details">, 鹿児島大学 大学院理工学研究科（指導教員：杉本知之 先生）</span>
 </li>
 <li class="activity-entry" data-index="2">
-<span class="activity-period">2013年4月-2017年3月</span> <span class="listing-title">学士（理学）</span><span class="activity-details">, 弘前大学 理工学部（指導教員：津田谷　公利先生）</span>
+<span class="activity-period">2013年4月-2017年3月</span> <span class="listing-title">学士（理学）</span><span class="activity-details">, 弘前大学 理工学部（指導教員：津田谷公利 先生）</span>
 </li>
 </ul>
 <div class="listing-no-matching d-none">
@@ -309,29 +310,53 @@ window.Quarto = {
 
 <p>Copyright by Keisuke Hanada</p></main> <!-- /main -->
 <script>
+
 (() => {
+
   if (!window.location.pathname.startsWith("/ja/")) return;
 
+
+
   const japanesePages = new Map([
+
     ["/index.html", ["/ja/index.html", "Home"]],
+
     ["/", ["/ja/index.html", "Home"]],
+
     ["/background.html", ["/ja/background.html", "Background"]],
+
     ["/research.html", ["/ja/research.html", "Research"]],
+
     ["/teaching.html", ["/ja/teaching.html", "Teaching"]]
+
   ]);
 
+
+
   document.querySelectorAll("#quarto-header a.nav-link").forEach((link) => {
+
     const target = japanesePages.get(new URL(link.href, window.location.href).pathname);
+
     if (!target) return;
+
     link.href = target[0];
+
     const label = link.querySelector(".menu-text");
+
     if (label) label.textContent = target[1];
+
   });
 
+
+
   const brand = document.querySelector("#quarto-header .navbar-brand");
+
   if (brand) brand.href = "/ja/index.html";
+
 })();
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,31 +1,32 @@
+- id: meta-glmm
+  title: 'Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected
+    approach for few studies'
+  section: publication
+  date: '2026-08-19'
+  order: 1
+  display-number: 8
+  citation-html: '<u>Hanada, K.</u>, &amp; Sugimoto, T. (2026). Random-effects meta-analysis
+    via generalized linear mixed models: A Bartlett-corrected approach for few studies.
+    <em>Biometrics</em>, 82(3), ujag148.'
+  description-html: We develop random-effects meta-analysis under generalized linear
+    mixed models and propose a simple Bartlett correction that gives accurate interval
+    estimation with few studies.
+  links-html: <span class="research-links">[<a href="https://academic.oup.com/biometrics/article/doi/10.1093/biomtc/ujag148/8764040">paper</a>,
+    <a href="https://doi.org/10.1093/biomtc/ujag148">DOI</a>, <a href="https://arxiv.org/abs/2508.08758">arXiv</a>,
+    <a href="https://github.com/keisuke-hanada/metaGLMM">GitHub</a>]</span>
 - id: inmass
   title: Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population
     Average Treatment Effect
   section: publication
   date: '2026-08-06'
-  order: 1
-  display-number: 8
+  order: 2
+  display-number: 7
   citation-html: <u>Hanada, K.</u>, &amp; Kojima, M. (2026+). Integrate Meta-analysis
     into Specific Study (InMASS) for Estimating Target-Population Average Treatment
     Effect. <em>Biometrical Journal</em>, accepted.
   description-html: We propose a method that uses meta-analysis to estimate the average
     treatment effect in a target population represented by a specific study.
   links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2503.21091">arXiv</a>]</span>
-- id: meta-glmm
-  title: 'Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected
-    approach for few studies'
-  section: publication
-  date: '2026-07-30'
-  order: 2
-  display-number: 7
-  citation-html: '<u>Hanada, K.</u>, &amp; Sugimoto, T. (2026+). Random-effects meta-analysis
-    via generalized linear mixed models: A Bartlett-corrected approach for few studies.
-    <em>Biometrics</em>, accepted.'
-  description-html: We develop random-effects meta-analysis under generalized linear
-    mixed models and propose a simple Bartlett correction that gives accurate interval
-    estimation with few studies.
-  links-html: <span class="research-links">[<a href="https://arxiv.org/abs/2508.08758">arXiv</a>,
-    <a href="https://github.com/keisuke-hanada/metaGLMM">GitHub</a>]</span>
 - id: random-effect-rmst
   title: Random Effect Restricted Mean Survival Time Model
   section: publication
@@ -278,7 +279,7 @@
   display-number: 4
   citation-html: '<u>Hanada, K.</u> (2026). Random-effects meta-analysis via generalized
     linear mixed models: A Bartlett-corrected approach for few studies. <em>Recent
-    Advances in Meta-Analysis 2026</em>, Gottingen.'
+    Advances in Meta-Analysis 2026</em>, Göttingen.'
   description-html: ''
   links-html: <span class="research-links">[<a href="https://medstat.umg.eu/aktuelles/symposium-meta-analysis-2026/">event</a>]</span>
 - id: talk-iasc-ars-2025

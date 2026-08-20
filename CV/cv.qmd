@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 author: "Keisuke Hanada"
-date: "2026-08-14"
+date: "2026-08-20"
 format:
   pdf:
     pdf-engine: lualatex
@@ -67,8 +67,8 @@ output-file: "cv.pdf"
 
 ### Peer-Reviewed Methodological Articles
 
-1. \underline{Hanada, K.}, & Kojima, M. (2026+). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect. *Biometrical Journal*, accepted. [[arXiv](https://arxiv.org/abs/2503.21091)]
-2. \underline{Hanada, K.}, & Sugimoto, T. (2026+). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *Biometrics*, accepted. [[arXiv](https://arxiv.org/abs/2508.08758), [GitHub](https://github.com/keisuke-hanada/metaGLMM)]
+1. \underline{Hanada, K.}, & Sugimoto, T. (2026). Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies. *Biometrics*, 82(3), ujag148. [[paper](https://academic.oup.com/biometrics/article/doi/10.1093/biomtc/ujag148/8764040), [DOI](https://doi.org/10.1093/biomtc/ujag148), [arXiv](https://arxiv.org/abs/2508.08758), [GitHub](https://github.com/keisuke-hanada/metaGLMM)]
+2. \underline{Hanada, K.}, & Kojima, M. (2026+). Integrate Meta-analysis into Specific Study (InMASS) for Estimating Target-Population Average Treatment Effect. *Biometrical Journal*, accepted. [[arXiv](https://arxiv.org/abs/2503.21091)]
 3. \underline{Hanada, K.}, & Kojima, M. (2026). Random Effect Restricted Mean Survival Time Model. *Journal of Biopharmaceutical Statistics*, 1-16. [[paper](https://www.tandfonline.com/doi/full/10.1080/10543406.2026.2654641), [DOI](https://doi.org/10.1080/10543406.2026.2654641), [arXiv](https://arxiv.org/abs/2401.02048)]
 4. Kojima, M., Orihara, S., \underline{Hanada, K.}, & Ohigashi, T. (2026). Sample size re-estimation in blinded hybrid-control design using inverse probability weighting. *Statistics in Medicine*, 45(3-5), e70429. [[paper](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.70429), [DOI](https://doi.org/10.1002/sim.70429), [arXiv](https://arxiv.org/abs/2506.15913)]
 5. Kojima, M., Mano, H., Yamada, K., \underline{Hanada, K.}, Tanaka, Y., & Moriya, J. (2025). Adjusting confidence intervals under covariate-adaptive randomization in non-inferiority and equivalence trials. *Contemporary Clinical Trials*, 158, 108099. [[paper](https://www.sciencedirect.com/science/article/pii/S1551714425002939), [arXiv](https://arxiv.org/abs/2312.15619)]

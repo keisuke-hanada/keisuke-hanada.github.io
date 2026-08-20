@@ -2,24 +2,29 @@
 id: meta-glmm
 record-type: research
 kind: publication
-status: accepted
+status: published
 category: methodological
 language: en
-date: 2026-07-30
+date: 2026-08-19
 year: 2026
-year-display: 2026+
 title-en: "Random-effects meta-analysis via generalized linear mixed models: A Bartlett-corrected approach for few studies"
 title-ja: "一般化線形混合モデルによるランダム効果メタアナリシス：少数研究のためのBartlett補正アプローチ"
 authors-en: "{self}, & Sugimoto, T."
-publication-en: "*Biometrics*, accepted"
-publication-ja: "*Biometrics*, accepted"
+publication-en: "*Biometrics*, 82(3), ujag148"
+publication-ja: "*Biometrics*, 82(3), ujag148"
 description-en: We develop random-effects meta-analysis under generalized linear mixed models and propose a simple Bartlett correction that gives accurate interval estimation with few studies.
 description-ja: 一般化線形混合モデルの下でのメタアナリシスを整備し、特に試験数が少ない場合にも正確な区間推定が可能な簡易Bartlett補正法を提案しました。
 channels: [research, cv]
 links:
+  paper: https://academic.oup.com/biometrics/article/doi/10.1093/biomtc/ujag148/8764040
+  doi: https://doi.org/10.1093/biomtc/ujag148
   arxiv: https://arxiv.org/abs/2508.08758
   github: https://github.com/keisuke-hanada/metaGLMM
 news:
+  - date: 2026-08-19
+    en: Our paper with Sugimoto was published in Biometrics.
+    ja: 杉本先生との共著論文がBiometricsに掲載されました。
+    href: https://doi.org/10.1093/biomtc/ujag148
   - date: 2026-07-30
     en: Our paper with Sugimoto was accepted in Biometrics.
     ja: 杉本先生との共著論文がBiometricsに採択されました。
